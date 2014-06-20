@@ -73,6 +73,7 @@ if __name__ == '__main__':
     g.learn()
     # print(g.grammatical)
     for t in g.grammatical:
-        print(t)
-        print(g.grammatical[t])
-        print()
+        if len(g.grammatical[t]) < ((len(t))**2+len(t)):
+            print(t)
+            print(g.grammatical[t])
+            print()
