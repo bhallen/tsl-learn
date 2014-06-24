@@ -84,6 +84,21 @@ class Grammar(dict):
             print()
 
 
+    def make_minimal_grammar(self):
+        grammar = []
+        for t in self.ungrammatical:
+            supersets = [ts for ts in self.tiers if set(ts) > set(t)]
+            for ban in self.ungrammatical[t]:
+                in_each_superset = [ban in self.ungrammatical[ts] for ts in supersets]
+                if not any(in_each_superset):
+                    grammar.append((ban, t))
+        for con in grammar:
+            print(con[0])
+            print('...is banned on the tier...')
+            print(con[1])
+            print()
+
+
     def get_ngrams(self, sequence, max_k):
         return list(itertools.chain.from_iterable([zip(*[sequence[i:] for i in range(n)]) for n in range(max_k+1)]))
 
@@ -114,3 +129,7 @@ if __name__ == '__main__':
             print()
 
     g.find_informative_tiers()
+
+    print('\n')
+    print('MINIMAL GRAMMAR:')
+    g.make_minimal_grammar()
