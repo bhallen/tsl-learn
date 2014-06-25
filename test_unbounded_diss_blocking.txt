@@ -1,0 +1,25 @@
+C V
+l V
+r V
+C V C V
+C V l V
+C V r V
+l V C V
+l V r V
+r V C V
+r V l V
+C V C V C V
+C V C V l V
+C V C V r V
+C V l V C V
+C V l V r V
+C V r V C V
+C V r V r V
+l V C V C V
+l V C V r V
+l V r V C V
+l V r V l V
+r V C V C V
+r V C V l V
+r V l V C V
+r V l V r V
