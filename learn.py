@@ -46,6 +46,7 @@ class Grammar(dict):
     def read_training_file(self, training_file):
         with open(training_file) as tf:
             lines = tf.read().rstrip().replace('\r','\n').replace('\n\n','\n').split('\n')
+            print(len(lines))
             self.lexicon = [line.split(' ') for line in lines]
 
 
@@ -66,6 +67,8 @@ class Grammar(dict):
 
 
     def find_informative_tiers(self):
+        """ VERY EXPERIMENTAL
+        """
         informative_tiers = []
         for t_sub in self.tiers:
             for t_super in self.tiers:
@@ -85,6 +88,8 @@ class Grammar(dict):
 
 
     def make_minimal_grammar(self):
+        """ VERY EXPERIMENTAL
+        """
         grammar = []
         for t in self.ungrammatical:
             supersets = [ts for ts in self.tiers if set(ts) > set(t)]
@@ -105,7 +110,7 @@ class Grammar(dict):
 
 if __name__ == '__main__':
     # TESTING
-    g = Grammar('training_unbounded_harm_restricted.txt')
+    g = Grammar('test_transvocalic_harm.txt')
     # print(g.lexicon)
     # print(g.sigma)
     # print(g.tiers)
@@ -128,8 +133,8 @@ if __name__ == '__main__':
             print(g.ungrammatical[t])
             print()
 
-    g.find_informative_tiers()
+    # g.find_informative_tiers()
 
-    print('\n')
-    print('MINIMAL GRAMMAR:')
-    g.make_minimal_grammar()
+    # print('\n')
+    # print('MINIMAL GRAMMAR:')
+    # g.make_minimal_grammar()
