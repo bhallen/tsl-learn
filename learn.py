@@ -92,10 +92,10 @@ class Grammar(dict):
         """
         grammar = []
         for t in self.ungrammatical:
-            supersets = [ts for ts in self.tiers if set(ts) > set(t)]
+            subsets = [ts for ts in self.tiers if set(ts) < set(t)]
             for ban in self.ungrammatical[t]:
-                in_each_superset = [ban in self.ungrammatical[ts] for ts in supersets]
-                if not any(in_each_superset):
+                in_each_subset = [ban in self.ungrammatical[ts] for ts in subsets]
+                if not any(in_each_subset):
                     grammar.append((ban, t))
         for con in grammar:
             print(con[0])
@@ -135,6 +135,6 @@ if __name__ == '__main__':
 
     # g.find_informative_tiers()
 
-    # print('\n')
-    # print('MINIMAL GRAMMAR:')
-    # g.make_minimal_grammar()
+    print('\n')
+    print('MINIMAL GRAMMAR:')
+    g.make_minimal_grammar()
