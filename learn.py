@@ -1,17 +1,7 @@
 #!/usr/bin/env python
 
-import csv
 import itertools
 import re
-import math
-from collections import defaultdict
-
-## NEED TO DO:
-## - implement MI function, verify that U(w)-M_1(w) = plog of bigram model
-
-## TO-DO (things not in G&R):
-## - add backward probabilities
-## - add final bigram probability (right edge symbol | last segment)
 
 class Grammar(dict):
     """
@@ -29,62 +19,11 @@ class Grammar(dict):
         self.read_training_file(training)
         self.get_sigma(sigma)
         self.max_k = max_k
-        # self.build_tiers()
-
-
-    def find_unigrams(self, lexicon, smoothing=True):
-        uni_dict = defaultdict(int)
-        total = 0.0
-        for form in lexicon:
-            for symbol in form:
-                uni_dict[symbol] += 1.0
-                total += 1.0
-        if smoothing:
-            for symbol in self.sigma:
-                uni_dict[symbol] += 0.5
-                total += 0.5
-        self.unigram_sum = total
-        return {symbol: uni_dict[symbol]/total for symbol in uni_dict}
-
-    def find_bigrams(self, lexicon, smoothing=True):
-        bi_dict = defaultdict(int)
-        total = 0.0
-        for form in lexicon:
-            bigrams = self.get_ngrams(form, 2)
-            for bg in bigrams:
-                bi_dict[bg] += 1.0
-                total += 1.0
-        if smoothing:
-            for bg in itertools.product(self.sigma+['#'], repeat=2): # remove '##'?
-                bi_dict[bg] += 0.5
-                total += 0.5
-        self.bigram_sum = total
-        return {symbol: bi_dict[symbol]/total for symbol in bi_dict}
-
-    def create_tier_lexicon(self, tier):
-        return [[symbol for symbol in form if symbol in tier] for form in self.lexicon]
-
-    def unigram_plog(self, lexicon, unigrams):
-        plog = 0
-        for form in lexicon:
-            for symbol in form:
-                plog += math.log(unigrams[symbol])
-        return -(plog)
-
-    def bigram_plog(self, lexicon, bigrams, unigrams):
-        plog = 0
-        for form in lexicon:
-            for bg in [tuple(form[i:i+2]) for i in range(1, len(form)-1)]:
-                plog += math.log((bigrams[bg]*self.bigram_sum) / (unigrams[bg[0]]*self.unigram_sum))
-        return -(plog)
-
-
-####
+        self.build_tiers()
 
 
     def learn(self):
         """
-        Original learning algorithm; uses brute-force search of all bigrams on all possible tiers to create a categorical grammar.
         """
         self.grammatical = {}
         self.ungrammatical = {}
@@ -97,7 +36,7 @@ class Grammar(dict):
                 # print(form)
                 # print(on_tier)
                 # print() 
-                tier_grammatical += self.get_uni_to_ngrams(on_tier, self.max_k) # function was refactored; needs checking
+                tier_grammatical += self.get_ngrams(on_tier, self.max_k)
             grammatical_set = set(tier_grammatical)
             ungrammatical_set = possible_ngrams - grammatical_set
             self.grammatical[tuple(tier)] = grammatical_set
@@ -106,8 +45,8 @@ class Grammar(dict):
 
     def read_training_file(self, training_file):
         with open(training_file) as tf:
-            lines = csv.reader(tf, delimiter='\t')
-            self.lexicon = [['#']+line[0].strip().split(' ')+['#'] for line in lines]
+            lines = tf.read().rstrip().replace('\r','\n').replace('\n\n','\n').split('\n')
+            self.lexicon = [line.split(' ') for line in lines]
 
 
     def get_sigma(self, sigma_file):
@@ -120,37 +59,55 @@ class Grammar(dict):
             pass
 
 
-    def get_ngrams(self, sequence, n):
-        return zip(*[sequence[i:] for i in range(n)])
+    def build_tiers(self):
+        """All possible tiers
+        """
+        self.tiers = list(itertools.chain.from_iterable(itertools.combinations(self.sigma, r) for r in range(1,len(self.sigma)+1)))
 
-    def get_uni_to_ngrams(self, sequence, max_k):
-        return list(itertools.chain.from_iterable([get_ngrams(sequence, n) for n in range(max_k+1)]))
+
+    # def find_informative_tiers(self):
+    #     informative_tiers = []
+    #     for t_sub in self.tiers:
+    #         for t_super in self.tiers:
+    #             if t_sub < t_super:
+    #                 if len(t_sub)**2 + len(t_sub) - len(self.grammatical[t_sub]) > len(t_super)**2 + len(t_super) - len(self.grammatical[t_super]):
+    #                     informative_tiers.append(t_sub)
+    #                     break
+
+    #     print('INFORMATIVE TIERS BELOW:')
+    #     for t in informative_tiers:
+    #         print(t)
+    #         print('Grammatical in this tier:')
+    #         print(g.grammatical[t])
+    #         print('Ungrammatical in this tier:')
+    #         print(g.ungrammatical[t])
+    #         print()
+
+
+    def get_ngrams(self, sequence, max_k):
+        return list(itertools.chain.from_iterable([zip(*[sequence[i:] for i in range(n)]) for n in range(max_k+1)]))
 
 
 if __name__ == '__main__':
-    # TESTING
-    g = Grammar('shona/training.txt')
-    # print(g.lexicon)
-    # print(g.sigma)
-    # print(g.tiers)
+    g = Grammar('datasets/training_unbounded_harm_restricted.txt')
 
-    # print(g.create_tier_lexicon(['a','e','i','u','e']))
+    g.learn()
 
-    ugs = g.find_unigrams(g.lexicon)
-    print(g.unigram_plog(g.lexicon, ugs))
+    for tier in g.grammatical:
+        print('Tier: {}'.format(str(tier)))
+        print('Grammatical:')
+        print(g.grammatical[tier])
+        print('Ungrammatical:')
+        print(g.ungrammatical[tier])
+        print()
 
-    tugs = g.find_unigrams(g.create_tier_lexicon(['a','e','i','u','e']))
-    print(g.unigram_plog(g.create_tier_lexicon(['a','e','i','u','e']), tugs))
+    
+    ## Is the if check below here still appropriate?
+    # print('UNGRAMMATICAL:')
+    # for t in g.ungrammatical:
+    #     if len(g.ungrammatical[t]) < ((len(t))**2+len(t)):
+    #         print(t)
+    #         print(g.ungrammatical[t])
+    #         print()
 
-    bgs = g.find_bigrams(g.lexicon)
-    print(g.bigram_plog(g.lexicon, bgs, ugs))
-
-    tbgs = g.find_bigrams(g.create_tier_lexicon(['a','e','i','u','e']))
-    print(g.bigram_plog(g.create_tier_lexicon(['a','e','i','u','e']), tbgs, tugs))
-
-    # print(g.find_bigrams(g.create_tier_lexicon(['a','e','i','u','e'])))
-
-
-
-    # g.learn()
-    # print(g.grammatical)
+    # g.find_informative_tiers()
