@@ -2,6 +2,7 @@
 
 import itertools
 import re
+from collections import defaultdict
 
 class Grammar(dict):
     """
@@ -61,47 +62,109 @@ class Grammar(dict):
 
     def build_tiers(self):
         """All possible tiers
+        Each tier is a tuple in alphabetical order
         """
-        self.tiers = list(itertools.chain.from_iterable(itertools.combinations(self.sigma, r) for r in range(1,len(self.sigma)+1)))
+        self.tiers = []
+        for size in range(1,len(self.sigma)+1):
+            for combo in itertools.combinations(self.sigma, size):
+                self.tiers.append(tuple(sorted(list(combo))))
 
 
-    # def find_informative_tiers(self):
-    #     informative_tiers = []
-    #     for t_sub in self.tiers:
-    #         for t_super in self.tiers:
-    #             if t_sub < t_super:
-    #                 if len(t_sub)**2 + len(t_sub) - len(self.grammatical[t_sub]) > len(t_super)**2 + len(t_super) - len(self.grammatical[t_super]):
-    #                     informative_tiers.append(t_sub)
-    #                     break
+    ## ATTEMPT 2 below
+    def distill_grammar(self):
+        grammar = defaultdict(list)
+        for kfactor in itertools.permutations(self.sigma, 2): # could this consider instead only bigrams prohibited on the segment tier?
+            print()
+            print(kfactor)
+            # ADD: if kfactor not in ungrammatical of tier=kfactor, then check if it's ungrammatical in full_tier
+            relevant_tier = self.traverse_lattice(kfactor)
+            print('found relevant tier: {}'.format(str(relevant_tier)))
+            grammar[relevant_tier].append(kfactor)
+        return grammar
 
-    #     print('INFORMATIVE TIERS BELOW:')
-    #     for t in informative_tiers:
-    #         print(t)
-    #         print('Grammatical in this tier:')
-    #         print(g.grammatical[t])
-    #         print('Ungrammatical in this tier:')
-    #         print(g.ungrammatical[t])
+
+    def traverse_lattice(self, kfactor):
+        """
+        Shower idea: move up lattice from tier=kfactor to full_tier. If ungrammatical on tier=kfactor, result=kfactor-tier.
+        If not (meaning that kfactor is grammatical on tier=kfactor), then move up until discovering a tier where kfactor is
+        ungrammatical. Move up until a layer of the lattice all considers kfactor grammatical and make result tier the superset of
+        the tiers that brought us there; if we never reach a tier where kfactor is grammatical, then result = full_tier
+        """
+
+        status = None
+        initial_tier = set(kfactor)
+        not_in_kfactor = set(self.sigma) - initial_tier
+
+        initial_tier_tuple = tuple(sorted(kfactor))
+        if kfactor in self.ungrammatical[initial_tier_tuple]:
+            print('returning early') # -> doesn't occur for (V,b) in (V,b)!
+            return initial_tier_tuple
+
+        result = initial_tier.copy()
+        for char in not_in_kfactor:
+            combined_tier = initial_tier.union(set([char]))
+            combined_tier_tuple = tuple(sorted(list(combined_tier)))
+            if kfactor in self.ungrammatical[combined_tier_tuple]:
+                result.add(char)
+        return tuple(sorted(list(result)))
+
+    
+    # ## ATTEMPT 1 below
+    # def distill_grammar(self):
+    #     grammar = defaultdict(list)
+    #     full_tier = self.tiers[-1]
+    #     for kfactor in self.ungrammatical[full_tier]:
     #         print()
+    #         print(kfactor)
+    #         relevant_tier = self.traverse_lattice(kfactor, full_tier)
+    #         print('found relevant tier: {}'.format(str(relevant_tier)))
+    #         grammar[relevant_tier].append(kfactor)
+    #     return grammar
 
+
+    # def traverse_lattice(self, kfactor, start_tier):
+    #     """Find the largest tier on which a restriction fails to hold and use it to infer the restriction's proper tier
+    #     """
+    #     for size in reversed(range(len(start_tier))):
+    #         for tier in itertools.combinations(start_tier, size):
+    #             if kfactor[0] in tier and kfactor[1] in tier:
+    #                 print(tier)
+    #                 if kfactor in self.grammatical[tier]:
+    #                     print('grammatical here')
+    #                     residue = set(tier) - set(kfactor)
+    #                     return tuple(sorted(list(set(start_tier) - residue)))
+    #     raise Exception('Lattice traversal has failed.')
+
+
+    def tiers_equal(tier1, tier2):
+        return set(tier1) == set(tier2)
+        
 
     def get_ngrams(self, sequence, max_k):
         return list(itertools.chain.from_iterable([zip(*[sequence[i:] for i in range(n)]) for n in range(max_k+1)]))
 
 
 if __name__ == '__main__':
-    g = Grammar('datasets/training_unbounded_harm_restricted.txt')
+    g = Grammar('cvlrb6.txt')
 
     g.learn()
 
-    for tier in g.grammatical:
-        print('Tier: {}'.format(str(tier)))
-        print('Grammatical:')
-        print(g.grammatical[tier])
-        print('Ungrammatical:')
-        print(g.ungrammatical[tier])
-        print()
+    # for tier in g.grammatical:
+    #     print('Tier: {}'.format(str(tier)))
+    #     print('Grammatical:')
+    #     print(g.grammatical[tier])
+    #     print('Ungrammatical:')
+    #     print(g.ungrammatical[tier])
+    #     print()
 
-    
+    gr = g.distill_grammar()
+    # for tier in gr:
+    #     print()
+    #     print(tier)
+    #     print(gr[tier])
+
+
+
     ## Is the if check below here still appropriate?
     # print('UNGRAMMATICAL:')
     # for t in g.ungrammatical:
@@ -109,5 +172,3 @@ if __name__ == '__main__':
     #         print(t)
     #         print(g.ungrammatical[t])
     #         print()
-
-    # g.find_informative_tiers()

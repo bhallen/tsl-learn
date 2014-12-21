@@ -1,0 +1,11536 @@
+c
+v
+l
+r
+b
+c c
+c v
+c l
+c r
+c b
+v c
+v v
+v l
+v r
+v b
+l c
+l v
+l l
+l b
+r c
+r v
+r r
+r b
+b c
+b v
+b l
+b r
+b b
+c c c
+c c v
+c c l
+c c r
+c c b
+c v c
+c v v
+c v l
+c v r
+c v b
+c l c
+c l v
+c l l
+c l b
+c r c
+c r v
+c r r
+c r b
+c b c
+c b v
+c b l
+c b r
+c b b
+v c c
+v c v
+v c l
+v c r
+v c b
+v v c
+v v v
+v v l
+v v r
+v v b
+v l c
+v l v
+v l l
+v l b
+v r c
+v r v
+v r r
+v r b
+v b c
+v b v
+v b l
+v b r
+v b b
+l c c
+l c v
+l c l
+l c b
+l v c
+l v v
+l v l
+l v b
+l l c
+l l v
+l l l
+l l b
+l b c
+l b v
+l b l
+l b r
+l b b
+r c c
+r c v
+r c r
+r c b
+r v c
+r v v
+r v r
+r v b
+r r c
+r r v
+r r r
+r r b
+r b c
+r b v
+r b l
+r b r
+r b b
+b c c
+b c v
+b c l
+b c r
+b c b
+b v c
+b v v
+b v l
+b v r
+b v b
+b l c
+b l v
+b l l
+b l b
+b r c
+b r v
+b r r
+b r b
+b b c
+b b v
+b b l
+b b r
+b b b
+c c c c
+c c c v
+c c c l
+c c c r
+c c c b
+c c v c
+c c v v
+c c v l
+c c v r
+c c v b
+c c l c
+c c l v
+c c l l
+c c l b
+c c r c
+c c r v
+c c r r
+c c r b
+c c b c
+c c b v
+c c b l
+c c b r
+c c b b
+c v c c
+c v c v
+c v c l
+c v c r
+c v c b
+c v v c
+c v v v
+c v v l
+c v v r
+c v v b
+c v l c
+c v l v
+c v l l
+c v l b
+c v r c
+c v r v
+c v r r
+c v r b
+c v b c
+c v b v
+c v b l
+c v b r
+c v b b
+c l c c
+c l c v
+c l c l
+c l c b
+c l v c
+c l v v
+c l v l
+c l v b
+c l l c
+c l l v
+c l l l
+c l l b
+c l b c
+c l b v
+c l b l
+c l b r
+c l b b
+c r c c
+c r c v
+c r c r
+c r c b
+c r v c
+c r v v
+c r v r
+c r v b
+c r r c
+c r r v
+c r r r
+c r r b
+c r b c
+c r b v
+c r b l
+c r b r
+c r b b
+c b c c
+c b c v
+c b c l
+c b c r
+c b c b
+c b v c
+c b v v
+c b v l
+c b v r
+c b v b
+c b l c
+c b l v
+c b l l
+c b l b
+c b r c
+c b r v
+c b r r
+c b r b
+c b b c
+c b b v
+c b b l
+c b b r
+c b b b
+v c c c
+v c c v
+v c c l
+v c c r
+v c c b
+v c v c
+v c v v
+v c v l
+v c v r
+v c v b
+v c l c
+v c l v
+v c l l
+v c l b
+v c r c
+v c r v
+v c r r
+v c r b
+v c b c
+v c b v
+v c b l
+v c b r
+v c b b
+v v c c
+v v c v
+v v c l
+v v c r
+v v c b
+v v v c
+v v v v
+v v v l
+v v v r
+v v v b
+v v l c
+v v l v
+v v l l
+v v l b
+v v r c
+v v r v
+v v r r
+v v r b
+v v b c
+v v b v
+v v b l
+v v b r
+v v b b
+v l c c
+v l c v
+v l c l
+v l c b
+v l v c
+v l v v
+v l v l
+v l v b
+v l l c
+v l l v
+v l l l
+v l l b
+v l b c
+v l b v
+v l b l
+v l b r
+v l b b
+v r c c
+v r c v
+v r c r
+v r c b
+v r v c
+v r v v
+v r v r
+v r v b
+v r r c
+v r r v
+v r r r
+v r r b
+v r b c
+v r b v
+v r b l
+v r b r
+v r b b
+v b c c
+v b c v
+v b c l
+v b c r
+v b c b
+v b v c
+v b v v
+v b v l
+v b v r
+v b v b
+v b l c
+v b l v
+v b l l
+v b l b
+v b r c
+v b r v
+v b r r
+v b r b
+v b b c
+v b b v
+v b b l
+v b b r
+v b b b
+l c c c
+l c c v
+l c c l
+l c c b
+l c v c
+l c v v
+l c v l
+l c v b
+l c l c
+l c l v
+l c l l
+l c l b
+l c b c
+l c b v
+l c b l
+l c b r
+l c b b
+l v c c
+l v c v
+l v c l
+l v c b
+l v v c
+l v v v
+l v v l
+l v v b
+l v l c
+l v l v
+l v l l
+l v l b
+l v b c
+l v b v
+l v b l
+l v b r
+l v b b
+l l c c
+l l c v
+l l c l
+l l c b
+l l v c
+l l v v
+l l v l
+l l v b
+l l l c
+l l l v
+l l l l
+l l l b
+l l b c
+l l b v
+l l b l
+l l b r
+l l b b
+l b c c
+l b c v
+l b c l
+l b c r
+l b c b
+l b v c
+l b v v
+l b v l
+l b v r
+l b v b
+l b l c
+l b l v
+l b l l
+l b l b
+l b r c
+l b r v
+l b r r
+l b r b
+l b b c
+l b b v
+l b b l
+l b b r
+l b b b
+r c c c
+r c c v
+r c c r
+r c c b
+r c v c
+r c v v
+r c v r
+r c v b
+r c r c
+r c r v
+r c r r
+r c r b
+r c b c
+r c b v
+r c b l
+r c b r
+r c b b
+r v c c
+r v c v
+r v c r
+r v c b
+r v v c
+r v v v
+r v v r
+r v v b
+r v r c
+r v r v
+r v r r
+r v r b
+r v b c
+r v b v
+r v b l
+r v b r
+r v b b
+r r c c
+r r c v
+r r c r
+r r c b
+r r v c
+r r v v
+r r v r
+r r v b
+r r r c
+r r r v
+r r r r
+r r r b
+r r b c
+r r b v
+r r b l
+r r b r
+r r b b
+r b c c
+r b c v
+r b c l
+r b c r
+r b c b
+r b v c
+r b v v
+r b v l
+r b v r
+r b v b
+r b l c
+r b l v
+r b l l
+r b l b
+r b r c
+r b r v
+r b r r
+r b r b
+r b b c
+r b b v
+r b b l
+r b b r
+r b b b
+b c c c
+b c c v
+b c c l
+b c c r
+b c c b
+b c v c
+b c v v
+b c v l
+b c v r
+b c v b
+b c l c
+b c l v
+b c l l
+b c l b
+b c r c
+b c r v
+b c r r
+b c r b
+b c b c
+b c b v
+b c b l
+b c b r
+b c b b
+b v c c
+b v c v
+b v c l
+b v c r
+b v c b
+b v v c
+b v v v
+b v v l
+b v v r
+b v v b
+b v l c
+b v l v
+b v l l
+b v l b
+b v r c
+b v r v
+b v r r
+b v r b
+b v b c
+b v b v
+b v b l
+b v b r
+b v b b
+b l c c
+b l c v
+b l c l
+b l c b
+b l v c
+b l v v
+b l v l
+b l v b
+b l l c
+b l l v
+b l l l
+b l l b
+b l b c
+b l b v
+b l b l
+b l b r
+b l b b
+b r c c
+b r c v
+b r c r
+b r c b
+b r v c
+b r v v
+b r v r
+b r v b
+b r r c
+b r r v
+b r r r
+b r r b
+b r b c
+b r b v
+b r b l
+b r b r
+b r b b
+b b c c
+b b c v
+b b c l
+b b c r
+b b c b
+b b v c
+b b v v
+b b v l
+b b v r
+b b v b
+b b l c
+b b l v
+b b l l
+b b l b
+b b r c
+b b r v
+b b r r
+b b r b
+b b b c
+b b b v
+b b b l
+b b b r
+b b b b
+c c c c c
+c c c c v
+c c c c l
+c c c c r
+c c c c b
+c c c v c
+c c c v v
+c c c v l
+c c c v r
+c c c v b
+c c c l c
+c c c l v
+c c c l l
+c c c l b
+c c c r c
+c c c r v
+c c c r r
+c c c r b
+c c c b c
+c c c b v
+c c c b l
+c c c b r
+c c c b b
+c c v c c
+c c v c v
+c c v c l
+c c v c r
+c c v c b
+c c v v c
+c c v v v
+c c v v l
+c c v v r
+c c v v b
+c c v l c
+c c v l v
+c c v l l
+c c v l b
+c c v r c
+c c v r v
+c c v r r
+c c v r b
+c c v b c
+c c v b v
+c c v b l
+c c v b r
+c c v b b
+c c l c c
+c c l c v
+c c l c l
+c c l c b
+c c l v c
+c c l v v
+c c l v l
+c c l v b
+c c l l c
+c c l l v
+c c l l l
+c c l l b
+c c l b c
+c c l b v
+c c l b l
+c c l b r
+c c l b b
+c c r c c
+c c r c v
+c c r c r
+c c r c b
+c c r v c
+c c r v v
+c c r v r
+c c r v b
+c c r r c
+c c r r v
+c c r r r
+c c r r b
+c c r b c
+c c r b v
+c c r b l
+c c r b r
+c c r b b
+c c b c c
+c c b c v
+c c b c l
+c c b c r
+c c b c b
+c c b v c
+c c b v v
+c c b v l
+c c b v r
+c c b v b
+c c b l c
+c c b l v
+c c b l l
+c c b l b
+c c b r c
+c c b r v
+c c b r r
+c c b r b
+c c b b c
+c c b b v
+c c b b l
+c c b b r
+c c b b b
+c v c c c
+c v c c v
+c v c c l
+c v c c r
+c v c c b
+c v c v c
+c v c v v
+c v c v l
+c v c v r
+c v c v b
+c v c l c
+c v c l v
+c v c l l
+c v c l b
+c v c r c
+c v c r v
+c v c r r
+c v c r b
+c v c b c
+c v c b v
+c v c b l
+c v c b r
+c v c b b
+c v v c c
+c v v c v
+c v v c l
+c v v c r
+c v v c b
+c v v v c
+c v v v v
+c v v v l
+c v v v r
+c v v v b
+c v v l c
+c v v l v
+c v v l l
+c v v l b
+c v v r c
+c v v r v
+c v v r r
+c v v r b
+c v v b c
+c v v b v
+c v v b l
+c v v b r
+c v v b b
+c v l c c
+c v l c v
+c v l c l
+c v l c b
+c v l v c
+c v l v v
+c v l v l
+c v l v b
+c v l l c
+c v l l v
+c v l l l
+c v l l b
+c v l b c
+c v l b v
+c v l b l
+c v l b r
+c v l b b
+c v r c c
+c v r c v
+c v r c r
+c v r c b
+c v r v c
+c v r v v
+c v r v r
+c v r v b
+c v r r c
+c v r r v
+c v r r r
+c v r r b
+c v r b c
+c v r b v
+c v r b l
+c v r b r
+c v r b b
+c v b c c
+c v b c v
+c v b c l
+c v b c r
+c v b c b
+c v b v c
+c v b v v
+c v b v l
+c v b v r
+c v b v b
+c v b l c
+c v b l v
+c v b l l
+c v b l b
+c v b r c
+c v b r v
+c v b r r
+c v b r b
+c v b b c
+c v b b v
+c v b b l
+c v b b r
+c v b b b
+c l c c c
+c l c c v
+c l c c l
+c l c c b
+c l c v c
+c l c v v
+c l c v l
+c l c v b
+c l c l c
+c l c l v
+c l c l l
+c l c l b
+c l c b c
+c l c b v
+c l c b l
+c l c b r
+c l c b b
+c l v c c
+c l v c v
+c l v c l
+c l v c b
+c l v v c
+c l v v v
+c l v v l
+c l v v b
+c l v l c
+c l v l v
+c l v l l
+c l v l b
+c l v b c
+c l v b v
+c l v b l
+c l v b r
+c l v b b
+c l l c c
+c l l c v
+c l l c l
+c l l c b
+c l l v c
+c l l v v
+c l l v l
+c l l v b
+c l l l c
+c l l l v
+c l l l l
+c l l l b
+c l l b c
+c l l b v
+c l l b l
+c l l b r
+c l l b b
+c l b c c
+c l b c v
+c l b c l
+c l b c r
+c l b c b
+c l b v c
+c l b v v
+c l b v l
+c l b v r
+c l b v b
+c l b l c
+c l b l v
+c l b l l
+c l b l b
+c l b r c
+c l b r v
+c l b r r
+c l b r b
+c l b b c
+c l b b v
+c l b b l
+c l b b r
+c l b b b
+c r c c c
+c r c c v
+c r c c r
+c r c c b
+c r c v c
+c r c v v
+c r c v r
+c r c v b
+c r c r c
+c r c r v
+c r c r r
+c r c r b
+c r c b c
+c r c b v
+c r c b l
+c r c b r
+c r c b b
+c r v c c
+c r v c v
+c r v c r
+c r v c b
+c r v v c
+c r v v v
+c r v v r
+c r v v b
+c r v r c
+c r v r v
+c r v r r
+c r v r b
+c r v b c
+c r v b v
+c r v b l
+c r v b r
+c r v b b
+c r r c c
+c r r c v
+c r r c r
+c r r c b
+c r r v c
+c r r v v
+c r r v r
+c r r v b
+c r r r c
+c r r r v
+c r r r r
+c r r r b
+c r r b c
+c r r b v
+c r r b l
+c r r b r
+c r r b b
+c r b c c
+c r b c v
+c r b c l
+c r b c r
+c r b c b
+c r b v c
+c r b v v
+c r b v l
+c r b v r
+c r b v b
+c r b l c
+c r b l v
+c r b l l
+c r b l b
+c r b r c
+c r b r v
+c r b r r
+c r b r b
+c r b b c
+c r b b v
+c r b b l
+c r b b r
+c r b b b
+c b c c c
+c b c c v
+c b c c l
+c b c c r
+c b c c b
+c b c v c
+c b c v v
+c b c v l
+c b c v r
+c b c v b
+c b c l c
+c b c l v
+c b c l l
+c b c l b
+c b c r c
+c b c r v
+c b c r r
+c b c r b
+c b c b c
+c b c b v
+c b c b l
+c b c b r
+c b c b b
+c b v c c
+c b v c v
+c b v c l
+c b v c r
+c b v c b
+c b v v c
+c b v v v
+c b v v l
+c b v v r
+c b v v b
+c b v l c
+c b v l v
+c b v l l
+c b v l b
+c b v r c
+c b v r v
+c b v r r
+c b v r b
+c b v b c
+c b v b v
+c b v b l
+c b v b r
+c b v b b
+c b l c c
+c b l c v
+c b l c l
+c b l c b
+c b l v c
+c b l v v
+c b l v l
+c b l v b
+c b l l c
+c b l l v
+c b l l l
+c b l l b
+c b l b c
+c b l b v
+c b l b l
+c b l b r
+c b l b b
+c b r c c
+c b r c v
+c b r c r
+c b r c b
+c b r v c
+c b r v v
+c b r v r
+c b r v b
+c b r r c
+c b r r v
+c b r r r
+c b r r b
+c b r b c
+c b r b v
+c b r b l
+c b r b r
+c b r b b
+c b b c c
+c b b c v
+c b b c l
+c b b c r
+c b b c b
+c b b v c
+c b b v v
+c b b v l
+c b b v r
+c b b v b
+c b b l c
+c b b l v
+c b b l l
+c b b l b
+c b b r c
+c b b r v
+c b b r r
+c b b r b
+c b b b c
+c b b b v
+c b b b l
+c b b b r
+c b b b b
+v c c c c
+v c c c v
+v c c c l
+v c c c r
+v c c c b
+v c c v c
+v c c v v
+v c c v l
+v c c v r
+v c c v b
+v c c l c
+v c c l v
+v c c l l
+v c c l b
+v c c r c
+v c c r v
+v c c r r
+v c c r b
+v c c b c
+v c c b v
+v c c b l
+v c c b r
+v c c b b
+v c v c c
+v c v c v
+v c v c l
+v c v c r
+v c v c b
+v c v v c
+v c v v v
+v c v v l
+v c v v r
+v c v v b
+v c v l c
+v c v l v
+v c v l l
+v c v l b
+v c v r c
+v c v r v
+v c v r r
+v c v r b
+v c v b c
+v c v b v
+v c v b l
+v c v b r
+v c v b b
+v c l c c
+v c l c v
+v c l c l
+v c l c b
+v c l v c
+v c l v v
+v c l v l
+v c l v b
+v c l l c
+v c l l v
+v c l l l
+v c l l b
+v c l b c
+v c l b v
+v c l b l
+v c l b r
+v c l b b
+v c r c c
+v c r c v
+v c r c r
+v c r c b
+v c r v c
+v c r v v
+v c r v r
+v c r v b
+v c r r c
+v c r r v
+v c r r r
+v c r r b
+v c r b c
+v c r b v
+v c r b l
+v c r b r
+v c r b b
+v c b c c
+v c b c v
+v c b c l
+v c b c r
+v c b c b
+v c b v c
+v c b v v
+v c b v l
+v c b v r
+v c b v b
+v c b l c
+v c b l v
+v c b l l
+v c b l b
+v c b r c
+v c b r v
+v c b r r
+v c b r b
+v c b b c
+v c b b v
+v c b b l
+v c b b r
+v c b b b
+v v c c c
+v v c c v
+v v c c l
+v v c c r
+v v c c b
+v v c v c
+v v c v v
+v v c v l
+v v c v r
+v v c v b
+v v c l c
+v v c l v
+v v c l l
+v v c l b
+v v c r c
+v v c r v
+v v c r r
+v v c r b
+v v c b c
+v v c b v
+v v c b l
+v v c b r
+v v c b b
+v v v c c
+v v v c v
+v v v c l
+v v v c r
+v v v c b
+v v v v c
+v v v v v
+v v v v l
+v v v v r
+v v v v b
+v v v l c
+v v v l v
+v v v l l
+v v v l b
+v v v r c
+v v v r v
+v v v r r
+v v v r b
+v v v b c
+v v v b v
+v v v b l
+v v v b r
+v v v b b
+v v l c c
+v v l c v
+v v l c l
+v v l c b
+v v l v c
+v v l v v
+v v l v l
+v v l v b
+v v l l c
+v v l l v
+v v l l l
+v v l l b
+v v l b c
+v v l b v
+v v l b l
+v v l b r
+v v l b b
+v v r c c
+v v r c v
+v v r c r
+v v r c b
+v v r v c
+v v r v v
+v v r v r
+v v r v b
+v v r r c
+v v r r v
+v v r r r
+v v r r b
+v v r b c
+v v r b v
+v v r b l
+v v r b r
+v v r b b
+v v b c c
+v v b c v
+v v b c l
+v v b c r
+v v b c b
+v v b v c
+v v b v v
+v v b v l
+v v b v r
+v v b v b
+v v b l c
+v v b l v
+v v b l l
+v v b l b
+v v b r c
+v v b r v
+v v b r r
+v v b r b
+v v b b c
+v v b b v
+v v b b l
+v v b b r
+v v b b b
+v l c c c
+v l c c v
+v l c c l
+v l c c b
+v l c v c
+v l c v v
+v l c v l
+v l c v b
+v l c l c
+v l c l v
+v l c l l
+v l c l b
+v l c b c
+v l c b v
+v l c b l
+v l c b r
+v l c b b
+v l v c c
+v l v c v
+v l v c l
+v l v c b
+v l v v c
+v l v v v
+v l v v l
+v l v v b
+v l v l c
+v l v l v
+v l v l l
+v l v l b
+v l v b c
+v l v b v
+v l v b l
+v l v b r
+v l v b b
+v l l c c
+v l l c v
+v l l c l
+v l l c b
+v l l v c
+v l l v v
+v l l v l
+v l l v b
+v l l l c
+v l l l v
+v l l l l
+v l l l b
+v l l b c
+v l l b v
+v l l b l
+v l l b r
+v l l b b
+v l b c c
+v l b c v
+v l b c l
+v l b c r
+v l b c b
+v l b v c
+v l b v v
+v l b v l
+v l b v r
+v l b v b
+v l b l c
+v l b l v
+v l b l l
+v l b l b
+v l b r c
+v l b r v
+v l b r r
+v l b r b
+v l b b c
+v l b b v
+v l b b l
+v l b b r
+v l b b b
+v r c c c
+v r c c v
+v r c c r
+v r c c b
+v r c v c
+v r c v v
+v r c v r
+v r c v b
+v r c r c
+v r c r v
+v r c r r
+v r c r b
+v r c b c
+v r c b v
+v r c b l
+v r c b r
+v r c b b
+v r v c c
+v r v c v
+v r v c r
+v r v c b
+v r v v c
+v r v v v
+v r v v r
+v r v v b
+v r v r c
+v r v r v
+v r v r r
+v r v r b
+v r v b c
+v r v b v
+v r v b l
+v r v b r
+v r v b b
+v r r c c
+v r r c v
+v r r c r
+v r r c b
+v r r v c
+v r r v v
+v r r v r
+v r r v b
+v r r r c
+v r r r v
+v r r r r
+v r r r b
+v r r b c
+v r r b v
+v r r b l
+v r r b r
+v r r b b
+v r b c c
+v r b c v
+v r b c l
+v r b c r
+v r b c b
+v r b v c
+v r b v v
+v r b v l
+v r b v r
+v r b v b
+v r b l c
+v r b l v
+v r b l l
+v r b l b
+v r b r c
+v r b r v
+v r b r r
+v r b r b
+v r b b c
+v r b b v
+v r b b l
+v r b b r
+v r b b b
+v b c c c
+v b c c v
+v b c c l
+v b c c r
+v b c c b
+v b c v c
+v b c v v
+v b c v l
+v b c v r
+v b c v b
+v b c l c
+v b c l v
+v b c l l
+v b c l b
+v b c r c
+v b c r v
+v b c r r
+v b c r b
+v b c b c
+v b c b v
+v b c b l
+v b c b r
+v b c b b
+v b v c c
+v b v c v
+v b v c l
+v b v c r
+v b v c b
+v b v v c
+v b v v v
+v b v v l
+v b v v r
+v b v v b
+v b v l c
+v b v l v
+v b v l l
+v b v l b
+v b v r c
+v b v r v
+v b v r r
+v b v r b
+v b v b c
+v b v b v
+v b v b l
+v b v b r
+v b v b b
+v b l c c
+v b l c v
+v b l c l
+v b l c b
+v b l v c
+v b l v v
+v b l v l
+v b l v b
+v b l l c
+v b l l v
+v b l l l
+v b l l b
+v b l b c
+v b l b v
+v b l b l
+v b l b r
+v b l b b
+v b r c c
+v b r c v
+v b r c r
+v b r c b
+v b r v c
+v b r v v
+v b r v r
+v b r v b
+v b r r c
+v b r r v
+v b r r r
+v b r r b
+v b r b c
+v b r b v
+v b r b l
+v b r b r
+v b r b b
+v b b c c
+v b b c v
+v b b c l
+v b b c r
+v b b c b
+v b b v c
+v b b v v
+v b b v l
+v b b v r
+v b b v b
+v b b l c
+v b b l v
+v b b l l
+v b b l b
+v b b r c
+v b b r v
+v b b r r
+v b b r b
+v b b b c
+v b b b v
+v b b b l
+v b b b r
+v b b b b
+l c c c c
+l c c c v
+l c c c l
+l c c c b
+l c c v c
+l c c v v
+l c c v l
+l c c v b
+l c c l c
+l c c l v
+l c c l l
+l c c l b
+l c c b c
+l c c b v
+l c c b l
+l c c b r
+l c c b b
+l c v c c
+l c v c v
+l c v c l
+l c v c b
+l c v v c
+l c v v v
+l c v v l
+l c v v b
+l c v l c
+l c v l v
+l c v l l
+l c v l b
+l c v b c
+l c v b v
+l c v b l
+l c v b r
+l c v b b
+l c l c c
+l c l c v
+l c l c l
+l c l c b
+l c l v c
+l c l v v
+l c l v l
+l c l v b
+l c l l c
+l c l l v
+l c l l l
+l c l l b
+l c l b c
+l c l b v
+l c l b l
+l c l b r
+l c l b b
+l c b c c
+l c b c v
+l c b c l
+l c b c r
+l c b c b
+l c b v c
+l c b v v
+l c b v l
+l c b v r
+l c b v b
+l c b l c
+l c b l v
+l c b l l
+l c b l b
+l c b r c
+l c b r v
+l c b r r
+l c b r b
+l c b b c
+l c b b v
+l c b b l
+l c b b r
+l c b b b
+l v c c c
+l v c c v
+l v c c l
+l v c c b
+l v c v c
+l v c v v
+l v c v l
+l v c v b
+l v c l c
+l v c l v
+l v c l l
+l v c l b
+l v c b c
+l v c b v
+l v c b l
+l v c b r
+l v c b b
+l v v c c
+l v v c v
+l v v c l
+l v v c b
+l v v v c
+l v v v v
+l v v v l
+l v v v b
+l v v l c
+l v v l v
+l v v l l
+l v v l b
+l v v b c
+l v v b v
+l v v b l
+l v v b r
+l v v b b
+l v l c c
+l v l c v
+l v l c l
+l v l c b
+l v l v c
+l v l v v
+l v l v l
+l v l v b
+l v l l c
+l v l l v
+l v l l l
+l v l l b
+l v l b c
+l v l b v
+l v l b l
+l v l b r
+l v l b b
+l v b c c
+l v b c v
+l v b c l
+l v b c r
+l v b c b
+l v b v c
+l v b v v
+l v b v l
+l v b v r
+l v b v b
+l v b l c
+l v b l v
+l v b l l
+l v b l b
+l v b r c
+l v b r v
+l v b r r
+l v b r b
+l v b b c
+l v b b v
+l v b b l
+l v b b r
+l v b b b
+l l c c c
+l l c c v
+l l c c l
+l l c c b
+l l c v c
+l l c v v
+l l c v l
+l l c v b
+l l c l c
+l l c l v
+l l c l l
+l l c l b
+l l c b c
+l l c b v
+l l c b l
+l l c b r
+l l c b b
+l l v c c
+l l v c v
+l l v c l
+l l v c b
+l l v v c
+l l v v v
+l l v v l
+l l v v b
+l l v l c
+l l v l v
+l l v l l
+l l v l b
+l l v b c
+l l v b v
+l l v b l
+l l v b r
+l l v b b
+l l l c c
+l l l c v
+l l l c l
+l l l c b
+l l l v c
+l l l v v
+l l l v l
+l l l v b
+l l l l c
+l l l l v
+l l l l l
+l l l l b
+l l l b c
+l l l b v
+l l l b l
+l l l b r
+l l l b b
+l l b c c
+l l b c v
+l l b c l
+l l b c r
+l l b c b
+l l b v c
+l l b v v
+l l b v l
+l l b v r
+l l b v b
+l l b l c
+l l b l v
+l l b l l
+l l b l b
+l l b r c
+l l b r v
+l l b r r
+l l b r b
+l l b b c
+l l b b v
+l l b b l
+l l b b r
+l l b b b
+l b c c c
+l b c c v
+l b c c l
+l b c c r
+l b c c b
+l b c v c
+l b c v v
+l b c v l
+l b c v r
+l b c v b
+l b c l c
+l b c l v
+l b c l l
+l b c l b
+l b c r c
+l b c r v
+l b c r r
+l b c r b
+l b c b c
+l b c b v
+l b c b l
+l b c b r
+l b c b b
+l b v c c
+l b v c v
+l b v c l
+l b v c r
+l b v c b
+l b v v c
+l b v v v
+l b v v l
+l b v v r
+l b v v b
+l b v l c
+l b v l v
+l b v l l
+l b v l b
+l b v r c
+l b v r v
+l b v r r
+l b v r b
+l b v b c
+l b v b v
+l b v b l
+l b v b r
+l b v b b
+l b l c c
+l b l c v
+l b l c l
+l b l c b
+l b l v c
+l b l v v
+l b l v l
+l b l v b
+l b l l c
+l b l l v
+l b l l l
+l b l l b
+l b l b c
+l b l b v
+l b l b l
+l b l b r
+l b l b b
+l b r c c
+l b r c v
+l b r c r
+l b r c b
+l b r v c
+l b r v v
+l b r v r
+l b r v b
+l b r r c
+l b r r v
+l b r r r
+l b r r b
+l b r b c
+l b r b v
+l b r b l
+l b r b r
+l b r b b
+l b b c c
+l b b c v
+l b b c l
+l b b c r
+l b b c b
+l b b v c
+l b b v v
+l b b v l
+l b b v r
+l b b v b
+l b b l c
+l b b l v
+l b b l l
+l b b l b
+l b b r c
+l b b r v
+l b b r r
+l b b r b
+l b b b c
+l b b b v
+l b b b l
+l b b b r
+l b b b b
+r c c c c
+r c c c v
+r c c c r
+r c c c b
+r c c v c
+r c c v v
+r c c v r
+r c c v b
+r c c r c
+r c c r v
+r c c r r
+r c c r b
+r c c b c
+r c c b v
+r c c b l
+r c c b r
+r c c b b
+r c v c c
+r c v c v
+r c v c r
+r c v c b
+r c v v c
+r c v v v
+r c v v r
+r c v v b
+r c v r c
+r c v r v
+r c v r r
+r c v r b
+r c v b c
+r c v b v
+r c v b l
+r c v b r
+r c v b b
+r c r c c
+r c r c v
+r c r c r
+r c r c b
+r c r v c
+r c r v v
+r c r v r
+r c r v b
+r c r r c
+r c r r v
+r c r r r
+r c r r b
+r c r b c
+r c r b v
+r c r b l
+r c r b r
+r c r b b
+r c b c c
+r c b c v
+r c b c l
+r c b c r
+r c b c b
+r c b v c
+r c b v v
+r c b v l
+r c b v r
+r c b v b
+r c b l c
+r c b l v
+r c b l l
+r c b l b
+r c b r c
+r c b r v
+r c b r r
+r c b r b
+r c b b c
+r c b b v
+r c b b l
+r c b b r
+r c b b b
+r v c c c
+r v c c v
+r v c c r
+r v c c b
+r v c v c
+r v c v v
+r v c v r
+r v c v b
+r v c r c
+r v c r v
+r v c r r
+r v c r b
+r v c b c
+r v c b v
+r v c b l
+r v c b r
+r v c b b
+r v v c c
+r v v c v
+r v v c r
+r v v c b
+r v v v c
+r v v v v
+r v v v r
+r v v v b
+r v v r c
+r v v r v
+r v v r r
+r v v r b
+r v v b c
+r v v b v
+r v v b l
+r v v b r
+r v v b b
+r v r c c
+r v r c v
+r v r c r
+r v r c b
+r v r v c
+r v r v v
+r v r v r
+r v r v b
+r v r r c
+r v r r v
+r v r r r
+r v r r b
+r v r b c
+r v r b v
+r v r b l
+r v r b r
+r v r b b
+r v b c c
+r v b c v
+r v b c l
+r v b c r
+r v b c b
+r v b v c
+r v b v v
+r v b v l
+r v b v r
+r v b v b
+r v b l c
+r v b l v
+r v b l l
+r v b l b
+r v b r c
+r v b r v
+r v b r r
+r v b r b
+r v b b c
+r v b b v
+r v b b l
+r v b b r
+r v b b b
+r r c c c
+r r c c v
+r r c c r
+r r c c b
+r r c v c
+r r c v v
+r r c v r
+r r c v b
+r r c r c
+r r c r v
+r r c r r
+r r c r b
+r r c b c
+r r c b v
+r r c b l
+r r c b r
+r r c b b
+r r v c c
+r r v c v
+r r v c r
+r r v c b
+r r v v c
+r r v v v
+r r v v r
+r r v v b
+r r v r c
+r r v r v
+r r v r r
+r r v r b
+r r v b c
+r r v b v
+r r v b l
+r r v b r
+r r v b b
+r r r c c
+r r r c v
+r r r c r
+r r r c b
+r r r v c
+r r r v v
+r r r v r
+r r r v b
+r r r r c
+r r r r v
+r r r r r
+r r r r b
+r r r b c
+r r r b v
+r r r b l
+r r r b r
+r r r b b
+r r b c c
+r r b c v
+r r b c l
+r r b c r
+r r b c b
+r r b v c
+r r b v v
+r r b v l
+r r b v r
+r r b v b
+r r b l c
+r r b l v
+r r b l l
+r r b l b
+r r b r c
+r r b r v
+r r b r r
+r r b r b
+r r b b c
+r r b b v
+r r b b l
+r r b b r
+r r b b b
+r b c c c
+r b c c v
+r b c c l
+r b c c r
+r b c c b
+r b c v c
+r b c v v
+r b c v l
+r b c v r
+r b c v b
+r b c l c
+r b c l v
+r b c l l
+r b c l b
+r b c r c
+r b c r v
+r b c r r
+r b c r b
+r b c b c
+r b c b v
+r b c b l
+r b c b r
+r b c b b
+r b v c c
+r b v c v
+r b v c l
+r b v c r
+r b v c b
+r b v v c
+r b v v v
+r b v v l
+r b v v r
+r b v v b
+r b v l c
+r b v l v
+r b v l l
+r b v l b
+r b v r c
+r b v r v
+r b v r r
+r b v r b
+r b v b c
+r b v b v
+r b v b l
+r b v b r
+r b v b b
+r b l c c
+r b l c v
+r b l c l
+r b l c b
+r b l v c
+r b l v v
+r b l v l
+r b l v b
+r b l l c
+r b l l v
+r b l l l
+r b l l b
+r b l b c
+r b l b v
+r b l b l
+r b l b r
+r b l b b
+r b r c c
+r b r c v
+r b r c r
+r b r c b
+r b r v c
+r b r v v
+r b r v r
+r b r v b
+r b r r c
+r b r r v
+r b r r r
+r b r r b
+r b r b c
+r b r b v
+r b r b l
+r b r b r
+r b r b b
+r b b c c
+r b b c v
+r b b c l
+r b b c r
+r b b c b
+r b b v c
+r b b v v
+r b b v l
+r b b v r
+r b b v b
+r b b l c
+r b b l v
+r b b l l
+r b b l b
+r b b r c
+r b b r v
+r b b r r
+r b b r b
+r b b b c
+r b b b v
+r b b b l
+r b b b r
+r b b b b
+b c c c c
+b c c c v
+b c c c l
+b c c c r
+b c c c b
+b c c v c
+b c c v v
+b c c v l
+b c c v r
+b c c v b
+b c c l c
+b c c l v
+b c c l l
+b c c l b
+b c c r c
+b c c r v
+b c c r r
+b c c r b
+b c c b c
+b c c b v
+b c c b l
+b c c b r
+b c c b b
+b c v c c
+b c v c v
+b c v c l
+b c v c r
+b c v c b
+b c v v c
+b c v v v
+b c v v l
+b c v v r
+b c v v b
+b c v l c
+b c v l v
+b c v l l
+b c v l b
+b c v r c
+b c v r v
+b c v r r
+b c v r b
+b c v b c
+b c v b v
+b c v b l
+b c v b r
+b c v b b
+b c l c c
+b c l c v
+b c l c l
+b c l c b
+b c l v c
+b c l v v
+b c l v l
+b c l v b
+b c l l c
+b c l l v
+b c l l l
+b c l l b
+b c l b c
+b c l b v
+b c l b l
+b c l b r
+b c l b b
+b c r c c
+b c r c v
+b c r c r
+b c r c b
+b c r v c
+b c r v v
+b c r v r
+b c r v b
+b c r r c
+b c r r v
+b c r r r
+b c r r b
+b c r b c
+b c r b v
+b c r b l
+b c r b r
+b c r b b
+b c b c c
+b c b c v
+b c b c l
+b c b c r
+b c b c b
+b c b v c
+b c b v v
+b c b v l
+b c b v r
+b c b v b
+b c b l c
+b c b l v
+b c b l l
+b c b l b
+b c b r c
+b c b r v
+b c b r r
+b c b r b
+b c b b c
+b c b b v
+b c b b l
+b c b b r
+b c b b b
+b v c c c
+b v c c v
+b v c c l
+b v c c r
+b v c c b
+b v c v c
+b v c v v
+b v c v l
+b v c v r
+b v c v b
+b v c l c
+b v c l v
+b v c l l
+b v c l b
+b v c r c
+b v c r v
+b v c r r
+b v c r b
+b v c b c
+b v c b v
+b v c b l
+b v c b r
+b v c b b
+b v v c c
+b v v c v
+b v v c l
+b v v c r
+b v v c b
+b v v v c
+b v v v v
+b v v v l
+b v v v r
+b v v v b
+b v v l c
+b v v l v
+b v v l l
+b v v l b
+b v v r c
+b v v r v
+b v v r r
+b v v r b
+b v v b c
+b v v b v
+b v v b l
+b v v b r
+b v v b b
+b v l c c
+b v l c v
+b v l c l
+b v l c b
+b v l v c
+b v l v v
+b v l v l
+b v l v b
+b v l l c
+b v l l v
+b v l l l
+b v l l b
+b v l b c
+b v l b v
+b v l b l
+b v l b r
+b v l b b
+b v r c c
+b v r c v
+b v r c r
+b v r c b
+b v r v c
+b v r v v
+b v r v r
+b v r v b
+b v r r c
+b v r r v
+b v r r r
+b v r r b
+b v r b c
+b v r b v
+b v r b l
+b v r b r
+b v r b b
+b v b c c
+b v b c v
+b v b c l
+b v b c r
+b v b c b
+b v b v c
+b v b v v
+b v b v l
+b v b v r
+b v b v b
+b v b l c
+b v b l v
+b v b l l
+b v b l b
+b v b r c
+b v b r v
+b v b r r
+b v b r b
+b v b b c
+b v b b v
+b v b b l
+b v b b r
+b v b b b
+b l c c c
+b l c c v
+b l c c l
+b l c c b
+b l c v c
+b l c v v
+b l c v l
+b l c v b
+b l c l c
+b l c l v
+b l c l l
+b l c l b
+b l c b c
+b l c b v
+b l c b l
+b l c b r
+b l c b b
+b l v c c
+b l v c v
+b l v c l
+b l v c b
+b l v v c
+b l v v v
+b l v v l
+b l v v b
+b l v l c
+b l v l v
+b l v l l
+b l v l b
+b l v b c
+b l v b v
+b l v b l
+b l v b r
+b l v b b
+b l l c c
+b l l c v
+b l l c l
+b l l c b
+b l l v c
+b l l v v
+b l l v l
+b l l v b
+b l l l c
+b l l l v
+b l l l l
+b l l l b
+b l l b c
+b l l b v
+b l l b l
+b l l b r
+b l l b b
+b l b c c
+b l b c v
+b l b c l
+b l b c r
+b l b c b
+b l b v c
+b l b v v
+b l b v l
+b l b v r
+b l b v b
+b l b l c
+b l b l v
+b l b l l
+b l b l b
+b l b r c
+b l b r v
+b l b r r
+b l b r b
+b l b b c
+b l b b v
+b l b b l
+b l b b r
+b l b b b
+b r c c c
+b r c c v
+b r c c r
+b r c c b
+b r c v c
+b r c v v
+b r c v r
+b r c v b
+b r c r c
+b r c r v
+b r c r r
+b r c r b
+b r c b c
+b r c b v
+b r c b l
+b r c b r
+b r c b b
+b r v c c
+b r v c v
+b r v c r
+b r v c b
+b r v v c
+b r v v v
+b r v v r
+b r v v b
+b r v r c
+b r v r v
+b r v r r
+b r v r b
+b r v b c
+b r v b v
+b r v b l
+b r v b r
+b r v b b
+b r r c c
+b r r c v
+b r r c r
+b r r c b
+b r r v c
+b r r v v
+b r r v r
+b r r v b
+b r r r c
+b r r r v
+b r r r r
+b r r r b
+b r r b c
+b r r b v
+b r r b l
+b r r b r
+b r r b b
+b r b c c
+b r b c v
+b r b c l
+b r b c r
+b r b c b
+b r b v c
+b r b v v
+b r b v l
+b r b v r
+b r b v b
+b r b l c
+b r b l v
+b r b l l
+b r b l b
+b r b r c
+b r b r v
+b r b r r
+b r b r b
+b r b b c
+b r b b v
+b r b b l
+b r b b r
+b r b b b
+b b c c c
+b b c c v
+b b c c l
+b b c c r
+b b c c b
+b b c v c
+b b c v v
+b b c v l
+b b c v r
+b b c v b
+b b c l c
+b b c l v
+b b c l l
+b b c l b
+b b c r c
+b b c r v
+b b c r r
+b b c r b
+b b c b c
+b b c b v
+b b c b l
+b b c b r
+b b c b b
+b b v c c
+b b v c v
+b b v c l
+b b v c r
+b b v c b
+b b v v c
+b b v v v
+b b v v l
+b b v v r
+b b v v b
+b b v l c
+b b v l v
+b b v l l
+b b v l b
+b b v r c
+b b v r v
+b b v r r
+b b v r b
+b b v b c
+b b v b v
+b b v b l
+b b v b r
+b b v b b
+b b l c c
+b b l c v
+b b l c l
+b b l c b
+b b l v c
+b b l v v
+b b l v l
+b b l v b
+b b l l c
+b b l l v
+b b l l l
+b b l l b
+b b l b c
+b b l b v
+b b l b l
+b b l b r
+b b l b b
+b b r c c
+b b r c v
+b b r c r
+b b r c b
+b b r v c
+b b r v v
+b b r v r
+b b r v b
+b b r r c
+b b r r v
+b b r r r
+b b r r b
+b b r b c
+b b r b v
+b b r b l
+b b r b r
+b b r b b
+b b b c c
+b b b c v
+b b b c l
+b b b c r
+b b b c b
+b b b v c
+b b b v v
+b b b v l
+b b b v r
+b b b v b
+b b b l c
+b b b l v
+b b b l l
+b b b l b
+b b b r c
+b b b r v
+b b b r r
+b b b r b
+b b b b c
+b b b b v
+b b b b l
+b b b b r
+b b b b b
+c c c c c c
+c c c c c v
+c c c c c l
+c c c c c r
+c c c c c b
+c c c c v c
+c c c c v v
+c c c c v l
+c c c c v r
+c c c c v b
+c c c c l c
+c c c c l v
+c c c c l l
+c c c c l b
+c c c c r c
+c c c c r v
+c c c c r r
+c c c c r b
+c c c c b c
+c c c c b v
+c c c c b l
+c c c c b r
+c c c c b b
+c c c v c c
+c c c v c v
+c c c v c l
+c c c v c r
+c c c v c b
+c c c v v c
+c c c v v v
+c c c v v l
+c c c v v r
+c c c v v b
+c c c v l c
+c c c v l v
+c c c v l l
+c c c v l b
+c c c v r c
+c c c v r v
+c c c v r r
+c c c v r b
+c c c v b c
+c c c v b v
+c c c v b l
+c c c v b r
+c c c v b b
+c c c l c c
+c c c l c v
+c c c l c l
+c c c l c b
+c c c l v c
+c c c l v v
+c c c l v l
+c c c l v b
+c c c l l c
+c c c l l v
+c c c l l l
+c c c l l b
+c c c l b c
+c c c l b v
+c c c l b l
+c c c l b r
+c c c l b b
+c c c r c c
+c c c r c v
+c c c r c r
+c c c r c b
+c c c r v c
+c c c r v v
+c c c r v r
+c c c r v b
+c c c r r c
+c c c r r v
+c c c r r r
+c c c r r b
+c c c r b c
+c c c r b v
+c c c r b l
+c c c r b r
+c c c r b b
+c c c b c c
+c c c b c v
+c c c b c l
+c c c b c r
+c c c b c b
+c c c b v c
+c c c b v v
+c c c b v l
+c c c b v r
+c c c b v b
+c c c b l c
+c c c b l v
+c c c b l l
+c c c b l b
+c c c b r c
+c c c b r v
+c c c b r r
+c c c b r b
+c c c b b c
+c c c b b v
+c c c b b l
+c c c b b r
+c c c b b b
+c c v c c c
+c c v c c v
+c c v c c l
+c c v c c r
+c c v c c b
+c c v c v c
+c c v c v v
+c c v c v l
+c c v c v r
+c c v c v b
+c c v c l c
+c c v c l v
+c c v c l l
+c c v c l b
+c c v c r c
+c c v c r v
+c c v c r r
+c c v c r b
+c c v c b c
+c c v c b v
+c c v c b l
+c c v c b r
+c c v c b b
+c c v v c c
+c c v v c v
+c c v v c l
+c c v v c r
+c c v v c b
+c c v v v c
+c c v v v v
+c c v v v l
+c c v v v r
+c c v v v b
+c c v v l c
+c c v v l v
+c c v v l l
+c c v v l b
+c c v v r c
+c c v v r v
+c c v v r r
+c c v v r b
+c c v v b c
+c c v v b v
+c c v v b l
+c c v v b r
+c c v v b b
+c c v l c c
+c c v l c v
+c c v l c l
+c c v l c b
+c c v l v c
+c c v l v v
+c c v l v l
+c c v l v b
+c c v l l c
+c c v l l v
+c c v l l l
+c c v l l b
+c c v l b c
+c c v l b v
+c c v l b l
+c c v l b r
+c c v l b b
+c c v r c c
+c c v r c v
+c c v r c r
+c c v r c b
+c c v r v c
+c c v r v v
+c c v r v r
+c c v r v b
+c c v r r c
+c c v r r v
+c c v r r r
+c c v r r b
+c c v r b c
+c c v r b v
+c c v r b l
+c c v r b r
+c c v r b b
+c c v b c c
+c c v b c v
+c c v b c l
+c c v b c r
+c c v b c b
+c c v b v c
+c c v b v v
+c c v b v l
+c c v b v r
+c c v b v b
+c c v b l c
+c c v b l v
+c c v b l l
+c c v b l b
+c c v b r c
+c c v b r v
+c c v b r r
+c c v b r b
+c c v b b c
+c c v b b v
+c c v b b l
+c c v b b r
+c c v b b b
+c c l c c c
+c c l c c v
+c c l c c l
+c c l c c b
+c c l c v c
+c c l c v v
+c c l c v l
+c c l c v b
+c c l c l c
+c c l c l v
+c c l c l l
+c c l c l b
+c c l c b c
+c c l c b v
+c c l c b l
+c c l c b r
+c c l c b b
+c c l v c c
+c c l v c v
+c c l v c l
+c c l v c b
+c c l v v c
+c c l v v v
+c c l v v l
+c c l v v b
+c c l v l c
+c c l v l v
+c c l v l l
+c c l v l b
+c c l v b c
+c c l v b v
+c c l v b l
+c c l v b r
+c c l v b b
+c c l l c c
+c c l l c v
+c c l l c l
+c c l l c b
+c c l l v c
+c c l l v v
+c c l l v l
+c c l l v b
+c c l l l c
+c c l l l v
+c c l l l l
+c c l l l b
+c c l l b c
+c c l l b v
+c c l l b l
+c c l l b r
+c c l l b b
+c c l b c c
+c c l b c v
+c c l b c l
+c c l b c r
+c c l b c b
+c c l b v c
+c c l b v v
+c c l b v l
+c c l b v r
+c c l b v b
+c c l b l c
+c c l b l v
+c c l b l l
+c c l b l b
+c c l b r c
+c c l b r v
+c c l b r r
+c c l b r b
+c c l b b c
+c c l b b v
+c c l b b l
+c c l b b r
+c c l b b b
+c c r c c c
+c c r c c v
+c c r c c r
+c c r c c b
+c c r c v c
+c c r c v v
+c c r c v r
+c c r c v b
+c c r c r c
+c c r c r v
+c c r c r r
+c c r c r b
+c c r c b c
+c c r c b v
+c c r c b l
+c c r c b r
+c c r c b b
+c c r v c c
+c c r v c v
+c c r v c r
+c c r v c b
+c c r v v c
+c c r v v v
+c c r v v r
+c c r v v b
+c c r v r c
+c c r v r v
+c c r v r r
+c c r v r b
+c c r v b c
+c c r v b v
+c c r v b l
+c c r v b r
+c c r v b b
+c c r r c c
+c c r r c v
+c c r r c r
+c c r r c b
+c c r r v c
+c c r r v v
+c c r r v r
+c c r r v b
+c c r r r c
+c c r r r v
+c c r r r r
+c c r r r b
+c c r r b c
+c c r r b v
+c c r r b l
+c c r r b r
+c c r r b b
+c c r b c c
+c c r b c v
+c c r b c l
+c c r b c r
+c c r b c b
+c c r b v c
+c c r b v v
+c c r b v l
+c c r b v r
+c c r b v b
+c c r b l c
+c c r b l v
+c c r b l l
+c c r b l b
+c c r b r c
+c c r b r v
+c c r b r r
+c c r b r b
+c c r b b c
+c c r b b v
+c c r b b l
+c c r b b r
+c c r b b b
+c c b c c c
+c c b c c v
+c c b c c l
+c c b c c r
+c c b c c b
+c c b c v c
+c c b c v v
+c c b c v l
+c c b c v r
+c c b c v b
+c c b c l c
+c c b c l v
+c c b c l l
+c c b c l b
+c c b c r c
+c c b c r v
+c c b c r r
+c c b c r b
+c c b c b c
+c c b c b v
+c c b c b l
+c c b c b r
+c c b c b b
+c c b v c c
+c c b v c v
+c c b v c l
+c c b v c r
+c c b v c b
+c c b v v c
+c c b v v v
+c c b v v l
+c c b v v r
+c c b v v b
+c c b v l c
+c c b v l v
+c c b v l l
+c c b v l b
+c c b v r c
+c c b v r v
+c c b v r r
+c c b v r b
+c c b v b c
+c c b v b v
+c c b v b l
+c c b v b r
+c c b v b b
+c c b l c c
+c c b l c v
+c c b l c l
+c c b l c b
+c c b l v c
+c c b l v v
+c c b l v l
+c c b l v b
+c c b l l c
+c c b l l v
+c c b l l l
+c c b l l b
+c c b l b c
+c c b l b v
+c c b l b l
+c c b l b r
+c c b l b b
+c c b r c c
+c c b r c v
+c c b r c r
+c c b r c b
+c c b r v c
+c c b r v v
+c c b r v r
+c c b r v b
+c c b r r c
+c c b r r v
+c c b r r r
+c c b r r b
+c c b r b c
+c c b r b v
+c c b r b l
+c c b r b r
+c c b r b b
+c c b b c c
+c c b b c v
+c c b b c l
+c c b b c r
+c c b b c b
+c c b b v c
+c c b b v v
+c c b b v l
+c c b b v r
+c c b b v b
+c c b b l c
+c c b b l v
+c c b b l l
+c c b b l b
+c c b b r c
+c c b b r v
+c c b b r r
+c c b b r b
+c c b b b c
+c c b b b v
+c c b b b l
+c c b b b r
+c c b b b b
+c v c c c c
+c v c c c v
+c v c c c l
+c v c c c r
+c v c c c b
+c v c c v c
+c v c c v v
+c v c c v l
+c v c c v r
+c v c c v b
+c v c c l c
+c v c c l v
+c v c c l l
+c v c c l b
+c v c c r c
+c v c c r v
+c v c c r r
+c v c c r b
+c v c c b c
+c v c c b v
+c v c c b l
+c v c c b r
+c v c c b b
+c v c v c c
+c v c v c v
+c v c v c l
+c v c v c r
+c v c v c b
+c v c v v c
+c v c v v v
+c v c v v l
+c v c v v r
+c v c v v b
+c v c v l c
+c v c v l v
+c v c v l l
+c v c v l b
+c v c v r c
+c v c v r v
+c v c v r r
+c v c v r b
+c v c v b c
+c v c v b v
+c v c v b l
+c v c v b r
+c v c v b b
+c v c l c c
+c v c l c v
+c v c l c l
+c v c l c b
+c v c l v c
+c v c l v v
+c v c l v l
+c v c l v b
+c v c l l c
+c v c l l v
+c v c l l l
+c v c l l b
+c v c l b c
+c v c l b v
+c v c l b l
+c v c l b r
+c v c l b b
+c v c r c c
+c v c r c v
+c v c r c r
+c v c r c b
+c v c r v c
+c v c r v v
+c v c r v r
+c v c r v b
+c v c r r c
+c v c r r v
+c v c r r r
+c v c r r b
+c v c r b c
+c v c r b v
+c v c r b l
+c v c r b r
+c v c r b b
+c v c b c c
+c v c b c v
+c v c b c l
+c v c b c r
+c v c b c b
+c v c b v c
+c v c b v v
+c v c b v l
+c v c b v r
+c v c b v b
+c v c b l c
+c v c b l v
+c v c b l l
+c v c b l b
+c v c b r c
+c v c b r v
+c v c b r r
+c v c b r b
+c v c b b c
+c v c b b v
+c v c b b l
+c v c b b r
+c v c b b b
+c v v c c c
+c v v c c v
+c v v c c l
+c v v c c r
+c v v c c b
+c v v c v c
+c v v c v v
+c v v c v l
+c v v c v r
+c v v c v b
+c v v c l c
+c v v c l v
+c v v c l l
+c v v c l b
+c v v c r c
+c v v c r v
+c v v c r r
+c v v c r b
+c v v c b c
+c v v c b v
+c v v c b l
+c v v c b r
+c v v c b b
+c v v v c c
+c v v v c v
+c v v v c l
+c v v v c r
+c v v v c b
+c v v v v c
+c v v v v v
+c v v v v l
+c v v v v r
+c v v v v b
+c v v v l c
+c v v v l v
+c v v v l l
+c v v v l b
+c v v v r c
+c v v v r v
+c v v v r r
+c v v v r b
+c v v v b c
+c v v v b v
+c v v v b l
+c v v v b r
+c v v v b b
+c v v l c c
+c v v l c v
+c v v l c l
+c v v l c b
+c v v l v c
+c v v l v v
+c v v l v l
+c v v l v b
+c v v l l c
+c v v l l v
+c v v l l l
+c v v l l b
+c v v l b c
+c v v l b v
+c v v l b l
+c v v l b r
+c v v l b b
+c v v r c c
+c v v r c v
+c v v r c r
+c v v r c b
+c v v r v c
+c v v r v v
+c v v r v r
+c v v r v b
+c v v r r c
+c v v r r v
+c v v r r r
+c v v r r b
+c v v r b c
+c v v r b v
+c v v r b l
+c v v r b r
+c v v r b b
+c v v b c c
+c v v b c v
+c v v b c l
+c v v b c r
+c v v b c b
+c v v b v c
+c v v b v v
+c v v b v l
+c v v b v r
+c v v b v b
+c v v b l c
+c v v b l v
+c v v b l l
+c v v b l b
+c v v b r c
+c v v b r v
+c v v b r r
+c v v b r b
+c v v b b c
+c v v b b v
+c v v b b l
+c v v b b r
+c v v b b b
+c v l c c c
+c v l c c v
+c v l c c l
+c v l c c b
+c v l c v c
+c v l c v v
+c v l c v l
+c v l c v b
+c v l c l c
+c v l c l v
+c v l c l l
+c v l c l b
+c v l c b c
+c v l c b v
+c v l c b l
+c v l c b r
+c v l c b b
+c v l v c c
+c v l v c v
+c v l v c l
+c v l v c b
+c v l v v c
+c v l v v v
+c v l v v l
+c v l v v b
+c v l v l c
+c v l v l v
+c v l v l l
+c v l v l b
+c v l v b c
+c v l v b v
+c v l v b l
+c v l v b r
+c v l v b b
+c v l l c c
+c v l l c v
+c v l l c l
+c v l l c b
+c v l l v c
+c v l l v v
+c v l l v l
+c v l l v b
+c v l l l c
+c v l l l v
+c v l l l l
+c v l l l b
+c v l l b c
+c v l l b v
+c v l l b l
+c v l l b r
+c v l l b b
+c v l b c c
+c v l b c v
+c v l b c l
+c v l b c r
+c v l b c b
+c v l b v c
+c v l b v v
+c v l b v l
+c v l b v r
+c v l b v b
+c v l b l c
+c v l b l v
+c v l b l l
+c v l b l b
+c v l b r c
+c v l b r v
+c v l b r r
+c v l b r b
+c v l b b c
+c v l b b v
+c v l b b l
+c v l b b r
+c v l b b b
+c v r c c c
+c v r c c v
+c v r c c r
+c v r c c b
+c v r c v c
+c v r c v v
+c v r c v r
+c v r c v b
+c v r c r c
+c v r c r v
+c v r c r r
+c v r c r b
+c v r c b c
+c v r c b v
+c v r c b l
+c v r c b r
+c v r c b b
+c v r v c c
+c v r v c v
+c v r v c r
+c v r v c b
+c v r v v c
+c v r v v v
+c v r v v r
+c v r v v b
+c v r v r c
+c v r v r v
+c v r v r r
+c v r v r b
+c v r v b c
+c v r v b v
+c v r v b l
+c v r v b r
+c v r v b b
+c v r r c c
+c v r r c v
+c v r r c r
+c v r r c b
+c v r r v c
+c v r r v v
+c v r r v r
+c v r r v b
+c v r r r c
+c v r r r v
+c v r r r r
+c v r r r b
+c v r r b c
+c v r r b v
+c v r r b l
+c v r r b r
+c v r r b b
+c v r b c c
+c v r b c v
+c v r b c l
+c v r b c r
+c v r b c b
+c v r b v c
+c v r b v v
+c v r b v l
+c v r b v r
+c v r b v b
+c v r b l c
+c v r b l v
+c v r b l l
+c v r b l b
+c v r b r c
+c v r b r v
+c v r b r r
+c v r b r b
+c v r b b c
+c v r b b v
+c v r b b l
+c v r b b r
+c v r b b b
+c v b c c c
+c v b c c v
+c v b c c l
+c v b c c r
+c v b c c b
+c v b c v c
+c v b c v v
+c v b c v l
+c v b c v r
+c v b c v b
+c v b c l c
+c v b c l v
+c v b c l l
+c v b c l b
+c v b c r c
+c v b c r v
+c v b c r r
+c v b c r b
+c v b c b c
+c v b c b v
+c v b c b l
+c v b c b r
+c v b c b b
+c v b v c c
+c v b v c v
+c v b v c l
+c v b v c r
+c v b v c b
+c v b v v c
+c v b v v v
+c v b v v l
+c v b v v r
+c v b v v b
+c v b v l c
+c v b v l v
+c v b v l l
+c v b v l b
+c v b v r c
+c v b v r v
+c v b v r r
+c v b v r b
+c v b v b c
+c v b v b v
+c v b v b l
+c v b v b r
+c v b v b b
+c v b l c c
+c v b l c v
+c v b l c l
+c v b l c b
+c v b l v c
+c v b l v v
+c v b l v l
+c v b l v b
+c v b l l c
+c v b l l v
+c v b l l l
+c v b l l b
+c v b l b c
+c v b l b v
+c v b l b l
+c v b l b r
+c v b l b b
+c v b r c c
+c v b r c v
+c v b r c r
+c v b r c b
+c v b r v c
+c v b r v v
+c v b r v r
+c v b r v b
+c v b r r c
+c v b r r v
+c v b r r r
+c v b r r b
+c v b r b c
+c v b r b v
+c v b r b l
+c v b r b r
+c v b r b b
+c v b b c c
+c v b b c v
+c v b b c l
+c v b b c r
+c v b b c b
+c v b b v c
+c v b b v v
+c v b b v l
+c v b b v r
+c v b b v b
+c v b b l c
+c v b b l v
+c v b b l l
+c v b b l b
+c v b b r c
+c v b b r v
+c v b b r r
+c v b b r b
+c v b b b c
+c v b b b v
+c v b b b l
+c v b b b r
+c v b b b b
+c l c c c c
+c l c c c v
+c l c c c l
+c l c c c b
+c l c c v c
+c l c c v v
+c l c c v l
+c l c c v b
+c l c c l c
+c l c c l v
+c l c c l l
+c l c c l b
+c l c c b c
+c l c c b v
+c l c c b l
+c l c c b r
+c l c c b b
+c l c v c c
+c l c v c v
+c l c v c l
+c l c v c b
+c l c v v c
+c l c v v v
+c l c v v l
+c l c v v b
+c l c v l c
+c l c v l v
+c l c v l l
+c l c v l b
+c l c v b c
+c l c v b v
+c l c v b l
+c l c v b r
+c l c v b b
+c l c l c c
+c l c l c v
+c l c l c l
+c l c l c b
+c l c l v c
+c l c l v v
+c l c l v l
+c l c l v b
+c l c l l c
+c l c l l v
+c l c l l l
+c l c l l b
+c l c l b c
+c l c l b v
+c l c l b l
+c l c l b r
+c l c l b b
+c l c b c c
+c l c b c v
+c l c b c l
+c l c b c r
+c l c b c b
+c l c b v c
+c l c b v v
+c l c b v l
+c l c b v r
+c l c b v b
+c l c b l c
+c l c b l v
+c l c b l l
+c l c b l b
+c l c b r c
+c l c b r v
+c l c b r r
+c l c b r b
+c l c b b c
+c l c b b v
+c l c b b l
+c l c b b r
+c l c b b b
+c l v c c c
+c l v c c v
+c l v c c l
+c l v c c b
+c l v c v c
+c l v c v v
+c l v c v l
+c l v c v b
+c l v c l c
+c l v c l v
+c l v c l l
+c l v c l b
+c l v c b c
+c l v c b v
+c l v c b l
+c l v c b r
+c l v c b b
+c l v v c c
+c l v v c v
+c l v v c l
+c l v v c b
+c l v v v c
+c l v v v v
+c l v v v l
+c l v v v b
+c l v v l c
+c l v v l v
+c l v v l l
+c l v v l b
+c l v v b c
+c l v v b v
+c l v v b l
+c l v v b r
+c l v v b b
+c l v l c c
+c l v l c v
+c l v l c l
+c l v l c b
+c l v l v c
+c l v l v v
+c l v l v l
+c l v l v b
+c l v l l c
+c l v l l v
+c l v l l l
+c l v l l b
+c l v l b c
+c l v l b v
+c l v l b l
+c l v l b r
+c l v l b b
+c l v b c c
+c l v b c v
+c l v b c l
+c l v b c r
+c l v b c b
+c l v b v c
+c l v b v v
+c l v b v l
+c l v b v r
+c l v b v b
+c l v b l c
+c l v b l v
+c l v b l l
+c l v b l b
+c l v b r c
+c l v b r v
+c l v b r r
+c l v b r b
+c l v b b c
+c l v b b v
+c l v b b l
+c l v b b r
+c l v b b b
+c l l c c c
+c l l c c v
+c l l c c l
+c l l c c b
+c l l c v c
+c l l c v v
+c l l c v l
+c l l c v b
+c l l c l c
+c l l c l v
+c l l c l l
+c l l c l b
+c l l c b c
+c l l c b v
+c l l c b l
+c l l c b r
+c l l c b b
+c l l v c c
+c l l v c v
+c l l v c l
+c l l v c b
+c l l v v c
+c l l v v v
+c l l v v l
+c l l v v b
+c l l v l c
+c l l v l v
+c l l v l l
+c l l v l b
+c l l v b c
+c l l v b v
+c l l v b l
+c l l v b r
+c l l v b b
+c l l l c c
+c l l l c v
+c l l l c l
+c l l l c b
+c l l l v c
+c l l l v v
+c l l l v l
+c l l l v b
+c l l l l c
+c l l l l v
+c l l l l l
+c l l l l b
+c l l l b c
+c l l l b v
+c l l l b l
+c l l l b r
+c l l l b b
+c l l b c c
+c l l b c v
+c l l b c l
+c l l b c r
+c l l b c b
+c l l b v c
+c l l b v v
+c l l b v l
+c l l b v r
+c l l b v b
+c l l b l c
+c l l b l v
+c l l b l l
+c l l b l b
+c l l b r c
+c l l b r v
+c l l b r r
+c l l b r b
+c l l b b c
+c l l b b v
+c l l b b l
+c l l b b r
+c l l b b b
+c l b c c c
+c l b c c v
+c l b c c l
+c l b c c r
+c l b c c b
+c l b c v c
+c l b c v v
+c l b c v l
+c l b c v r
+c l b c v b
+c l b c l c
+c l b c l v
+c l b c l l
+c l b c l b
+c l b c r c
+c l b c r v
+c l b c r r
+c l b c r b
+c l b c b c
+c l b c b v
+c l b c b l
+c l b c b r
+c l b c b b
+c l b v c c
+c l b v c v
+c l b v c l
+c l b v c r
+c l b v c b
+c l b v v c
+c l b v v v
+c l b v v l
+c l b v v r
+c l b v v b
+c l b v l c
+c l b v l v
+c l b v l l
+c l b v l b
+c l b v r c
+c l b v r v
+c l b v r r
+c l b v r b
+c l b v b c
+c l b v b v
+c l b v b l
+c l b v b r
+c l b v b b
+c l b l c c
+c l b l c v
+c l b l c l
+c l b l c b
+c l b l v c
+c l b l v v
+c l b l v l
+c l b l v b
+c l b l l c
+c l b l l v
+c l b l l l
+c l b l l b
+c l b l b c
+c l b l b v
+c l b l b l
+c l b l b r
+c l b l b b
+c l b r c c
+c l b r c v
+c l b r c r
+c l b r c b
+c l b r v c
+c l b r v v
+c l b r v r
+c l b r v b
+c l b r r c
+c l b r r v
+c l b r r r
+c l b r r b
+c l b r b c
+c l b r b v
+c l b r b l
+c l b r b r
+c l b r b b
+c l b b c c
+c l b b c v
+c l b b c l
+c l b b c r
+c l b b c b
+c l b b v c
+c l b b v v
+c l b b v l
+c l b b v r
+c l b b v b
+c l b b l c
+c l b b l v
+c l b b l l
+c l b b l b
+c l b b r c
+c l b b r v
+c l b b r r
+c l b b r b
+c l b b b c
+c l b b b v
+c l b b b l
+c l b b b r
+c l b b b b
+c r c c c c
+c r c c c v
+c r c c c r
+c r c c c b
+c r c c v c
+c r c c v v
+c r c c v r
+c r c c v b
+c r c c r c
+c r c c r v
+c r c c r r
+c r c c r b
+c r c c b c
+c r c c b v
+c r c c b l
+c r c c b r
+c r c c b b
+c r c v c c
+c r c v c v
+c r c v c r
+c r c v c b
+c r c v v c
+c r c v v v
+c r c v v r
+c r c v v b
+c r c v r c
+c r c v r v
+c r c v r r
+c r c v r b
+c r c v b c
+c r c v b v
+c r c v b l
+c r c v b r
+c r c v b b
+c r c r c c
+c r c r c v
+c r c r c r
+c r c r c b
+c r c r v c
+c r c r v v
+c r c r v r
+c r c r v b
+c r c r r c
+c r c r r v
+c r c r r r
+c r c r r b
+c r c r b c
+c r c r b v
+c r c r b l
+c r c r b r
+c r c r b b
+c r c b c c
+c r c b c v
+c r c b c l
+c r c b c r
+c r c b c b
+c r c b v c
+c r c b v v
+c r c b v l
+c r c b v r
+c r c b v b
+c r c b l c
+c r c b l v
+c r c b l l
+c r c b l b
+c r c b r c
+c r c b r v
+c r c b r r
+c r c b r b
+c r c b b c
+c r c b b v
+c r c b b l
+c r c b b r
+c r c b b b
+c r v c c c
+c r v c c v
+c r v c c r
+c r v c c b
+c r v c v c
+c r v c v v
+c r v c v r
+c r v c v b
+c r v c r c
+c r v c r v
+c r v c r r
+c r v c r b
+c r v c b c
+c r v c b v
+c r v c b l
+c r v c b r
+c r v c b b
+c r v v c c
+c r v v c v
+c r v v c r
+c r v v c b
+c r v v v c
+c r v v v v
+c r v v v r
+c r v v v b
+c r v v r c
+c r v v r v
+c r v v r r
+c r v v r b
+c r v v b c
+c r v v b v
+c r v v b l
+c r v v b r
+c r v v b b
+c r v r c c
+c r v r c v
+c r v r c r
+c r v r c b
+c r v r v c
+c r v r v v
+c r v r v r
+c r v r v b
+c r v r r c
+c r v r r v
+c r v r r r
+c r v r r b
+c r v r b c
+c r v r b v
+c r v r b l
+c r v r b r
+c r v r b b
+c r v b c c
+c r v b c v
+c r v b c l
+c r v b c r
+c r v b c b
+c r v b v c
+c r v b v v
+c r v b v l
+c r v b v r
+c r v b v b
+c r v b l c
+c r v b l v
+c r v b l l
+c r v b l b
+c r v b r c
+c r v b r v
+c r v b r r
+c r v b r b
+c r v b b c
+c r v b b v
+c r v b b l
+c r v b b r
+c r v b b b
+c r r c c c
+c r r c c v
+c r r c c r
+c r r c c b
+c r r c v c
+c r r c v v
+c r r c v r
+c r r c v b
+c r r c r c
+c r r c r v
+c r r c r r
+c r r c r b
+c r r c b c
+c r r c b v
+c r r c b l
+c r r c b r
+c r r c b b
+c r r v c c
+c r r v c v
+c r r v c r
+c r r v c b
+c r r v v c
+c r r v v v
+c r r v v r
+c r r v v b
+c r r v r c
+c r r v r v
+c r r v r r
+c r r v r b
+c r r v b c
+c r r v b v
+c r r v b l
+c r r v b r
+c r r v b b
+c r r r c c
+c r r r c v
+c r r r c r
+c r r r c b
+c r r r v c
+c r r r v v
+c r r r v r
+c r r r v b
+c r r r r c
+c r r r r v
+c r r r r r
+c r r r r b
+c r r r b c
+c r r r b v
+c r r r b l
+c r r r b r
+c r r r b b
+c r r b c c
+c r r b c v
+c r r b c l
+c r r b c r
+c r r b c b
+c r r b v c
+c r r b v v
+c r r b v l
+c r r b v r
+c r r b v b
+c r r b l c
+c r r b l v
+c r r b l l
+c r r b l b
+c r r b r c
+c r r b r v
+c r r b r r
+c r r b r b
+c r r b b c
+c r r b b v
+c r r b b l
+c r r b b r
+c r r b b b
+c r b c c c
+c r b c c v
+c r b c c l
+c r b c c r
+c r b c c b
+c r b c v c
+c r b c v v
+c r b c v l
+c r b c v r
+c r b c v b
+c r b c l c
+c r b c l v
+c r b c l l
+c r b c l b
+c r b c r c
+c r b c r v
+c r b c r r
+c r b c r b
+c r b c b c
+c r b c b v
+c r b c b l
+c r b c b r
+c r b c b b
+c r b v c c
+c r b v c v
+c r b v c l
+c r b v c r
+c r b v c b
+c r b v v c
+c r b v v v
+c r b v v l
+c r b v v r
+c r b v v b
+c r b v l c
+c r b v l v
+c r b v l l
+c r b v l b
+c r b v r c
+c r b v r v
+c r b v r r
+c r b v r b
+c r b v b c
+c r b v b v
+c r b v b l
+c r b v b r
+c r b v b b
+c r b l c c
+c r b l c v
+c r b l c l
+c r b l c b
+c r b l v c
+c r b l v v
+c r b l v l
+c r b l v b
+c r b l l c
+c r b l l v
+c r b l l l
+c r b l l b
+c r b l b c
+c r b l b v
+c r b l b l
+c r b l b r
+c r b l b b
+c r b r c c
+c r b r c v
+c r b r c r
+c r b r c b
+c r b r v c
+c r b r v v
+c r b r v r
+c r b r v b
+c r b r r c
+c r b r r v
+c r b r r r
+c r b r r b
+c r b r b c
+c r b r b v
+c r b r b l
+c r b r b r
+c r b r b b
+c r b b c c
+c r b b c v
+c r b b c l
+c r b b c r
+c r b b c b
+c r b b v c
+c r b b v v
+c r b b v l
+c r b b v r
+c r b b v b
+c r b b l c
+c r b b l v
+c r b b l l
+c r b b l b
+c r b b r c
+c r b b r v
+c r b b r r
+c r b b r b
+c r b b b c
+c r b b b v
+c r b b b l
+c r b b b r
+c r b b b b
+c b c c c c
+c b c c c v
+c b c c c l
+c b c c c r
+c b c c c b
+c b c c v c
+c b c c v v
+c b c c v l
+c b c c v r
+c b c c v b
+c b c c l c
+c b c c l v
+c b c c l l
+c b c c l b
+c b c c r c
+c b c c r v
+c b c c r r
+c b c c r b
+c b c c b c
+c b c c b v
+c b c c b l
+c b c c b r
+c b c c b b
+c b c v c c
+c b c v c v
+c b c v c l
+c b c v c r
+c b c v c b
+c b c v v c
+c b c v v v
+c b c v v l
+c b c v v r
+c b c v v b
+c b c v l c
+c b c v l v
+c b c v l l
+c b c v l b
+c b c v r c
+c b c v r v
+c b c v r r
+c b c v r b
+c b c v b c
+c b c v b v
+c b c v b l
+c b c v b r
+c b c v b b
+c b c l c c
+c b c l c v
+c b c l c l
+c b c l c b
+c b c l v c
+c b c l v v
+c b c l v l
+c b c l v b
+c b c l l c
+c b c l l v
+c b c l l l
+c b c l l b
+c b c l b c
+c b c l b v
+c b c l b l
+c b c l b r
+c b c l b b
+c b c r c c
+c b c r c v
+c b c r c r
+c b c r c b
+c b c r v c
+c b c r v v
+c b c r v r
+c b c r v b
+c b c r r c
+c b c r r v
+c b c r r r
+c b c r r b
+c b c r b c
+c b c r b v
+c b c r b l
+c b c r b r
+c b c r b b
+c b c b c c
+c b c b c v
+c b c b c l
+c b c b c r
+c b c b c b
+c b c b v c
+c b c b v v
+c b c b v l
+c b c b v r
+c b c b v b
+c b c b l c
+c b c b l v
+c b c b l l
+c b c b l b
+c b c b r c
+c b c b r v
+c b c b r r
+c b c b r b
+c b c b b c
+c b c b b v
+c b c b b l
+c b c b b r
+c b c b b b
+c b v c c c
+c b v c c v
+c b v c c l
+c b v c c r
+c b v c c b
+c b v c v c
+c b v c v v
+c b v c v l
+c b v c v r
+c b v c v b
+c b v c l c
+c b v c l v
+c b v c l l
+c b v c l b
+c b v c r c
+c b v c r v
+c b v c r r
+c b v c r b
+c b v c b c
+c b v c b v
+c b v c b l
+c b v c b r
+c b v c b b
+c b v v c c
+c b v v c v
+c b v v c l
+c b v v c r
+c b v v c b
+c b v v v c
+c b v v v v
+c b v v v l
+c b v v v r
+c b v v v b
+c b v v l c
+c b v v l v
+c b v v l l
+c b v v l b
+c b v v r c
+c b v v r v
+c b v v r r
+c b v v r b
+c b v v b c
+c b v v b v
+c b v v b l
+c b v v b r
+c b v v b b
+c b v l c c
+c b v l c v
+c b v l c l
+c b v l c b
+c b v l v c
+c b v l v v
+c b v l v l
+c b v l v b
+c b v l l c
+c b v l l v
+c b v l l l
+c b v l l b
+c b v l b c
+c b v l b v
+c b v l b l
+c b v l b r
+c b v l b b
+c b v r c c
+c b v r c v
+c b v r c r
+c b v r c b
+c b v r v c
+c b v r v v
+c b v r v r
+c b v r v b
+c b v r r c
+c b v r r v
+c b v r r r
+c b v r r b
+c b v r b c
+c b v r b v
+c b v r b l
+c b v r b r
+c b v r b b
+c b v b c c
+c b v b c v
+c b v b c l
+c b v b c r
+c b v b c b
+c b v b v c
+c b v b v v
+c b v b v l
+c b v b v r
+c b v b v b
+c b v b l c
+c b v b l v
+c b v b l l
+c b v b l b
+c b v b r c
+c b v b r v
+c b v b r r
+c b v b r b
+c b v b b c
+c b v b b v
+c b v b b l
+c b v b b r
+c b v b b b
+c b l c c c
+c b l c c v
+c b l c c l
+c b l c c b
+c b l c v c
+c b l c v v
+c b l c v l
+c b l c v b
+c b l c l c
+c b l c l v
+c b l c l l
+c b l c l b
+c b l c b c
+c b l c b v
+c b l c b l
+c b l c b r
+c b l c b b
+c b l v c c
+c b l v c v
+c b l v c l
+c b l v c b
+c b l v v c
+c b l v v v
+c b l v v l
+c b l v v b
+c b l v l c
+c b l v l v
+c b l v l l
+c b l v l b
+c b l v b c
+c b l v b v
+c b l v b l
+c b l v b r
+c b l v b b
+c b l l c c
+c b l l c v
+c b l l c l
+c b l l c b
+c b l l v c
+c b l l v v
+c b l l v l
+c b l l v b
+c b l l l c
+c b l l l v
+c b l l l l
+c b l l l b
+c b l l b c
+c b l l b v
+c b l l b l
+c b l l b r
+c b l l b b
+c b l b c c
+c b l b c v
+c b l b c l
+c b l b c r
+c b l b c b
+c b l b v c
+c b l b v v
+c b l b v l
+c b l b v r
+c b l b v b
+c b l b l c
+c b l b l v
+c b l b l l
+c b l b l b
+c b l b r c
+c b l b r v
+c b l b r r
+c b l b r b
+c b l b b c
+c b l b b v
+c b l b b l
+c b l b b r
+c b l b b b
+c b r c c c
+c b r c c v
+c b r c c r
+c b r c c b
+c b r c v c
+c b r c v v
+c b r c v r
+c b r c v b
+c b r c r c
+c b r c r v
+c b r c r r
+c b r c r b
+c b r c b c
+c b r c b v
+c b r c b l
+c b r c b r
+c b r c b b
+c b r v c c
+c b r v c v
+c b r v c r
+c b r v c b
+c b r v v c
+c b r v v v
+c b r v v r
+c b r v v b
+c b r v r c
+c b r v r v
+c b r v r r
+c b r v r b
+c b r v b c
+c b r v b v
+c b r v b l
+c b r v b r
+c b r v b b
+c b r r c c
+c b r r c v
+c b r r c r
+c b r r c b
+c b r r v c
+c b r r v v
+c b r r v r
+c b r r v b
+c b r r r c
+c b r r r v
+c b r r r r
+c b r r r b
+c b r r b c
+c b r r b v
+c b r r b l
+c b r r b r
+c b r r b b
+c b r b c c
+c b r b c v
+c b r b c l
+c b r b c r
+c b r b c b
+c b r b v c
+c b r b v v
+c b r b v l
+c b r b v r
+c b r b v b
+c b r b l c
+c b r b l v
+c b r b l l
+c b r b l b
+c b r b r c
+c b r b r v
+c b r b r r
+c b r b r b
+c b r b b c
+c b r b b v
+c b r b b l
+c b r b b r
+c b r b b b
+c b b c c c
+c b b c c v
+c b b c c l
+c b b c c r
+c b b c c b
+c b b c v c
+c b b c v v
+c b b c v l
+c b b c v r
+c b b c v b
+c b b c l c
+c b b c l v
+c b b c l l
+c b b c l b
+c b b c r c
+c b b c r v
+c b b c r r
+c b b c r b
+c b b c b c
+c b b c b v
+c b b c b l
+c b b c b r
+c b b c b b
+c b b v c c
+c b b v c v
+c b b v c l
+c b b v c r
+c b b v c b
+c b b v v c
+c b b v v v
+c b b v v l
+c b b v v r
+c b b v v b
+c b b v l c
+c b b v l v
+c b b v l l
+c b b v l b
+c b b v r c
+c b b v r v
+c b b v r r
+c b b v r b
+c b b v b c
+c b b v b v
+c b b v b l
+c b b v b r
+c b b v b b
+c b b l c c
+c b b l c v
+c b b l c l
+c b b l c b
+c b b l v c
+c b b l v v
+c b b l v l
+c b b l v b
+c b b l l c
+c b b l l v
+c b b l l l
+c b b l l b
+c b b l b c
+c b b l b v
+c b b l b l
+c b b l b r
+c b b l b b
+c b b r c c
+c b b r c v
+c b b r c r
+c b b r c b
+c b b r v c
+c b b r v v
+c b b r v r
+c b b r v b
+c b b r r c
+c b b r r v
+c b b r r r
+c b b r r b
+c b b r b c
+c b b r b v
+c b b r b l
+c b b r b r
+c b b r b b
+c b b b c c
+c b b b c v
+c b b b c l
+c b b b c r
+c b b b c b
+c b b b v c
+c b b b v v
+c b b b v l
+c b b b v r
+c b b b v b
+c b b b l c
+c b b b l v
+c b b b l l
+c b b b l b
+c b b b r c
+c b b b r v
+c b b b r r
+c b b b r b
+c b b b b c
+c b b b b v
+c b b b b l
+c b b b b r
+c b b b b b
+v c c c c c
+v c c c c v
+v c c c c l
+v c c c c r
+v c c c c b
+v c c c v c
+v c c c v v
+v c c c v l
+v c c c v r
+v c c c v b
+v c c c l c
+v c c c l v
+v c c c l l
+v c c c l b
+v c c c r c
+v c c c r v
+v c c c r r
+v c c c r b
+v c c c b c
+v c c c b v
+v c c c b l
+v c c c b r
+v c c c b b
+v c c v c c
+v c c v c v
+v c c v c l
+v c c v c r
+v c c v c b
+v c c v v c
+v c c v v v
+v c c v v l
+v c c v v r
+v c c v v b
+v c c v l c
+v c c v l v
+v c c v l l
+v c c v l b
+v c c v r c
+v c c v r v
+v c c v r r
+v c c v r b
+v c c v b c
+v c c v b v
+v c c v b l
+v c c v b r
+v c c v b b
+v c c l c c
+v c c l c v
+v c c l c l
+v c c l c b
+v c c l v c
+v c c l v v
+v c c l v l
+v c c l v b
+v c c l l c
+v c c l l v
+v c c l l l
+v c c l l b
+v c c l b c
+v c c l b v
+v c c l b l
+v c c l b r
+v c c l b b
+v c c r c c
+v c c r c v
+v c c r c r
+v c c r c b
+v c c r v c
+v c c r v v
+v c c r v r
+v c c r v b
+v c c r r c
+v c c r r v
+v c c r r r
+v c c r r b
+v c c r b c
+v c c r b v
+v c c r b l
+v c c r b r
+v c c r b b
+v c c b c c
+v c c b c v
+v c c b c l
+v c c b c r
+v c c b c b
+v c c b v c
+v c c b v v
+v c c b v l
+v c c b v r
+v c c b v b
+v c c b l c
+v c c b l v
+v c c b l l
+v c c b l b
+v c c b r c
+v c c b r v
+v c c b r r
+v c c b r b
+v c c b b c
+v c c b b v
+v c c b b l
+v c c b b r
+v c c b b b
+v c v c c c
+v c v c c v
+v c v c c l
+v c v c c r
+v c v c c b
+v c v c v c
+v c v c v v
+v c v c v l
+v c v c v r
+v c v c v b
+v c v c l c
+v c v c l v
+v c v c l l
+v c v c l b
+v c v c r c
+v c v c r v
+v c v c r r
+v c v c r b
+v c v c b c
+v c v c b v
+v c v c b l
+v c v c b r
+v c v c b b
+v c v v c c
+v c v v c v
+v c v v c l
+v c v v c r
+v c v v c b
+v c v v v c
+v c v v v v
+v c v v v l
+v c v v v r
+v c v v v b
+v c v v l c
+v c v v l v
+v c v v l l
+v c v v l b
+v c v v r c
+v c v v r v
+v c v v r r
+v c v v r b
+v c v v b c
+v c v v b v
+v c v v b l
+v c v v b r
+v c v v b b
+v c v l c c
+v c v l c v
+v c v l c l
+v c v l c b
+v c v l v c
+v c v l v v
+v c v l v l
+v c v l v b
+v c v l l c
+v c v l l v
+v c v l l l
+v c v l l b
+v c v l b c
+v c v l b v
+v c v l b l
+v c v l b r
+v c v l b b
+v c v r c c
+v c v r c v
+v c v r c r
+v c v r c b
+v c v r v c
+v c v r v v
+v c v r v r
+v c v r v b
+v c v r r c
+v c v r r v
+v c v r r r
+v c v r r b
+v c v r b c
+v c v r b v
+v c v r b l
+v c v r b r
+v c v r b b
+v c v b c c
+v c v b c v
+v c v b c l
+v c v b c r
+v c v b c b
+v c v b v c
+v c v b v v
+v c v b v l
+v c v b v r
+v c v b v b
+v c v b l c
+v c v b l v
+v c v b l l
+v c v b l b
+v c v b r c
+v c v b r v
+v c v b r r
+v c v b r b
+v c v b b c
+v c v b b v
+v c v b b l
+v c v b b r
+v c v b b b
+v c l c c c
+v c l c c v
+v c l c c l
+v c l c c b
+v c l c v c
+v c l c v v
+v c l c v l
+v c l c v b
+v c l c l c
+v c l c l v
+v c l c l l
+v c l c l b
+v c l c b c
+v c l c b v
+v c l c b l
+v c l c b r
+v c l c b b
+v c l v c c
+v c l v c v
+v c l v c l
+v c l v c b
+v c l v v c
+v c l v v v
+v c l v v l
+v c l v v b
+v c l v l c
+v c l v l v
+v c l v l l
+v c l v l b
+v c l v b c
+v c l v b v
+v c l v b l
+v c l v b r
+v c l v b b
+v c l l c c
+v c l l c v
+v c l l c l
+v c l l c b
+v c l l v c
+v c l l v v
+v c l l v l
+v c l l v b
+v c l l l c
+v c l l l v
+v c l l l l
+v c l l l b
+v c l l b c
+v c l l b v
+v c l l b l
+v c l l b r
+v c l l b b
+v c l b c c
+v c l b c v
+v c l b c l
+v c l b c r
+v c l b c b
+v c l b v c
+v c l b v v
+v c l b v l
+v c l b v r
+v c l b v b
+v c l b l c
+v c l b l v
+v c l b l l
+v c l b l b
+v c l b r c
+v c l b r v
+v c l b r r
+v c l b r b
+v c l b b c
+v c l b b v
+v c l b b l
+v c l b b r
+v c l b b b
+v c r c c c
+v c r c c v
+v c r c c r
+v c r c c b
+v c r c v c
+v c r c v v
+v c r c v r
+v c r c v b
+v c r c r c
+v c r c r v
+v c r c r r
+v c r c r b
+v c r c b c
+v c r c b v
+v c r c b l
+v c r c b r
+v c r c b b
+v c r v c c
+v c r v c v
+v c r v c r
+v c r v c b
+v c r v v c
+v c r v v v
+v c r v v r
+v c r v v b
+v c r v r c
+v c r v r v
+v c r v r r
+v c r v r b
+v c r v b c
+v c r v b v
+v c r v b l
+v c r v b r
+v c r v b b
+v c r r c c
+v c r r c v
+v c r r c r
+v c r r c b
+v c r r v c
+v c r r v v
+v c r r v r
+v c r r v b
+v c r r r c
+v c r r r v
+v c r r r r
+v c r r r b
+v c r r b c
+v c r r b v
+v c r r b l
+v c r r b r
+v c r r b b
+v c r b c c
+v c r b c v
+v c r b c l
+v c r b c r
+v c r b c b
+v c r b v c
+v c r b v v
+v c r b v l
+v c r b v r
+v c r b v b
+v c r b l c
+v c r b l v
+v c r b l l
+v c r b l b
+v c r b r c
+v c r b r v
+v c r b r r
+v c r b r b
+v c r b b c
+v c r b b v
+v c r b b l
+v c r b b r
+v c r b b b
+v c b c c c
+v c b c c v
+v c b c c l
+v c b c c r
+v c b c c b
+v c b c v c
+v c b c v v
+v c b c v l
+v c b c v r
+v c b c v b
+v c b c l c
+v c b c l v
+v c b c l l
+v c b c l b
+v c b c r c
+v c b c r v
+v c b c r r
+v c b c r b
+v c b c b c
+v c b c b v
+v c b c b l
+v c b c b r
+v c b c b b
+v c b v c c
+v c b v c v
+v c b v c l
+v c b v c r
+v c b v c b
+v c b v v c
+v c b v v v
+v c b v v l
+v c b v v r
+v c b v v b
+v c b v l c
+v c b v l v
+v c b v l l
+v c b v l b
+v c b v r c
+v c b v r v
+v c b v r r
+v c b v r b
+v c b v b c
+v c b v b v
+v c b v b l
+v c b v b r
+v c b v b b
+v c b l c c
+v c b l c v
+v c b l c l
+v c b l c b
+v c b l v c
+v c b l v v
+v c b l v l
+v c b l v b
+v c b l l c
+v c b l l v
+v c b l l l
+v c b l l b
+v c b l b c
+v c b l b v
+v c b l b l
+v c b l b r
+v c b l b b
+v c b r c c
+v c b r c v
+v c b r c r
+v c b r c b
+v c b r v c
+v c b r v v
+v c b r v r
+v c b r v b
+v c b r r c
+v c b r r v
+v c b r r r
+v c b r r b
+v c b r b c
+v c b r b v
+v c b r b l
+v c b r b r
+v c b r b b
+v c b b c c
+v c b b c v
+v c b b c l
+v c b b c r
+v c b b c b
+v c b b v c
+v c b b v v
+v c b b v l
+v c b b v r
+v c b b v b
+v c b b l c
+v c b b l v
+v c b b l l
+v c b b l b
+v c b b r c
+v c b b r v
+v c b b r r
+v c b b r b
+v c b b b c
+v c b b b v
+v c b b b l
+v c b b b r
+v c b b b b
+v v c c c c
+v v c c c v
+v v c c c l
+v v c c c r
+v v c c c b
+v v c c v c
+v v c c v v
+v v c c v l
+v v c c v r
+v v c c v b
+v v c c l c
+v v c c l v
+v v c c l l
+v v c c l b
+v v c c r c
+v v c c r v
+v v c c r r
+v v c c r b
+v v c c b c
+v v c c b v
+v v c c b l
+v v c c b r
+v v c c b b
+v v c v c c
+v v c v c v
+v v c v c l
+v v c v c r
+v v c v c b
+v v c v v c
+v v c v v v
+v v c v v l
+v v c v v r
+v v c v v b
+v v c v l c
+v v c v l v
+v v c v l l
+v v c v l b
+v v c v r c
+v v c v r v
+v v c v r r
+v v c v r b
+v v c v b c
+v v c v b v
+v v c v b l
+v v c v b r
+v v c v b b
+v v c l c c
+v v c l c v
+v v c l c l
+v v c l c b
+v v c l v c
+v v c l v v
+v v c l v l
+v v c l v b
+v v c l l c
+v v c l l v
+v v c l l l
+v v c l l b
+v v c l b c
+v v c l b v
+v v c l b l
+v v c l b r
+v v c l b b
+v v c r c c
+v v c r c v
+v v c r c r
+v v c r c b
+v v c r v c
+v v c r v v
+v v c r v r
+v v c r v b
+v v c r r c
+v v c r r v
+v v c r r r
+v v c r r b
+v v c r b c
+v v c r b v
+v v c r b l
+v v c r b r
+v v c r b b
+v v c b c c
+v v c b c v
+v v c b c l
+v v c b c r
+v v c b c b
+v v c b v c
+v v c b v v
+v v c b v l
+v v c b v r
+v v c b v b
+v v c b l c
+v v c b l v
+v v c b l l
+v v c b l b
+v v c b r c
+v v c b r v
+v v c b r r
+v v c b r b
+v v c b b c
+v v c b b v
+v v c b b l
+v v c b b r
+v v c b b b
+v v v c c c
+v v v c c v
+v v v c c l
+v v v c c r
+v v v c c b
+v v v c v c
+v v v c v v
+v v v c v l
+v v v c v r
+v v v c v b
+v v v c l c
+v v v c l v
+v v v c l l
+v v v c l b
+v v v c r c
+v v v c r v
+v v v c r r
+v v v c r b
+v v v c b c
+v v v c b v
+v v v c b l
+v v v c b r
+v v v c b b
+v v v v c c
+v v v v c v
+v v v v c l
+v v v v c r
+v v v v c b
+v v v v v c
+v v v v v v
+v v v v v l
+v v v v v r
+v v v v v b
+v v v v l c
+v v v v l v
+v v v v l l
+v v v v l b
+v v v v r c
+v v v v r v
+v v v v r r
+v v v v r b
+v v v v b c
+v v v v b v
+v v v v b l
+v v v v b r
+v v v v b b
+v v v l c c
+v v v l c v
+v v v l c l
+v v v l c b
+v v v l v c
+v v v l v v
+v v v l v l
+v v v l v b
+v v v l l c
+v v v l l v
+v v v l l l
+v v v l l b
+v v v l b c
+v v v l b v
+v v v l b l
+v v v l b r
+v v v l b b
+v v v r c c
+v v v r c v
+v v v r c r
+v v v r c b
+v v v r v c
+v v v r v v
+v v v r v r
+v v v r v b
+v v v r r c
+v v v r r v
+v v v r r r
+v v v r r b
+v v v r b c
+v v v r b v
+v v v r b l
+v v v r b r
+v v v r b b
+v v v b c c
+v v v b c v
+v v v b c l
+v v v b c r
+v v v b c b
+v v v b v c
+v v v b v v
+v v v b v l
+v v v b v r
+v v v b v b
+v v v b l c
+v v v b l v
+v v v b l l
+v v v b l b
+v v v b r c
+v v v b r v
+v v v b r r
+v v v b r b
+v v v b b c
+v v v b b v
+v v v b b l
+v v v b b r
+v v v b b b
+v v l c c c
+v v l c c v
+v v l c c l
+v v l c c b
+v v l c v c
+v v l c v v
+v v l c v l
+v v l c v b
+v v l c l c
+v v l c l v
+v v l c l l
+v v l c l b
+v v l c b c
+v v l c b v
+v v l c b l
+v v l c b r
+v v l c b b
+v v l v c c
+v v l v c v
+v v l v c l
+v v l v c b
+v v l v v c
+v v l v v v
+v v l v v l
+v v l v v b
+v v l v l c
+v v l v l v
+v v l v l l
+v v l v l b
+v v l v b c
+v v l v b v
+v v l v b l
+v v l v b r
+v v l v b b
+v v l l c c
+v v l l c v
+v v l l c l
+v v l l c b
+v v l l v c
+v v l l v v
+v v l l v l
+v v l l v b
+v v l l l c
+v v l l l v
+v v l l l l
+v v l l l b
+v v l l b c
+v v l l b v
+v v l l b l
+v v l l b r
+v v l l b b
+v v l b c c
+v v l b c v
+v v l b c l
+v v l b c r
+v v l b c b
+v v l b v c
+v v l b v v
+v v l b v l
+v v l b v r
+v v l b v b
+v v l b l c
+v v l b l v
+v v l b l l
+v v l b l b
+v v l b r c
+v v l b r v
+v v l b r r
+v v l b r b
+v v l b b c
+v v l b b v
+v v l b b l
+v v l b b r
+v v l b b b
+v v r c c c
+v v r c c v
+v v r c c r
+v v r c c b
+v v r c v c
+v v r c v v
+v v r c v r
+v v r c v b
+v v r c r c
+v v r c r v
+v v r c r r
+v v r c r b
+v v r c b c
+v v r c b v
+v v r c b l
+v v r c b r
+v v r c b b
+v v r v c c
+v v r v c v
+v v r v c r
+v v r v c b
+v v r v v c
+v v r v v v
+v v r v v r
+v v r v v b
+v v r v r c
+v v r v r v
+v v r v r r
+v v r v r b
+v v r v b c
+v v r v b v
+v v r v b l
+v v r v b r
+v v r v b b
+v v r r c c
+v v r r c v
+v v r r c r
+v v r r c b
+v v r r v c
+v v r r v v
+v v r r v r
+v v r r v b
+v v r r r c
+v v r r r v
+v v r r r r
+v v r r r b
+v v r r b c
+v v r r b v
+v v r r b l
+v v r r b r
+v v r r b b
+v v r b c c
+v v r b c v
+v v r b c l
+v v r b c r
+v v r b c b
+v v r b v c
+v v r b v v
+v v r b v l
+v v r b v r
+v v r b v b
+v v r b l c
+v v r b l v
+v v r b l l
+v v r b l b
+v v r b r c
+v v r b r v
+v v r b r r
+v v r b r b
+v v r b b c
+v v r b b v
+v v r b b l
+v v r b b r
+v v r b b b
+v v b c c c
+v v b c c v
+v v b c c l
+v v b c c r
+v v b c c b
+v v b c v c
+v v b c v v
+v v b c v l
+v v b c v r
+v v b c v b
+v v b c l c
+v v b c l v
+v v b c l l
+v v b c l b
+v v b c r c
+v v b c r v
+v v b c r r
+v v b c r b
+v v b c b c
+v v b c b v
+v v b c b l
+v v b c b r
+v v b c b b
+v v b v c c
+v v b v c v
+v v b v c l
+v v b v c r
+v v b v c b
+v v b v v c
+v v b v v v
+v v b v v l
+v v b v v r
+v v b v v b
+v v b v l c
+v v b v l v
+v v b v l l
+v v b v l b
+v v b v r c
+v v b v r v
+v v b v r r
+v v b v r b
+v v b v b c
+v v b v b v
+v v b v b l
+v v b v b r
+v v b v b b
+v v b l c c
+v v b l c v
+v v b l c l
+v v b l c b
+v v b l v c
+v v b l v v
+v v b l v l
+v v b l v b
+v v b l l c
+v v b l l v
+v v b l l l
+v v b l l b
+v v b l b c
+v v b l b v
+v v b l b l
+v v b l b r
+v v b l b b
+v v b r c c
+v v b r c v
+v v b r c r
+v v b r c b
+v v b r v c
+v v b r v v
+v v b r v r
+v v b r v b
+v v b r r c
+v v b r r v
+v v b r r r
+v v b r r b
+v v b r b c
+v v b r b v
+v v b r b l
+v v b r b r
+v v b r b b
+v v b b c c
+v v b b c v
+v v b b c l
+v v b b c r
+v v b b c b
+v v b b v c
+v v b b v v
+v v b b v l
+v v b b v r
+v v b b v b
+v v b b l c
+v v b b l v
+v v b b l l
+v v b b l b
+v v b b r c
+v v b b r v
+v v b b r r
+v v b b r b
+v v b b b c
+v v b b b v
+v v b b b l
+v v b b b r
+v v b b b b
+v l c c c c
+v l c c c v
+v l c c c l
+v l c c c b
+v l c c v c
+v l c c v v
+v l c c v l
+v l c c v b
+v l c c l c
+v l c c l v
+v l c c l l
+v l c c l b
+v l c c b c
+v l c c b v
+v l c c b l
+v l c c b r
+v l c c b b
+v l c v c c
+v l c v c v
+v l c v c l
+v l c v c b
+v l c v v c
+v l c v v v
+v l c v v l
+v l c v v b
+v l c v l c
+v l c v l v
+v l c v l l
+v l c v l b
+v l c v b c
+v l c v b v
+v l c v b l
+v l c v b r
+v l c v b b
+v l c l c c
+v l c l c v
+v l c l c l
+v l c l c b
+v l c l v c
+v l c l v v
+v l c l v l
+v l c l v b
+v l c l l c
+v l c l l v
+v l c l l l
+v l c l l b
+v l c l b c
+v l c l b v
+v l c l b l
+v l c l b r
+v l c l b b
+v l c b c c
+v l c b c v
+v l c b c l
+v l c b c r
+v l c b c b
+v l c b v c
+v l c b v v
+v l c b v l
+v l c b v r
+v l c b v b
+v l c b l c
+v l c b l v
+v l c b l l
+v l c b l b
+v l c b r c
+v l c b r v
+v l c b r r
+v l c b r b
+v l c b b c
+v l c b b v
+v l c b b l
+v l c b b r
+v l c b b b
+v l v c c c
+v l v c c v
+v l v c c l
+v l v c c b
+v l v c v c
+v l v c v v
+v l v c v l
+v l v c v b
+v l v c l c
+v l v c l v
+v l v c l l
+v l v c l b
+v l v c b c
+v l v c b v
+v l v c b l
+v l v c b r
+v l v c b b
+v l v v c c
+v l v v c v
+v l v v c l
+v l v v c b
+v l v v v c
+v l v v v v
+v l v v v l
+v l v v v b
+v l v v l c
+v l v v l v
+v l v v l l
+v l v v l b
+v l v v b c
+v l v v b v
+v l v v b l
+v l v v b r
+v l v v b b
+v l v l c c
+v l v l c v
+v l v l c l
+v l v l c b
+v l v l v c
+v l v l v v
+v l v l v l
+v l v l v b
+v l v l l c
+v l v l l v
+v l v l l l
+v l v l l b
+v l v l b c
+v l v l b v
+v l v l b l
+v l v l b r
+v l v l b b
+v l v b c c
+v l v b c v
+v l v b c l
+v l v b c r
+v l v b c b
+v l v b v c
+v l v b v v
+v l v b v l
+v l v b v r
+v l v b v b
+v l v b l c
+v l v b l v
+v l v b l l
+v l v b l b
+v l v b r c
+v l v b r v
+v l v b r r
+v l v b r b
+v l v b b c
+v l v b b v
+v l v b b l
+v l v b b r
+v l v b b b
+v l l c c c
+v l l c c v
+v l l c c l
+v l l c c b
+v l l c v c
+v l l c v v
+v l l c v l
+v l l c v b
+v l l c l c
+v l l c l v
+v l l c l l
+v l l c l b
+v l l c b c
+v l l c b v
+v l l c b l
+v l l c b r
+v l l c b b
+v l l v c c
+v l l v c v
+v l l v c l
+v l l v c b
+v l l v v c
+v l l v v v
+v l l v v l
+v l l v v b
+v l l v l c
+v l l v l v
+v l l v l l
+v l l v l b
+v l l v b c
+v l l v b v
+v l l v b l
+v l l v b r
+v l l v b b
+v l l l c c
+v l l l c v
+v l l l c l
+v l l l c b
+v l l l v c
+v l l l v v
+v l l l v l
+v l l l v b
+v l l l l c
+v l l l l v
+v l l l l l
+v l l l l b
+v l l l b c
+v l l l b v
+v l l l b l
+v l l l b r
+v l l l b b
+v l l b c c
+v l l b c v
+v l l b c l
+v l l b c r
+v l l b c b
+v l l b v c
+v l l b v v
+v l l b v l
+v l l b v r
+v l l b v b
+v l l b l c
+v l l b l v
+v l l b l l
+v l l b l b
+v l l b r c
+v l l b r v
+v l l b r r
+v l l b r b
+v l l b b c
+v l l b b v
+v l l b b l
+v l l b b r
+v l l b b b
+v l b c c c
+v l b c c v
+v l b c c l
+v l b c c r
+v l b c c b
+v l b c v c
+v l b c v v
+v l b c v l
+v l b c v r
+v l b c v b
+v l b c l c
+v l b c l v
+v l b c l l
+v l b c l b
+v l b c r c
+v l b c r v
+v l b c r r
+v l b c r b
+v l b c b c
+v l b c b v
+v l b c b l
+v l b c b r
+v l b c b b
+v l b v c c
+v l b v c v
+v l b v c l
+v l b v c r
+v l b v c b
+v l b v v c
+v l b v v v
+v l b v v l
+v l b v v r
+v l b v v b
+v l b v l c
+v l b v l v
+v l b v l l
+v l b v l b
+v l b v r c
+v l b v r v
+v l b v r r
+v l b v r b
+v l b v b c
+v l b v b v
+v l b v b l
+v l b v b r
+v l b v b b
+v l b l c c
+v l b l c v
+v l b l c l
+v l b l c b
+v l b l v c
+v l b l v v
+v l b l v l
+v l b l v b
+v l b l l c
+v l b l l v
+v l b l l l
+v l b l l b
+v l b l b c
+v l b l b v
+v l b l b l
+v l b l b r
+v l b l b b
+v l b r c c
+v l b r c v
+v l b r c r
+v l b r c b
+v l b r v c
+v l b r v v
+v l b r v r
+v l b r v b
+v l b r r c
+v l b r r v
+v l b r r r
+v l b r r b
+v l b r b c
+v l b r b v
+v l b r b l
+v l b r b r
+v l b r b b
+v l b b c c
+v l b b c v
+v l b b c l
+v l b b c r
+v l b b c b
+v l b b v c
+v l b b v v
+v l b b v l
+v l b b v r
+v l b b v b
+v l b b l c
+v l b b l v
+v l b b l l
+v l b b l b
+v l b b r c
+v l b b r v
+v l b b r r
+v l b b r b
+v l b b b c
+v l b b b v
+v l b b b l
+v l b b b r
+v l b b b b
+v r c c c c
+v r c c c v
+v r c c c r
+v r c c c b
+v r c c v c
+v r c c v v
+v r c c v r
+v r c c v b
+v r c c r c
+v r c c r v
+v r c c r r
+v r c c r b
+v r c c b c
+v r c c b v
+v r c c b l
+v r c c b r
+v r c c b b
+v r c v c c
+v r c v c v
+v r c v c r
+v r c v c b
+v r c v v c
+v r c v v v
+v r c v v r
+v r c v v b
+v r c v r c
+v r c v r v
+v r c v r r
+v r c v r b
+v r c v b c
+v r c v b v
+v r c v b l
+v r c v b r
+v r c v b b
+v r c r c c
+v r c r c v
+v r c r c r
+v r c r c b
+v r c r v c
+v r c r v v
+v r c r v r
+v r c r v b
+v r c r r c
+v r c r r v
+v r c r r r
+v r c r r b
+v r c r b c
+v r c r b v
+v r c r b l
+v r c r b r
+v r c r b b
+v r c b c c
+v r c b c v
+v r c b c l
+v r c b c r
+v r c b c b
+v r c b v c
+v r c b v v
+v r c b v l
+v r c b v r
+v r c b v b
+v r c b l c
+v r c b l v
+v r c b l l
+v r c b l b
+v r c b r c
+v r c b r v
+v r c b r r
+v r c b r b
+v r c b b c
+v r c b b v
+v r c b b l
+v r c b b r
+v r c b b b
+v r v c c c
+v r v c c v
+v r v c c r
+v r v c c b
+v r v c v c
+v r v c v v
+v r v c v r
+v r v c v b
+v r v c r c
+v r v c r v
+v r v c r r
+v r v c r b
+v r v c b c
+v r v c b v
+v r v c b l
+v r v c b r
+v r v c b b
+v r v v c c
+v r v v c v
+v r v v c r
+v r v v c b
+v r v v v c
+v r v v v v
+v r v v v r
+v r v v v b
+v r v v r c
+v r v v r v
+v r v v r r
+v r v v r b
+v r v v b c
+v r v v b v
+v r v v b l
+v r v v b r
+v r v v b b
+v r v r c c
+v r v r c v
+v r v r c r
+v r v r c b
+v r v r v c
+v r v r v v
+v r v r v r
+v r v r v b
+v r v r r c
+v r v r r v
+v r v r r r
+v r v r r b
+v r v r b c
+v r v r b v
+v r v r b l
+v r v r b r
+v r v r b b
+v r v b c c
+v r v b c v
+v r v b c l
+v r v b c r
+v r v b c b
+v r v b v c
+v r v b v v
+v r v b v l
+v r v b v r
+v r v b v b
+v r v b l c
+v r v b l v
+v r v b l l
+v r v b l b
+v r v b r c
+v r v b r v
+v r v b r r
+v r v b r b
+v r v b b c
+v r v b b v
+v r v b b l
+v r v b b r
+v r v b b b
+v r r c c c
+v r r c c v
+v r r c c r
+v r r c c b
+v r r c v c
+v r r c v v
+v r r c v r
+v r r c v b
+v r r c r c
+v r r c r v
+v r r c r r
+v r r c r b
+v r r c b c
+v r r c b v
+v r r c b l
+v r r c b r
+v r r c b b
+v r r v c c
+v r r v c v
+v r r v c r
+v r r v c b
+v r r v v c
+v r r v v v
+v r r v v r
+v r r v v b
+v r r v r c
+v r r v r v
+v r r v r r
+v r r v r b
+v r r v b c
+v r r v b v
+v r r v b l
+v r r v b r
+v r r v b b
+v r r r c c
+v r r r c v
+v r r r c r
+v r r r c b
+v r r r v c
+v r r r v v
+v r r r v r
+v r r r v b
+v r r r r c
+v r r r r v
+v r r r r r
+v r r r r b
+v r r r b c
+v r r r b v
+v r r r b l
+v r r r b r
+v r r r b b
+v r r b c c
+v r r b c v
+v r r b c l
+v r r b c r
+v r r b c b
+v r r b v c
+v r r b v v
+v r r b v l
+v r r b v r
+v r r b v b
+v r r b l c
+v r r b l v
+v r r b l l
+v r r b l b
+v r r b r c
+v r r b r v
+v r r b r r
+v r r b r b
+v r r b b c
+v r r b b v
+v r r b b l
+v r r b b r
+v r r b b b
+v r b c c c
+v r b c c v
+v r b c c l
+v r b c c r
+v r b c c b
+v r b c v c
+v r b c v v
+v r b c v l
+v r b c v r
+v r b c v b
+v r b c l c
+v r b c l v
+v r b c l l
+v r b c l b
+v r b c r c
+v r b c r v
+v r b c r r
+v r b c r b
+v r b c b c
+v r b c b v
+v r b c b l
+v r b c b r
+v r b c b b
+v r b v c c
+v r b v c v
+v r b v c l
+v r b v c r
+v r b v c b
+v r b v v c
+v r b v v v
+v r b v v l
+v r b v v r
+v r b v v b
+v r b v l c
+v r b v l v
+v r b v l l
+v r b v l b
+v r b v r c
+v r b v r v
+v r b v r r
+v r b v r b
+v r b v b c
+v r b v b v
+v r b v b l
+v r b v b r
+v r b v b b
+v r b l c c
+v r b l c v
+v r b l c l
+v r b l c b
+v r b l v c
+v r b l v v
+v r b l v l
+v r b l v b
+v r b l l c
+v r b l l v
+v r b l l l
+v r b l l b
+v r b l b c
+v r b l b v
+v r b l b l
+v r b l b r
+v r b l b b
+v r b r c c
+v r b r c v
+v r b r c r
+v r b r c b
+v r b r v c
+v r b r v v
+v r b r v r
+v r b r v b
+v r b r r c
+v r b r r v
+v r b r r r
+v r b r r b
+v r b r b c
+v r b r b v
+v r b r b l
+v r b r b r
+v r b r b b
+v r b b c c
+v r b b c v
+v r b b c l
+v r b b c r
+v r b b c b
+v r b b v c
+v r b b v v
+v r b b v l
+v r b b v r
+v r b b v b
+v r b b l c
+v r b b l v
+v r b b l l
+v r b b l b
+v r b b r c
+v r b b r v
+v r b b r r
+v r b b r b
+v r b b b c
+v r b b b v
+v r b b b l
+v r b b b r
+v r b b b b
+v b c c c c
+v b c c c v
+v b c c c l
+v b c c c r
+v b c c c b
+v b c c v c
+v b c c v v
+v b c c v l
+v b c c v r
+v b c c v b
+v b c c l c
+v b c c l v
+v b c c l l
+v b c c l b
+v b c c r c
+v b c c r v
+v b c c r r
+v b c c r b
+v b c c b c
+v b c c b v
+v b c c b l
+v b c c b r
+v b c c b b
+v b c v c c
+v b c v c v
+v b c v c l
+v b c v c r
+v b c v c b
+v b c v v c
+v b c v v v
+v b c v v l
+v b c v v r
+v b c v v b
+v b c v l c
+v b c v l v
+v b c v l l
+v b c v l b
+v b c v r c
+v b c v r v
+v b c v r r
+v b c v r b
+v b c v b c
+v b c v b v
+v b c v b l
+v b c v b r
+v b c v b b
+v b c l c c
+v b c l c v
+v b c l c l
+v b c l c b
+v b c l v c
+v b c l v v
+v b c l v l
+v b c l v b
+v b c l l c
+v b c l l v
+v b c l l l
+v b c l l b
+v b c l b c
+v b c l b v
+v b c l b l
+v b c l b r
+v b c l b b
+v b c r c c
+v b c r c v
+v b c r c r
+v b c r c b
+v b c r v c
+v b c r v v
+v b c r v r
+v b c r v b
+v b c r r c
+v b c r r v
+v b c r r r
+v b c r r b
+v b c r b c
+v b c r b v
+v b c r b l
+v b c r b r
+v b c r b b
+v b c b c c
+v b c b c v
+v b c b c l
+v b c b c r
+v b c b c b
+v b c b v c
+v b c b v v
+v b c b v l
+v b c b v r
+v b c b v b
+v b c b l c
+v b c b l v
+v b c b l l
+v b c b l b
+v b c b r c
+v b c b r v
+v b c b r r
+v b c b r b
+v b c b b c
+v b c b b v
+v b c b b l
+v b c b b r
+v b c b b b
+v b v c c c
+v b v c c v
+v b v c c l
+v b v c c r
+v b v c c b
+v b v c v c
+v b v c v v
+v b v c v l
+v b v c v r
+v b v c v b
+v b v c l c
+v b v c l v
+v b v c l l
+v b v c l b
+v b v c r c
+v b v c r v
+v b v c r r
+v b v c r b
+v b v c b c
+v b v c b v
+v b v c b l
+v b v c b r
+v b v c b b
+v b v v c c
+v b v v c v
+v b v v c l
+v b v v c r
+v b v v c b
+v b v v v c
+v b v v v v
+v b v v v l
+v b v v v r
+v b v v v b
+v b v v l c
+v b v v l v
+v b v v l l
+v b v v l b
+v b v v r c
+v b v v r v
+v b v v r r
+v b v v r b
+v b v v b c
+v b v v b v
+v b v v b l
+v b v v b r
+v b v v b b
+v b v l c c
+v b v l c v
+v b v l c l
+v b v l c b
+v b v l v c
+v b v l v v
+v b v l v l
+v b v l v b
+v b v l l c
+v b v l l v
+v b v l l l
+v b v l l b
+v b v l b c
+v b v l b v
+v b v l b l
+v b v l b r
+v b v l b b
+v b v r c c
+v b v r c v
+v b v r c r
+v b v r c b
+v b v r v c
+v b v r v v
+v b v r v r
+v b v r v b
+v b v r r c
+v b v r r v
+v b v r r r
+v b v r r b
+v b v r b c
+v b v r b v
+v b v r b l
+v b v r b r
+v b v r b b
+v b v b c c
+v b v b c v
+v b v b c l
+v b v b c r
+v b v b c b
+v b v b v c
+v b v b v v
+v b v b v l
+v b v b v r
+v b v b v b
+v b v b l c
+v b v b l v
+v b v b l l
+v b v b l b
+v b v b r c
+v b v b r v
+v b v b r r
+v b v b r b
+v b v b b c
+v b v b b v
+v b v b b l
+v b v b b r
+v b v b b b
+v b l c c c
+v b l c c v
+v b l c c l
+v b l c c b
+v b l c v c
+v b l c v v
+v b l c v l
+v b l c v b
+v b l c l c
+v b l c l v
+v b l c l l
+v b l c l b
+v b l c b c
+v b l c b v
+v b l c b l
+v b l c b r
+v b l c b b
+v b l v c c
+v b l v c v
+v b l v c l
+v b l v c b
+v b l v v c
+v b l v v v
+v b l v v l
+v b l v v b
+v b l v l c
+v b l v l v
+v b l v l l
+v b l v l b
+v b l v b c
+v b l v b v
+v b l v b l
+v b l v b r
+v b l v b b
+v b l l c c
+v b l l c v
+v b l l c l
+v b l l c b
+v b l l v c
+v b l l v v
+v b l l v l
+v b l l v b
+v b l l l c
+v b l l l v
+v b l l l l
+v b l l l b
+v b l l b c
+v b l l b v
+v b l l b l
+v b l l b r
+v b l l b b
+v b l b c c
+v b l b c v
+v b l b c l
+v b l b c r
+v b l b c b
+v b l b v c
+v b l b v v
+v b l b v l
+v b l b v r
+v b l b v b
+v b l b l c
+v b l b l v
+v b l b l l
+v b l b l b
+v b l b r c
+v b l b r v
+v b l b r r
+v b l b r b
+v b l b b c
+v b l b b v
+v b l b b l
+v b l b b r
+v b l b b b
+v b r c c c
+v b r c c v
+v b r c c r
+v b r c c b
+v b r c v c
+v b r c v v
+v b r c v r
+v b r c v b
+v b r c r c
+v b r c r v
+v b r c r r
+v b r c r b
+v b r c b c
+v b r c b v
+v b r c b l
+v b r c b r
+v b r c b b
+v b r v c c
+v b r v c v
+v b r v c r
+v b r v c b
+v b r v v c
+v b r v v v
+v b r v v r
+v b r v v b
+v b r v r c
+v b r v r v
+v b r v r r
+v b r v r b
+v b r v b c
+v b r v b v
+v b r v b l
+v b r v b r
+v b r v b b
+v b r r c c
+v b r r c v
+v b r r c r
+v b r r c b
+v b r r v c
+v b r r v v
+v b r r v r
+v b r r v b
+v b r r r c
+v b r r r v
+v b r r r r
+v b r r r b
+v b r r b c
+v b r r b v
+v b r r b l
+v b r r b r
+v b r r b b
+v b r b c c
+v b r b c v
+v b r b c l
+v b r b c r
+v b r b c b
+v b r b v c
+v b r b v v
+v b r b v l
+v b r b v r
+v b r b v b
+v b r b l c
+v b r b l v
+v b r b l l
+v b r b l b
+v b r b r c
+v b r b r v
+v b r b r r
+v b r b r b
+v b r b b c
+v b r b b v
+v b r b b l
+v b r b b r
+v b r b b b
+v b b c c c
+v b b c c v
+v b b c c l
+v b b c c r
+v b b c c b
+v b b c v c
+v b b c v v
+v b b c v l
+v b b c v r
+v b b c v b
+v b b c l c
+v b b c l v
+v b b c l l
+v b b c l b
+v b b c r c
+v b b c r v
+v b b c r r
+v b b c r b
+v b b c b c
+v b b c b v
+v b b c b l
+v b b c b r
+v b b c b b
+v b b v c c
+v b b v c v
+v b b v c l
+v b b v c r
+v b b v c b
+v b b v v c
+v b b v v v
+v b b v v l
+v b b v v r
+v b b v v b
+v b b v l c
+v b b v l v
+v b b v l l
+v b b v l b
+v b b v r c
+v b b v r v
+v b b v r r
+v b b v r b
+v b b v b c
+v b b v b v
+v b b v b l
+v b b v b r
+v b b v b b
+v b b l c c
+v b b l c v
+v b b l c l
+v b b l c b
+v b b l v c
+v b b l v v
+v b b l v l
+v b b l v b
+v b b l l c
+v b b l l v
+v b b l l l
+v b b l l b
+v b b l b c
+v b b l b v
+v b b l b l
+v b b l b r
+v b b l b b
+v b b r c c
+v b b r c v
+v b b r c r
+v b b r c b
+v b b r v c
+v b b r v v
+v b b r v r
+v b b r v b
+v b b r r c
+v b b r r v
+v b b r r r
+v b b r r b
+v b b r b c
+v b b r b v
+v b b r b l
+v b b r b r
+v b b r b b
+v b b b c c
+v b b b c v
+v b b b c l
+v b b b c r
+v b b b c b
+v b b b v c
+v b b b v v
+v b b b v l
+v b b b v r
+v b b b v b
+v b b b l c
+v b b b l v
+v b b b l l
+v b b b l b
+v b b b r c
+v b b b r v
+v b b b r r
+v b b b r b
+v b b b b c
+v b b b b v
+v b b b b l
+v b b b b r
+v b b b b b
+l c c c c c
+l c c c c v
+l c c c c l
+l c c c c b
+l c c c v c
+l c c c v v
+l c c c v l
+l c c c v b
+l c c c l c
+l c c c l v
+l c c c l l
+l c c c l b
+l c c c b c
+l c c c b v
+l c c c b l
+l c c c b r
+l c c c b b
+l c c v c c
+l c c v c v
+l c c v c l
+l c c v c b
+l c c v v c
+l c c v v v
+l c c v v l
+l c c v v b
+l c c v l c
+l c c v l v
+l c c v l l
+l c c v l b
+l c c v b c
+l c c v b v
+l c c v b l
+l c c v b r
+l c c v b b
+l c c l c c
+l c c l c v
+l c c l c l
+l c c l c b
+l c c l v c
+l c c l v v
+l c c l v l
+l c c l v b
+l c c l l c
+l c c l l v
+l c c l l l
+l c c l l b
+l c c l b c
+l c c l b v
+l c c l b l
+l c c l b r
+l c c l b b
+l c c b c c
+l c c b c v
+l c c b c l
+l c c b c r
+l c c b c b
+l c c b v c
+l c c b v v
+l c c b v l
+l c c b v r
+l c c b v b
+l c c b l c
+l c c b l v
+l c c b l l
+l c c b l b
+l c c b r c
+l c c b r v
+l c c b r r
+l c c b r b
+l c c b b c
+l c c b b v
+l c c b b l
+l c c b b r
+l c c b b b
+l c v c c c
+l c v c c v
+l c v c c l
+l c v c c b
+l c v c v c
+l c v c v v
+l c v c v l
+l c v c v b
+l c v c l c
+l c v c l v
+l c v c l l
+l c v c l b
+l c v c b c
+l c v c b v
+l c v c b l
+l c v c b r
+l c v c b b
+l c v v c c
+l c v v c v
+l c v v c l
+l c v v c b
+l c v v v c
+l c v v v v
+l c v v v l
+l c v v v b
+l c v v l c
+l c v v l v
+l c v v l l
+l c v v l b
+l c v v b c
+l c v v b v
+l c v v b l
+l c v v b r
+l c v v b b
+l c v l c c
+l c v l c v
+l c v l c l
+l c v l c b
+l c v l v c
+l c v l v v
+l c v l v l
+l c v l v b
+l c v l l c
+l c v l l v
+l c v l l l
+l c v l l b
+l c v l b c
+l c v l b v
+l c v l b l
+l c v l b r
+l c v l b b
+l c v b c c
+l c v b c v
+l c v b c l
+l c v b c r
+l c v b c b
+l c v b v c
+l c v b v v
+l c v b v l
+l c v b v r
+l c v b v b
+l c v b l c
+l c v b l v
+l c v b l l
+l c v b l b
+l c v b r c
+l c v b r v
+l c v b r r
+l c v b r b
+l c v b b c
+l c v b b v
+l c v b b l
+l c v b b r
+l c v b b b
+l c l c c c
+l c l c c v
+l c l c c l
+l c l c c b
+l c l c v c
+l c l c v v
+l c l c v l
+l c l c v b
+l c l c l c
+l c l c l v
+l c l c l l
+l c l c l b
+l c l c b c
+l c l c b v
+l c l c b l
+l c l c b r
+l c l c b b
+l c l v c c
+l c l v c v
+l c l v c l
+l c l v c b
+l c l v v c
+l c l v v v
+l c l v v l
+l c l v v b
+l c l v l c
+l c l v l v
+l c l v l l
+l c l v l b
+l c l v b c
+l c l v b v
+l c l v b l
+l c l v b r
+l c l v b b
+l c l l c c
+l c l l c v
+l c l l c l
+l c l l c b
+l c l l v c
+l c l l v v
+l c l l v l
+l c l l v b
+l c l l l c
+l c l l l v
+l c l l l l
+l c l l l b
+l c l l b c
+l c l l b v
+l c l l b l
+l c l l b r
+l c l l b b
+l c l b c c
+l c l b c v
+l c l b c l
+l c l b c r
+l c l b c b
+l c l b v c
+l c l b v v
+l c l b v l
+l c l b v r
+l c l b v b
+l c l b l c
+l c l b l v
+l c l b l l
+l c l b l b
+l c l b r c
+l c l b r v
+l c l b r r
+l c l b r b
+l c l b b c
+l c l b b v
+l c l b b l
+l c l b b r
+l c l b b b
+l c b c c c
+l c b c c v
+l c b c c l
+l c b c c r
+l c b c c b
+l c b c v c
+l c b c v v
+l c b c v l
+l c b c v r
+l c b c v b
+l c b c l c
+l c b c l v
+l c b c l l
+l c b c l b
+l c b c r c
+l c b c r v
+l c b c r r
+l c b c r b
+l c b c b c
+l c b c b v
+l c b c b l
+l c b c b r
+l c b c b b
+l c b v c c
+l c b v c v
+l c b v c l
+l c b v c r
+l c b v c b
+l c b v v c
+l c b v v v
+l c b v v l
+l c b v v r
+l c b v v b
+l c b v l c
+l c b v l v
+l c b v l l
+l c b v l b
+l c b v r c
+l c b v r v
+l c b v r r
+l c b v r b
+l c b v b c
+l c b v b v
+l c b v b l
+l c b v b r
+l c b v b b
+l c b l c c
+l c b l c v
+l c b l c l
+l c b l c b
+l c b l v c
+l c b l v v
+l c b l v l
+l c b l v b
+l c b l l c
+l c b l l v
+l c b l l l
+l c b l l b
+l c b l b c
+l c b l b v
+l c b l b l
+l c b l b r
+l c b l b b
+l c b r c c
+l c b r c v
+l c b r c r
+l c b r c b
+l c b r v c
+l c b r v v
+l c b r v r
+l c b r v b
+l c b r r c
+l c b r r v
+l c b r r r
+l c b r r b
+l c b r b c
+l c b r b v
+l c b r b l
+l c b r b r
+l c b r b b
+l c b b c c
+l c b b c v
+l c b b c l
+l c b b c r
+l c b b c b
+l c b b v c
+l c b b v v
+l c b b v l
+l c b b v r
+l c b b v b
+l c b b l c
+l c b b l v
+l c b b l l
+l c b b l b
+l c b b r c
+l c b b r v
+l c b b r r
+l c b b r b
+l c b b b c
+l c b b b v
+l c b b b l
+l c b b b r
+l c b b b b
+l v c c c c
+l v c c c v
+l v c c c l
+l v c c c b
+l v c c v c
+l v c c v v
+l v c c v l
+l v c c v b
+l v c c l c
+l v c c l v
+l v c c l l
+l v c c l b
+l v c c b c
+l v c c b v
+l v c c b l
+l v c c b r
+l v c c b b
+l v c v c c
+l v c v c v
+l v c v c l
+l v c v c b
+l v c v v c
+l v c v v v
+l v c v v l
+l v c v v b
+l v c v l c
+l v c v l v
+l v c v l l
+l v c v l b
+l v c v b c
+l v c v b v
+l v c v b l
+l v c v b r
+l v c v b b
+l v c l c c
+l v c l c v
+l v c l c l
+l v c l c b
+l v c l v c
+l v c l v v
+l v c l v l
+l v c l v b
+l v c l l c
+l v c l l v
+l v c l l l
+l v c l l b
+l v c l b c
+l v c l b v
+l v c l b l
+l v c l b r
+l v c l b b
+l v c b c c
+l v c b c v
+l v c b c l
+l v c b c r
+l v c b c b
+l v c b v c
+l v c b v v
+l v c b v l
+l v c b v r
+l v c b v b
+l v c b l c
+l v c b l v
+l v c b l l
+l v c b l b
+l v c b r c
+l v c b r v
+l v c b r r
+l v c b r b
+l v c b b c
+l v c b b v
+l v c b b l
+l v c b b r
+l v c b b b
+l v v c c c
+l v v c c v
+l v v c c l
+l v v c c b
+l v v c v c
+l v v c v v
+l v v c v l
+l v v c v b
+l v v c l c
+l v v c l v
+l v v c l l
+l v v c l b
+l v v c b c
+l v v c b v
+l v v c b l
+l v v c b r
+l v v c b b
+l v v v c c
+l v v v c v
+l v v v c l
+l v v v c b
+l v v v v c
+l v v v v v
+l v v v v l
+l v v v v b
+l v v v l c
+l v v v l v
+l v v v l l
+l v v v l b
+l v v v b c
+l v v v b v
+l v v v b l
+l v v v b r
+l v v v b b
+l v v l c c
+l v v l c v
+l v v l c l
+l v v l c b
+l v v l v c
+l v v l v v
+l v v l v l
+l v v l v b
+l v v l l c
+l v v l l v
+l v v l l l
+l v v l l b
+l v v l b c
+l v v l b v
+l v v l b l
+l v v l b r
+l v v l b b
+l v v b c c
+l v v b c v
+l v v b c l
+l v v b c r
+l v v b c b
+l v v b v c
+l v v b v v
+l v v b v l
+l v v b v r
+l v v b v b
+l v v b l c
+l v v b l v
+l v v b l l
+l v v b l b
+l v v b r c
+l v v b r v
+l v v b r r
+l v v b r b
+l v v b b c
+l v v b b v
+l v v b b l
+l v v b b r
+l v v b b b
+l v l c c c
+l v l c c v
+l v l c c l
+l v l c c b
+l v l c v c
+l v l c v v
+l v l c v l
+l v l c v b
+l v l c l c
+l v l c l v
+l v l c l l
+l v l c l b
+l v l c b c
+l v l c b v
+l v l c b l
+l v l c b r
+l v l c b b
+l v l v c c
+l v l v c v
+l v l v c l
+l v l v c b
+l v l v v c
+l v l v v v
+l v l v v l
+l v l v v b
+l v l v l c
+l v l v l v
+l v l v l l
+l v l v l b
+l v l v b c
+l v l v b v
+l v l v b l
+l v l v b r
+l v l v b b
+l v l l c c
+l v l l c v
+l v l l c l
+l v l l c b
+l v l l v c
+l v l l v v
+l v l l v l
+l v l l v b
+l v l l l c
+l v l l l v
+l v l l l l
+l v l l l b
+l v l l b c
+l v l l b v
+l v l l b l
+l v l l b r
+l v l l b b
+l v l b c c
+l v l b c v
+l v l b c l
+l v l b c r
+l v l b c b
+l v l b v c
+l v l b v v
+l v l b v l
+l v l b v r
+l v l b v b
+l v l b l c
+l v l b l v
+l v l b l l
+l v l b l b
+l v l b r c
+l v l b r v
+l v l b r r
+l v l b r b
+l v l b b c
+l v l b b v
+l v l b b l
+l v l b b r
+l v l b b b
+l v b c c c
+l v b c c v
+l v b c c l
+l v b c c r
+l v b c c b
+l v b c v c
+l v b c v v
+l v b c v l
+l v b c v r
+l v b c v b
+l v b c l c
+l v b c l v
+l v b c l l
+l v b c l b
+l v b c r c
+l v b c r v
+l v b c r r
+l v b c r b
+l v b c b c
+l v b c b v
+l v b c b l
+l v b c b r
+l v b c b b
+l v b v c c
+l v b v c v
+l v b v c l
+l v b v c r
+l v b v c b
+l v b v v c
+l v b v v v
+l v b v v l
+l v b v v r
+l v b v v b
+l v b v l c
+l v b v l v
+l v b v l l
+l v b v l b
+l v b v r c
+l v b v r v
+l v b v r r
+l v b v r b
+l v b v b c
+l v b v b v
+l v b v b l
+l v b v b r
+l v b v b b
+l v b l c c
+l v b l c v
+l v b l c l
+l v b l c b
+l v b l v c
+l v b l v v
+l v b l v l
+l v b l v b
+l v b l l c
+l v b l l v
+l v b l l l
+l v b l l b
+l v b l b c
+l v b l b v
+l v b l b l
+l v b l b r
+l v b l b b
+l v b r c c
+l v b r c v
+l v b r c r
+l v b r c b
+l v b r v c
+l v b r v v
+l v b r v r
+l v b r v b
+l v b r r c
+l v b r r v
+l v b r r r
+l v b r r b
+l v b r b c
+l v b r b v
+l v b r b l
+l v b r b r
+l v b r b b
+l v b b c c
+l v b b c v
+l v b b c l
+l v b b c r
+l v b b c b
+l v b b v c
+l v b b v v
+l v b b v l
+l v b b v r
+l v b b v b
+l v b b l c
+l v b b l v
+l v b b l l
+l v b b l b
+l v b b r c
+l v b b r v
+l v b b r r
+l v b b r b
+l v b b b c
+l v b b b v
+l v b b b l
+l v b b b r
+l v b b b b
+l l c c c c
+l l c c c v
+l l c c c l
+l l c c c b
+l l c c v c
+l l c c v v
+l l c c v l
+l l c c v b
+l l c c l c
+l l c c l v
+l l c c l l
+l l c c l b
+l l c c b c
+l l c c b v
+l l c c b l
+l l c c b r
+l l c c b b
+l l c v c c
+l l c v c v
+l l c v c l
+l l c v c b
+l l c v v c
+l l c v v v
+l l c v v l
+l l c v v b
+l l c v l c
+l l c v l v
+l l c v l l
+l l c v l b
+l l c v b c
+l l c v b v
+l l c v b l
+l l c v b r
+l l c v b b
+l l c l c c
+l l c l c v
+l l c l c l
+l l c l c b
+l l c l v c
+l l c l v v
+l l c l v l
+l l c l v b
+l l c l l c
+l l c l l v
+l l c l l l
+l l c l l b
+l l c l b c
+l l c l b v
+l l c l b l
+l l c l b r
+l l c l b b
+l l c b c c
+l l c b c v
+l l c b c l
+l l c b c r
+l l c b c b
+l l c b v c
+l l c b v v
+l l c b v l
+l l c b v r
+l l c b v b
+l l c b l c
+l l c b l v
+l l c b l l
+l l c b l b
+l l c b r c
+l l c b r v
+l l c b r r
+l l c b r b
+l l c b b c
+l l c b b v
+l l c b b l
+l l c b b r
+l l c b b b
+l l v c c c
+l l v c c v
+l l v c c l
+l l v c c b
+l l v c v c
+l l v c v v
+l l v c v l
+l l v c v b
+l l v c l c
+l l v c l v
+l l v c l l
+l l v c l b
+l l v c b c
+l l v c b v
+l l v c b l
+l l v c b r
+l l v c b b
+l l v v c c
+l l v v c v
+l l v v c l
+l l v v c b
+l l v v v c
+l l v v v v
+l l v v v l
+l l v v v b
+l l v v l c
+l l v v l v
+l l v v l l
+l l v v l b
+l l v v b c
+l l v v b v
+l l v v b l
+l l v v b r
+l l v v b b
+l l v l c c
+l l v l c v
+l l v l c l
+l l v l c b
+l l v l v c
+l l v l v v
+l l v l v l
+l l v l v b
+l l v l l c
+l l v l l v
+l l v l l l
+l l v l l b
+l l v l b c
+l l v l b v
+l l v l b l
+l l v l b r
+l l v l b b
+l l v b c c
+l l v b c v
+l l v b c l
+l l v b c r
+l l v b c b
+l l v b v c
+l l v b v v
+l l v b v l
+l l v b v r
+l l v b v b
+l l v b l c
+l l v b l v
+l l v b l l
+l l v b l b
+l l v b r c
+l l v b r v
+l l v b r r
+l l v b r b
+l l v b b c
+l l v b b v
+l l v b b l
+l l v b b r
+l l v b b b
+l l l c c c
+l l l c c v
+l l l c c l
+l l l c c b
+l l l c v c
+l l l c v v
+l l l c v l
+l l l c v b
+l l l c l c
+l l l c l v
+l l l c l l
+l l l c l b
+l l l c b c
+l l l c b v
+l l l c b l
+l l l c b r
+l l l c b b
+l l l v c c
+l l l v c v
+l l l v c l
+l l l v c b
+l l l v v c
+l l l v v v
+l l l v v l
+l l l v v b
+l l l v l c
+l l l v l v
+l l l v l l
+l l l v l b
+l l l v b c
+l l l v b v
+l l l v b l
+l l l v b r
+l l l v b b
+l l l l c c
+l l l l c v
+l l l l c l
+l l l l c b
+l l l l v c
+l l l l v v
+l l l l v l
+l l l l v b
+l l l l l c
+l l l l l v
+l l l l l l
+l l l l l b
+l l l l b c
+l l l l b v
+l l l l b l
+l l l l b r
+l l l l b b
+l l l b c c
+l l l b c v
+l l l b c l
+l l l b c r
+l l l b c b
+l l l b v c
+l l l b v v
+l l l b v l
+l l l b v r
+l l l b v b
+l l l b l c
+l l l b l v
+l l l b l l
+l l l b l b
+l l l b r c
+l l l b r v
+l l l b r r
+l l l b r b
+l l l b b c
+l l l b b v
+l l l b b l
+l l l b b r
+l l l b b b
+l l b c c c
+l l b c c v
+l l b c c l
+l l b c c r
+l l b c c b
+l l b c v c
+l l b c v v
+l l b c v l
+l l b c v r
+l l b c v b
+l l b c l c
+l l b c l v
+l l b c l l
+l l b c l b
+l l b c r c
+l l b c r v
+l l b c r r
+l l b c r b
+l l b c b c
+l l b c b v
+l l b c b l
+l l b c b r
+l l b c b b
+l l b v c c
+l l b v c v
+l l b v c l
+l l b v c r
+l l b v c b
+l l b v v c
+l l b v v v
+l l b v v l
+l l b v v r
+l l b v v b
+l l b v l c
+l l b v l v
+l l b v l l
+l l b v l b
+l l b v r c
+l l b v r v
+l l b v r r
+l l b v r b
+l l b v b c
+l l b v b v
+l l b v b l
+l l b v b r
+l l b v b b
+l l b l c c
+l l b l c v
+l l b l c l
+l l b l c b
+l l b l v c
+l l b l v v
+l l b l v l
+l l b l v b
+l l b l l c
+l l b l l v
+l l b l l l
+l l b l l b
+l l b l b c
+l l b l b v
+l l b l b l
+l l b l b r
+l l b l b b
+l l b r c c
+l l b r c v
+l l b r c r
+l l b r c b
+l l b r v c
+l l b r v v
+l l b r v r
+l l b r v b
+l l b r r c
+l l b r r v
+l l b r r r
+l l b r r b
+l l b r b c
+l l b r b v
+l l b r b l
+l l b r b r
+l l b r b b
+l l b b c c
+l l b b c v
+l l b b c l
+l l b b c r
+l l b b c b
+l l b b v c
+l l b b v v
+l l b b v l
+l l b b v r
+l l b b v b
+l l b b l c
+l l b b l v
+l l b b l l
+l l b b l b
+l l b b r c
+l l b b r v
+l l b b r r
+l l b b r b
+l l b b b c
+l l b b b v
+l l b b b l
+l l b b b r
+l l b b b b
+l b c c c c
+l b c c c v
+l b c c c l
+l b c c c r
+l b c c c b
+l b c c v c
+l b c c v v
+l b c c v l
+l b c c v r
+l b c c v b
+l b c c l c
+l b c c l v
+l b c c l l
+l b c c l b
+l b c c r c
+l b c c r v
+l b c c r r
+l b c c r b
+l b c c b c
+l b c c b v
+l b c c b l
+l b c c b r
+l b c c b b
+l b c v c c
+l b c v c v
+l b c v c l
+l b c v c r
+l b c v c b
+l b c v v c
+l b c v v v
+l b c v v l
+l b c v v r
+l b c v v b
+l b c v l c
+l b c v l v
+l b c v l l
+l b c v l b
+l b c v r c
+l b c v r v
+l b c v r r
+l b c v r b
+l b c v b c
+l b c v b v
+l b c v b l
+l b c v b r
+l b c v b b
+l b c l c c
+l b c l c v
+l b c l c l
+l b c l c b
+l b c l v c
+l b c l v v
+l b c l v l
+l b c l v b
+l b c l l c
+l b c l l v
+l b c l l l
+l b c l l b
+l b c l b c
+l b c l b v
+l b c l b l
+l b c l b r
+l b c l b b
+l b c r c c
+l b c r c v
+l b c r c r
+l b c r c b
+l b c r v c
+l b c r v v
+l b c r v r
+l b c r v b
+l b c r r c
+l b c r r v
+l b c r r r
+l b c r r b
+l b c r b c
+l b c r b v
+l b c r b l
+l b c r b r
+l b c r b b
+l b c b c c
+l b c b c v
+l b c b c l
+l b c b c r
+l b c b c b
+l b c b v c
+l b c b v v
+l b c b v l
+l b c b v r
+l b c b v b
+l b c b l c
+l b c b l v
+l b c b l l
+l b c b l b
+l b c b r c
+l b c b r v
+l b c b r r
+l b c b r b
+l b c b b c
+l b c b b v
+l b c b b l
+l b c b b r
+l b c b b b
+l b v c c c
+l b v c c v
+l b v c c l
+l b v c c r
+l b v c c b
+l b v c v c
+l b v c v v
+l b v c v l
+l b v c v r
+l b v c v b
+l b v c l c
+l b v c l v
+l b v c l l
+l b v c l b
+l b v c r c
+l b v c r v
+l b v c r r
+l b v c r b
+l b v c b c
+l b v c b v
+l b v c b l
+l b v c b r
+l b v c b b
+l b v v c c
+l b v v c v
+l b v v c l
+l b v v c r
+l b v v c b
+l b v v v c
+l b v v v v
+l b v v v l
+l b v v v r
+l b v v v b
+l b v v l c
+l b v v l v
+l b v v l l
+l b v v l b
+l b v v r c
+l b v v r v
+l b v v r r
+l b v v r b
+l b v v b c
+l b v v b v
+l b v v b l
+l b v v b r
+l b v v b b
+l b v l c c
+l b v l c v
+l b v l c l
+l b v l c b
+l b v l v c
+l b v l v v
+l b v l v l
+l b v l v b
+l b v l l c
+l b v l l v
+l b v l l l
+l b v l l b
+l b v l b c
+l b v l b v
+l b v l b l
+l b v l b r
+l b v l b b
+l b v r c c
+l b v r c v
+l b v r c r
+l b v r c b
+l b v r v c
+l b v r v v
+l b v r v r
+l b v r v b
+l b v r r c
+l b v r r v
+l b v r r r
+l b v r r b
+l b v r b c
+l b v r b v
+l b v r b l
+l b v r b r
+l b v r b b
+l b v b c c
+l b v b c v
+l b v b c l
+l b v b c r
+l b v b c b
+l b v b v c
+l b v b v v
+l b v b v l
+l b v b v r
+l b v b v b
+l b v b l c
+l b v b l v
+l b v b l l
+l b v b l b
+l b v b r c
+l b v b r v
+l b v b r r
+l b v b r b
+l b v b b c
+l b v b b v
+l b v b b l
+l b v b b r
+l b v b b b
+l b l c c c
+l b l c c v
+l b l c c l
+l b l c c b
+l b l c v c
+l b l c v v
+l b l c v l
+l b l c v b
+l b l c l c
+l b l c l v
+l b l c l l
+l b l c l b
+l b l c b c
+l b l c b v
+l b l c b l
+l b l c b r
+l b l c b b
+l b l v c c
+l b l v c v
+l b l v c l
+l b l v c b
+l b l v v c
+l b l v v v
+l b l v v l
+l b l v v b
+l b l v l c
+l b l v l v
+l b l v l l
+l b l v l b
+l b l v b c
+l b l v b v
+l b l v b l
+l b l v b r
+l b l v b b
+l b l l c c
+l b l l c v
+l b l l c l
+l b l l c b
+l b l l v c
+l b l l v v
+l b l l v l
+l b l l v b
+l b l l l c
+l b l l l v
+l b l l l l
+l b l l l b
+l b l l b c
+l b l l b v
+l b l l b l
+l b l l b r
+l b l l b b
+l b l b c c
+l b l b c v
+l b l b c l
+l b l b c r
+l b l b c b
+l b l b v c
+l b l b v v
+l b l b v l
+l b l b v r
+l b l b v b
+l b l b l c
+l b l b l v
+l b l b l l
+l b l b l b
+l b l b r c
+l b l b r v
+l b l b r r
+l b l b r b
+l b l b b c
+l b l b b v
+l b l b b l
+l b l b b r
+l b l b b b
+l b r c c c
+l b r c c v
+l b r c c r
+l b r c c b
+l b r c v c
+l b r c v v
+l b r c v r
+l b r c v b
+l b r c r c
+l b r c r v
+l b r c r r
+l b r c r b
+l b r c b c
+l b r c b v
+l b r c b l
+l b r c b r
+l b r c b b
+l b r v c c
+l b r v c v
+l b r v c r
+l b r v c b
+l b r v v c
+l b r v v v
+l b r v v r
+l b r v v b
+l b r v r c
+l b r v r v
+l b r v r r
+l b r v r b
+l b r v b c
+l b r v b v
+l b r v b l
+l b r v b r
+l b r v b b
+l b r r c c
+l b r r c v
+l b r r c r
+l b r r c b
+l b r r v c
+l b r r v v
+l b r r v r
+l b r r v b
+l b r r r c
+l b r r r v
+l b r r r r
+l b r r r b
+l b r r b c
+l b r r b v
+l b r r b l
+l b r r b r
+l b r r b b
+l b r b c c
+l b r b c v
+l b r b c l
+l b r b c r
+l b r b c b
+l b r b v c
+l b r b v v
+l b r b v l
+l b r b v r
+l b r b v b
+l b r b l c
+l b r b l v
+l b r b l l
+l b r b l b
+l b r b r c
+l b r b r v
+l b r b r r
+l b r b r b
+l b r b b c
+l b r b b v
+l b r b b l
+l b r b b r
+l b r b b b
+l b b c c c
+l b b c c v
+l b b c c l
+l b b c c r
+l b b c c b
+l b b c v c
+l b b c v v
+l b b c v l
+l b b c v r
+l b b c v b
+l b b c l c
+l b b c l v
+l b b c l l
+l b b c l b
+l b b c r c
+l b b c r v
+l b b c r r
+l b b c r b
+l b b c b c
+l b b c b v
+l b b c b l
+l b b c b r
+l b b c b b
+l b b v c c
+l b b v c v
+l b b v c l
+l b b v c r
+l b b v c b
+l b b v v c
+l b b v v v
+l b b v v l
+l b b v v r
+l b b v v b
+l b b v l c
+l b b v l v
+l b b v l l
+l b b v l b
+l b b v r c
+l b b v r v
+l b b v r r
+l b b v r b
+l b b v b c
+l b b v b v
+l b b v b l
+l b b v b r
+l b b v b b
+l b b l c c
+l b b l c v
+l b b l c l
+l b b l c b
+l b b l v c
+l b b l v v
+l b b l v l
+l b b l v b
+l b b l l c
+l b b l l v
+l b b l l l
+l b b l l b
+l b b l b c
+l b b l b v
+l b b l b l
+l b b l b r
+l b b l b b
+l b b r c c
+l b b r c v
+l b b r c r
+l b b r c b
+l b b r v c
+l b b r v v
+l b b r v r
+l b b r v b
+l b b r r c
+l b b r r v
+l b b r r r
+l b b r r b
+l b b r b c
+l b b r b v
+l b b r b l
+l b b r b r
+l b b r b b
+l b b b c c
+l b b b c v
+l b b b c l
+l b b b c r
+l b b b c b
+l b b b v c
+l b b b v v
+l b b b v l
+l b b b v r
+l b b b v b
+l b b b l c
+l b b b l v
+l b b b l l
+l b b b l b
+l b b b r c
+l b b b r v
+l b b b r r
+l b b b r b
+l b b b b c
+l b b b b v
+l b b b b l
+l b b b b r
+l b b b b b
+r c c c c c
+r c c c c v
+r c c c c r
+r c c c c b
+r c c c v c
+r c c c v v
+r c c c v r
+r c c c v b
+r c c c r c
+r c c c r v
+r c c c r r
+r c c c r b
+r c c c b c
+r c c c b v
+r c c c b l
+r c c c b r
+r c c c b b
+r c c v c c
+r c c v c v
+r c c v c r
+r c c v c b
+r c c v v c
+r c c v v v
+r c c v v r
+r c c v v b
+r c c v r c
+r c c v r v
+r c c v r r
+r c c v r b
+r c c v b c
+r c c v b v
+r c c v b l
+r c c v b r
+r c c v b b
+r c c r c c
+r c c r c v
+r c c r c r
+r c c r c b
+r c c r v c
+r c c r v v
+r c c r v r
+r c c r v b
+r c c r r c
+r c c r r v
+r c c r r r
+r c c r r b
+r c c r b c
+r c c r b v
+r c c r b l
+r c c r b r
+r c c r b b
+r c c b c c
+r c c b c v
+r c c b c l
+r c c b c r
+r c c b c b
+r c c b v c
+r c c b v v
+r c c b v l
+r c c b v r
+r c c b v b
+r c c b l c
+r c c b l v
+r c c b l l
+r c c b l b
+r c c b r c
+r c c b r v
+r c c b r r
+r c c b r b
+r c c b b c
+r c c b b v
+r c c b b l
+r c c b b r
+r c c b b b
+r c v c c c
+r c v c c v
+r c v c c r
+r c v c c b
+r c v c v c
+r c v c v v
+r c v c v r
+r c v c v b
+r c v c r c
+r c v c r v
+r c v c r r
+r c v c r b
+r c v c b c
+r c v c b v
+r c v c b l
+r c v c b r
+r c v c b b
+r c v v c c
+r c v v c v
+r c v v c r
+r c v v c b
+r c v v v c
+r c v v v v
+r c v v v r
+r c v v v b
+r c v v r c
+r c v v r v
+r c v v r r
+r c v v r b
+r c v v b c
+r c v v b v
+r c v v b l
+r c v v b r
+r c v v b b
+r c v r c c
+r c v r c v
+r c v r c r
+r c v r c b
+r c v r v c
+r c v r v v
+r c v r v r
+r c v r v b
+r c v r r c
+r c v r r v
+r c v r r r
+r c v r r b
+r c v r b c
+r c v r b v
+r c v r b l
+r c v r b r
+r c v r b b
+r c v b c c
+r c v b c v
+r c v b c l
+r c v b c r
+r c v b c b
+r c v b v c
+r c v b v v
+r c v b v l
+r c v b v r
+r c v b v b
+r c v b l c
+r c v b l v
+r c v b l l
+r c v b l b
+r c v b r c
+r c v b r v
+r c v b r r
+r c v b r b
+r c v b b c
+r c v b b v
+r c v b b l
+r c v b b r
+r c v b b b
+r c r c c c
+r c r c c v
+r c r c c r
+r c r c c b
+r c r c v c
+r c r c v v
+r c r c v r
+r c r c v b
+r c r c r c
+r c r c r v
+r c r c r r
+r c r c r b
+r c r c b c
+r c r c b v
+r c r c b l
+r c r c b r
+r c r c b b
+r c r v c c
+r c r v c v
+r c r v c r
+r c r v c b
+r c r v v c
+r c r v v v
+r c r v v r
+r c r v v b
+r c r v r c
+r c r v r v
+r c r v r r
+r c r v r b
+r c r v b c
+r c r v b v
+r c r v b l
+r c r v b r
+r c r v b b
+r c r r c c
+r c r r c v
+r c r r c r
+r c r r c b
+r c r r v c
+r c r r v v
+r c r r v r
+r c r r v b
+r c r r r c
+r c r r r v
+r c r r r r
+r c r r r b
+r c r r b c
+r c r r b v
+r c r r b l
+r c r r b r
+r c r r b b
+r c r b c c
+r c r b c v
+r c r b c l
+r c r b c r
+r c r b c b
+r c r b v c
+r c r b v v
+r c r b v l
+r c r b v r
+r c r b v b
+r c r b l c
+r c r b l v
+r c r b l l
+r c r b l b
+r c r b r c
+r c r b r v
+r c r b r r
+r c r b r b
+r c r b b c
+r c r b b v
+r c r b b l
+r c r b b r
+r c r b b b
+r c b c c c
+r c b c c v
+r c b c c l
+r c b c c r
+r c b c c b
+r c b c v c
+r c b c v v
+r c b c v l
+r c b c v r
+r c b c v b
+r c b c l c
+r c b c l v
+r c b c l l
+r c b c l b
+r c b c r c
+r c b c r v
+r c b c r r
+r c b c r b
+r c b c b c
+r c b c b v
+r c b c b l
+r c b c b r
+r c b c b b
+r c b v c c
+r c b v c v
+r c b v c l
+r c b v c r
+r c b v c b
+r c b v v c
+r c b v v v
+r c b v v l
+r c b v v r
+r c b v v b
+r c b v l c
+r c b v l v
+r c b v l l
+r c b v l b
+r c b v r c
+r c b v r v
+r c b v r r
+r c b v r b
+r c b v b c
+r c b v b v
+r c b v b l
+r c b v b r
+r c b v b b
+r c b l c c
+r c b l c v
+r c b l c l
+r c b l c b
+r c b l v c
+r c b l v v
+r c b l v l
+r c b l v b
+r c b l l c
+r c b l l v
+r c b l l l
+r c b l l b
+r c b l b c
+r c b l b v
+r c b l b l
+r c b l b r
+r c b l b b
+r c b r c c
+r c b r c v
+r c b r c r
+r c b r c b
+r c b r v c
+r c b r v v
+r c b r v r
+r c b r v b
+r c b r r c
+r c b r r v
+r c b r r r
+r c b r r b
+r c b r b c
+r c b r b v
+r c b r b l
+r c b r b r
+r c b r b b
+r c b b c c
+r c b b c v
+r c b b c l
+r c b b c r
+r c b b c b
+r c b b v c
+r c b b v v
+r c b b v l
+r c b b v r
+r c b b v b
+r c b b l c
+r c b b l v
+r c b b l l
+r c b b l b
+r c b b r c
+r c b b r v
+r c b b r r
+r c b b r b
+r c b b b c
+r c b b b v
+r c b b b l
+r c b b b r
+r c b b b b
+r v c c c c
+r v c c c v
+r v c c c r
+r v c c c b
+r v c c v c
+r v c c v v
+r v c c v r
+r v c c v b
+r v c c r c
+r v c c r v
+r v c c r r
+r v c c r b
+r v c c b c
+r v c c b v
+r v c c b l
+r v c c b r
+r v c c b b
+r v c v c c
+r v c v c v
+r v c v c r
+r v c v c b
+r v c v v c
+r v c v v v
+r v c v v r
+r v c v v b
+r v c v r c
+r v c v r v
+r v c v r r
+r v c v r b
+r v c v b c
+r v c v b v
+r v c v b l
+r v c v b r
+r v c v b b
+r v c r c c
+r v c r c v
+r v c r c r
+r v c r c b
+r v c r v c
+r v c r v v
+r v c r v r
+r v c r v b
+r v c r r c
+r v c r r v
+r v c r r r
+r v c r r b
+r v c r b c
+r v c r b v
+r v c r b l
+r v c r b r
+r v c r b b
+r v c b c c
+r v c b c v
+r v c b c l
+r v c b c r
+r v c b c b
+r v c b v c
+r v c b v v
+r v c b v l
+r v c b v r
+r v c b v b
+r v c b l c
+r v c b l v
+r v c b l l
+r v c b l b
+r v c b r c
+r v c b r v
+r v c b r r
+r v c b r b
+r v c b b c
+r v c b b v
+r v c b b l
+r v c b b r
+r v c b b b
+r v v c c c
+r v v c c v
+r v v c c r
+r v v c c b
+r v v c v c
+r v v c v v
+r v v c v r
+r v v c v b
+r v v c r c
+r v v c r v
+r v v c r r
+r v v c r b
+r v v c b c
+r v v c b v
+r v v c b l
+r v v c b r
+r v v c b b
+r v v v c c
+r v v v c v
+r v v v c r
+r v v v c b
+r v v v v c
+r v v v v v
+r v v v v r
+r v v v v b
+r v v v r c
+r v v v r v
+r v v v r r
+r v v v r b
+r v v v b c
+r v v v b v
+r v v v b l
+r v v v b r
+r v v v b b
+r v v r c c
+r v v r c v
+r v v r c r
+r v v r c b
+r v v r v c
+r v v r v v
+r v v r v r
+r v v r v b
+r v v r r c
+r v v r r v
+r v v r r r
+r v v r r b
+r v v r b c
+r v v r b v
+r v v r b l
+r v v r b r
+r v v r b b
+r v v b c c
+r v v b c v
+r v v b c l
+r v v b c r
+r v v b c b
+r v v b v c
+r v v b v v
+r v v b v l
+r v v b v r
+r v v b v b
+r v v b l c
+r v v b l v
+r v v b l l
+r v v b l b
+r v v b r c
+r v v b r v
+r v v b r r
+r v v b r b
+r v v b b c
+r v v b b v
+r v v b b l
+r v v b b r
+r v v b b b
+r v r c c c
+r v r c c v
+r v r c c r
+r v r c c b
+r v r c v c
+r v r c v v
+r v r c v r
+r v r c v b
+r v r c r c
+r v r c r v
+r v r c r r
+r v r c r b
+r v r c b c
+r v r c b v
+r v r c b l
+r v r c b r
+r v r c b b
+r v r v c c
+r v r v c v
+r v r v c r
+r v r v c b
+r v r v v c
+r v r v v v
+r v r v v r
+r v r v v b
+r v r v r c
+r v r v r v
+r v r v r r
+r v r v r b
+r v r v b c
+r v r v b v
+r v r v b l
+r v r v b r
+r v r v b b
+r v r r c c
+r v r r c v
+r v r r c r
+r v r r c b
+r v r r v c
+r v r r v v
+r v r r v r
+r v r r v b
+r v r r r c
+r v r r r v
+r v r r r r
+r v r r r b
+r v r r b c
+r v r r b v
+r v r r b l
+r v r r b r
+r v r r b b
+r v r b c c
+r v r b c v
+r v r b c l
+r v r b c r
+r v r b c b
+r v r b v c
+r v r b v v
+r v r b v l
+r v r b v r
+r v r b v b
+r v r b l c
+r v r b l v
+r v r b l l
+r v r b l b
+r v r b r c
+r v r b r v
+r v r b r r
+r v r b r b
+r v r b b c
+r v r b b v
+r v r b b l
+r v r b b r
+r v r b b b
+r v b c c c
+r v b c c v
+r v b c c l
+r v b c c r
+r v b c c b
+r v b c v c
+r v b c v v
+r v b c v l
+r v b c v r
+r v b c v b
+r v b c l c
+r v b c l v
+r v b c l l
+r v b c l b
+r v b c r c
+r v b c r v
+r v b c r r
+r v b c r b
+r v b c b c
+r v b c b v
+r v b c b l
+r v b c b r
+r v b c b b
+r v b v c c
+r v b v c v
+r v b v c l
+r v b v c r
+r v b v c b
+r v b v v c
+r v b v v v
+r v b v v l
+r v b v v r
+r v b v v b
+r v b v l c
+r v b v l v
+r v b v l l
+r v b v l b
+r v b v r c
+r v b v r v
+r v b v r r
+r v b v r b
+r v b v b c
+r v b v b v
+r v b v b l
+r v b v b r
+r v b v b b
+r v b l c c
+r v b l c v
+r v b l c l
+r v b l c b
+r v b l v c
+r v b l v v
+r v b l v l
+r v b l v b
+r v b l l c
+r v b l l v
+r v b l l l
+r v b l l b
+r v b l b c
+r v b l b v
+r v b l b l
+r v b l b r
+r v b l b b
+r v b r c c
+r v b r c v
+r v b r c r
+r v b r c b
+r v b r v c
+r v b r v v
+r v b r v r
+r v b r v b
+r v b r r c
+r v b r r v
+r v b r r r
+r v b r r b
+r v b r b c
+r v b r b v
+r v b r b l
+r v b r b r
+r v b r b b
+r v b b c c
+r v b b c v
+r v b b c l
+r v b b c r
+r v b b c b
+r v b b v c
+r v b b v v
+r v b b v l
+r v b b v r
+r v b b v b
+r v b b l c
+r v b b l v
+r v b b l l
+r v b b l b
+r v b b r c
+r v b b r v
+r v b b r r
+r v b b r b
+r v b b b c
+r v b b b v
+r v b b b l
+r v b b b r
+r v b b b b
+r r c c c c
+r r c c c v
+r r c c c r
+r r c c c b
+r r c c v c
+r r c c v v
+r r c c v r
+r r c c v b
+r r c c r c
+r r c c r v
+r r c c r r
+r r c c r b
+r r c c b c
+r r c c b v
+r r c c b l
+r r c c b r
+r r c c b b
+r r c v c c
+r r c v c v
+r r c v c r
+r r c v c b
+r r c v v c
+r r c v v v
+r r c v v r
+r r c v v b
+r r c v r c
+r r c v r v
+r r c v r r
+r r c v r b
+r r c v b c
+r r c v b v
+r r c v b l
+r r c v b r
+r r c v b b
+r r c r c c
+r r c r c v
+r r c r c r
+r r c r c b
+r r c r v c
+r r c r v v
+r r c r v r
+r r c r v b
+r r c r r c
+r r c r r v
+r r c r r r
+r r c r r b
+r r c r b c
+r r c r b v
+r r c r b l
+r r c r b r
+r r c r b b
+r r c b c c
+r r c b c v
+r r c b c l
+r r c b c r
+r r c b c b
+r r c b v c
+r r c b v v
+r r c b v l
+r r c b v r
+r r c b v b
+r r c b l c
+r r c b l v
+r r c b l l
+r r c b l b
+r r c b r c
+r r c b r v
+r r c b r r
+r r c b r b
+r r c b b c
+r r c b b v
+r r c b b l
+r r c b b r
+r r c b b b
+r r v c c c
+r r v c c v
+r r v c c r
+r r v c c b
+r r v c v c
+r r v c v v
+r r v c v r
+r r v c v b
+r r v c r c
+r r v c r v
+r r v c r r
+r r v c r b
+r r v c b c
+r r v c b v
+r r v c b l
+r r v c b r
+r r v c b b
+r r v v c c
+r r v v c v
+r r v v c r
+r r v v c b
+r r v v v c
+r r v v v v
+r r v v v r
+r r v v v b
+r r v v r c
+r r v v r v
+r r v v r r
+r r v v r b
+r r v v b c
+r r v v b v
+r r v v b l
+r r v v b r
+r r v v b b
+r r v r c c
+r r v r c v
+r r v r c r
+r r v r c b
+r r v r v c
+r r v r v v
+r r v r v r
+r r v r v b
+r r v r r c
+r r v r r v
+r r v r r r
+r r v r r b
+r r v r b c
+r r v r b v
+r r v r b l
+r r v r b r
+r r v r b b
+r r v b c c
+r r v b c v
+r r v b c l
+r r v b c r
+r r v b c b
+r r v b v c
+r r v b v v
+r r v b v l
+r r v b v r
+r r v b v b
+r r v b l c
+r r v b l v
+r r v b l l
+r r v b l b
+r r v b r c
+r r v b r v
+r r v b r r
+r r v b r b
+r r v b b c
+r r v b b v
+r r v b b l
+r r v b b r
+r r v b b b
+r r r c c c
+r r r c c v
+r r r c c r
+r r r c c b
+r r r c v c
+r r r c v v
+r r r c v r
+r r r c v b
+r r r c r c
+r r r c r v
+r r r c r r
+r r r c r b
+r r r c b c
+r r r c b v
+r r r c b l
+r r r c b r
+r r r c b b
+r r r v c c
+r r r v c v
+r r r v c r
+r r r v c b
+r r r v v c
+r r r v v v
+r r r v v r
+r r r v v b
+r r r v r c
+r r r v r v
+r r r v r r
+r r r v r b
+r r r v b c
+r r r v b v
+r r r v b l
+r r r v b r
+r r r v b b
+r r r r c c
+r r r r c v
+r r r r c r
+r r r r c b
+r r r r v c
+r r r r v v
+r r r r v r
+r r r r v b
+r r r r r c
+r r r r r v
+r r r r r r
+r r r r r b
+r r r r b c
+r r r r b v
+r r r r b l
+r r r r b r
+r r r r b b
+r r r b c c
+r r r b c v
+r r r b c l
+r r r b c r
+r r r b c b
+r r r b v c
+r r r b v v
+r r r b v l
+r r r b v r
+r r r b v b
+r r r b l c
+r r r b l v
+r r r b l l
+r r r b l b
+r r r b r c
+r r r b r v
+r r r b r r
+r r r b r b
+r r r b b c
+r r r b b v
+r r r b b l
+r r r b b r
+r r r b b b
+r r b c c c
+r r b c c v
+r r b c c l
+r r b c c r
+r r b c c b
+r r b c v c
+r r b c v v
+r r b c v l
+r r b c v r
+r r b c v b
+r r b c l c
+r r b c l v
+r r b c l l
+r r b c l b
+r r b c r c
+r r b c r v
+r r b c r r
+r r b c r b
+r r b c b c
+r r b c b v
+r r b c b l
+r r b c b r
+r r b c b b
+r r b v c c
+r r b v c v
+r r b v c l
+r r b v c r
+r r b v c b
+r r b v v c
+r r b v v v
+r r b v v l
+r r b v v r
+r r b v v b
+r r b v l c
+r r b v l v
+r r b v l l
+r r b v l b
+r r b v r c
+r r b v r v
+r r b v r r
+r r b v r b
+r r b v b c
+r r b v b v
+r r b v b l
+r r b v b r
+r r b v b b
+r r b l c c
+r r b l c v
+r r b l c l
+r r b l c b
+r r b l v c
+r r b l v v
+r r b l v l
+r r b l v b
+r r b l l c
+r r b l l v
+r r b l l l
+r r b l l b
+r r b l b c
+r r b l b v
+r r b l b l
+r r b l b r
+r r b l b b
+r r b r c c
+r r b r c v
+r r b r c r
+r r b r c b
+r r b r v c
+r r b r v v
+r r b r v r
+r r b r v b
+r r b r r c
+r r b r r v
+r r b r r r
+r r b r r b
+r r b r b c
+r r b r b v
+r r b r b l
+r r b r b r
+r r b r b b
+r r b b c c
+r r b b c v
+r r b b c l
+r r b b c r
+r r b b c b
+r r b b v c
+r r b b v v
+r r b b v l
+r r b b v r
+r r b b v b
+r r b b l c
+r r b b l v
+r r b b l l
+r r b b l b
+r r b b r c
+r r b b r v
+r r b b r r
+r r b b r b
+r r b b b c
+r r b b b v
+r r b b b l
+r r b b b r
+r r b b b b
+r b c c c c
+r b c c c v
+r b c c c l
+r b c c c r
+r b c c c b
+r b c c v c
+r b c c v v
+r b c c v l
+r b c c v r
+r b c c v b
+r b c c l c
+r b c c l v
+r b c c l l
+r b c c l b
+r b c c r c
+r b c c r v
+r b c c r r
+r b c c r b
+r b c c b c
+r b c c b v
+r b c c b l
+r b c c b r
+r b c c b b
+r b c v c c
+r b c v c v
+r b c v c l
+r b c v c r
+r b c v c b
+r b c v v c
+r b c v v v
+r b c v v l
+r b c v v r
+r b c v v b
+r b c v l c
+r b c v l v
+r b c v l l
+r b c v l b
+r b c v r c
+r b c v r v
+r b c v r r
+r b c v r b
+r b c v b c
+r b c v b v
+r b c v b l
+r b c v b r
+r b c v b b
+r b c l c c
+r b c l c v
+r b c l c l
+r b c l c b
+r b c l v c
+r b c l v v
+r b c l v l
+r b c l v b
+r b c l l c
+r b c l l v
+r b c l l l
+r b c l l b
+r b c l b c
+r b c l b v
+r b c l b l
+r b c l b r
+r b c l b b
+r b c r c c
+r b c r c v
+r b c r c r
+r b c r c b
+r b c r v c
+r b c r v v
+r b c r v r
+r b c r v b
+r b c r r c
+r b c r r v
+r b c r r r
+r b c r r b
+r b c r b c
+r b c r b v
+r b c r b l
+r b c r b r
+r b c r b b
+r b c b c c
+r b c b c v
+r b c b c l
+r b c b c r
+r b c b c b
+r b c b v c
+r b c b v v
+r b c b v l
+r b c b v r
+r b c b v b
+r b c b l c
+r b c b l v
+r b c b l l
+r b c b l b
+r b c b r c
+r b c b r v
+r b c b r r
+r b c b r b
+r b c b b c
+r b c b b v
+r b c b b l
+r b c b b r
+r b c b b b
+r b v c c c
+r b v c c v
+r b v c c l
+r b v c c r
+r b v c c b
+r b v c v c
+r b v c v v
+r b v c v l
+r b v c v r
+r b v c v b
+r b v c l c
+r b v c l v
+r b v c l l
+r b v c l b
+r b v c r c
+r b v c r v
+r b v c r r
+r b v c r b
+r b v c b c
+r b v c b v
+r b v c b l
+r b v c b r
+r b v c b b
+r b v v c c
+r b v v c v
+r b v v c l
+r b v v c r
+r b v v c b
+r b v v v c
+r b v v v v
+r b v v v l
+r b v v v r
+r b v v v b
+r b v v l c
+r b v v l v
+r b v v l l
+r b v v l b
+r b v v r c
+r b v v r v
+r b v v r r
+r b v v r b
+r b v v b c
+r b v v b v
+r b v v b l
+r b v v b r
+r b v v b b
+r b v l c c
+r b v l c v
+r b v l c l
+r b v l c b
+r b v l v c
+r b v l v v
+r b v l v l
+r b v l v b
+r b v l l c
+r b v l l v
+r b v l l l
+r b v l l b
+r b v l b c
+r b v l b v
+r b v l b l
+r b v l b r
+r b v l b b
+r b v r c c
+r b v r c v
+r b v r c r
+r b v r c b
+r b v r v c
+r b v r v v
+r b v r v r
+r b v r v b
+r b v r r c
+r b v r r v
+r b v r r r
+r b v r r b
+r b v r b c
+r b v r b v
+r b v r b l
+r b v r b r
+r b v r b b
+r b v b c c
+r b v b c v
+r b v b c l
+r b v b c r
+r b v b c b
+r b v b v c
+r b v b v v
+r b v b v l
+r b v b v r
+r b v b v b
+r b v b l c
+r b v b l v
+r b v b l l
+r b v b l b
+r b v b r c
+r b v b r v
+r b v b r r
+r b v b r b
+r b v b b c
+r b v b b v
+r b v b b l
+r b v b b r
+r b v b b b
+r b l c c c
+r b l c c v
+r b l c c l
+r b l c c b
+r b l c v c
+r b l c v v
+r b l c v l
+r b l c v b
+r b l c l c
+r b l c l v
+r b l c l l
+r b l c l b
+r b l c b c
+r b l c b v
+r b l c b l
+r b l c b r
+r b l c b b
+r b l v c c
+r b l v c v
+r b l v c l
+r b l v c b
+r b l v v c
+r b l v v v
+r b l v v l
+r b l v v b
+r b l v l c
+r b l v l v
+r b l v l l
+r b l v l b
+r b l v b c
+r b l v b v
+r b l v b l
+r b l v b r
+r b l v b b
+r b l l c c
+r b l l c v
+r b l l c l
+r b l l c b
+r b l l v c
+r b l l v v
+r b l l v l
+r b l l v b
+r b l l l c
+r b l l l v
+r b l l l l
+r b l l l b
+r b l l b c
+r b l l b v
+r b l l b l
+r b l l b r
+r b l l b b
+r b l b c c
+r b l b c v
+r b l b c l
+r b l b c r
+r b l b c b
+r b l b v c
+r b l b v v
+r b l b v l
+r b l b v r
+r b l b v b
+r b l b l c
+r b l b l v
+r b l b l l
+r b l b l b
+r b l b r c
+r b l b r v
+r b l b r r
+r b l b r b
+r b l b b c
+r b l b b v
+r b l b b l
+r b l b b r
+r b l b b b
+r b r c c c
+r b r c c v
+r b r c c r
+r b r c c b
+r b r c v c
+r b r c v v
+r b r c v r
+r b r c v b
+r b r c r c
+r b r c r v
+r b r c r r
+r b r c r b
+r b r c b c
+r b r c b v
+r b r c b l
+r b r c b r
+r b r c b b
+r b r v c c
+r b r v c v
+r b r v c r
+r b r v c b
+r b r v v c
+r b r v v v
+r b r v v r
+r b r v v b
+r b r v r c
+r b r v r v
+r b r v r r
+r b r v r b
+r b r v b c
+r b r v b v
+r b r v b l
+r b r v b r
+r b r v b b
+r b r r c c
+r b r r c v
+r b r r c r
+r b r r c b
+r b r r v c
+r b r r v v
+r b r r v r
+r b r r v b
+r b r r r c
+r b r r r v
+r b r r r r
+r b r r r b
+r b r r b c
+r b r r b v
+r b r r b l
+r b r r b r
+r b r r b b
+r b r b c c
+r b r b c v
+r b r b c l
+r b r b c r
+r b r b c b
+r b r b v c
+r b r b v v
+r b r b v l
+r b r b v r
+r b r b v b
+r b r b l c
+r b r b l v
+r b r b l l
+r b r b l b
+r b r b r c
+r b r b r v
+r b r b r r
+r b r b r b
+r b r b b c
+r b r b b v
+r b r b b l
+r b r b b r
+r b r b b b
+r b b c c c
+r b b c c v
+r b b c c l
+r b b c c r
+r b b c c b
+r b b c v c
+r b b c v v
+r b b c v l
+r b b c v r
+r b b c v b
+r b b c l c
+r b b c l v
+r b b c l l
+r b b c l b
+r b b c r c
+r b b c r v
+r b b c r r
+r b b c r b
+r b b c b c
+r b b c b v
+r b b c b l
+r b b c b r
+r b b c b b
+r b b v c c
+r b b v c v
+r b b v c l
+r b b v c r
+r b b v c b
+r b b v v c
+r b b v v v
+r b b v v l
+r b b v v r
+r b b v v b
+r b b v l c
+r b b v l v
+r b b v l l
+r b b v l b
+r b b v r c
+r b b v r v
+r b b v r r
+r b b v r b
+r b b v b c
+r b b v b v
+r b b v b l
+r b b v b r
+r b b v b b
+r b b l c c
+r b b l c v
+r b b l c l
+r b b l c b
+r b b l v c
+r b b l v v
+r b b l v l
+r b b l v b
+r b b l l c
+r b b l l v
+r b b l l l
+r b b l l b
+r b b l b c
+r b b l b v
+r b b l b l
+r b b l b r
+r b b l b b
+r b b r c c
+r b b r c v
+r b b r c r
+r b b r c b
+r b b r v c
+r b b r v v
+r b b r v r
+r b b r v b
+r b b r r c
+r b b r r v
+r b b r r r
+r b b r r b
+r b b r b c
+r b b r b v
+r b b r b l
+r b b r b r
+r b b r b b
+r b b b c c
+r b b b c v
+r b b b c l
+r b b b c r
+r b b b c b
+r b b b v c
+r b b b v v
+r b b b v l
+r b b b v r
+r b b b v b
+r b b b l c
+r b b b l v
+r b b b l l
+r b b b l b
+r b b b r c
+r b b b r v
+r b b b r r
+r b b b r b
+r b b b b c
+r b b b b v
+r b b b b l
+r b b b b r
+r b b b b b
+b c c c c c
+b c c c c v
+b c c c c l
+b c c c c r
+b c c c c b
+b c c c v c
+b c c c v v
+b c c c v l
+b c c c v r
+b c c c v b
+b c c c l c
+b c c c l v
+b c c c l l
+b c c c l b
+b c c c r c
+b c c c r v
+b c c c r r
+b c c c r b
+b c c c b c
+b c c c b v
+b c c c b l
+b c c c b r
+b c c c b b
+b c c v c c
+b c c v c v
+b c c v c l
+b c c v c r
+b c c v c b
+b c c v v c
+b c c v v v
+b c c v v l
+b c c v v r
+b c c v v b
+b c c v l c
+b c c v l v
+b c c v l l
+b c c v l b
+b c c v r c
+b c c v r v
+b c c v r r
+b c c v r b
+b c c v b c
+b c c v b v
+b c c v b l
+b c c v b r
+b c c v b b
+b c c l c c
+b c c l c v
+b c c l c l
+b c c l c b
+b c c l v c
+b c c l v v
+b c c l v l
+b c c l v b
+b c c l l c
+b c c l l v
+b c c l l l
+b c c l l b
+b c c l b c
+b c c l b v
+b c c l b l
+b c c l b r
+b c c l b b
+b c c r c c
+b c c r c v
+b c c r c r
+b c c r c b
+b c c r v c
+b c c r v v
+b c c r v r
+b c c r v b
+b c c r r c
+b c c r r v
+b c c r r r
+b c c r r b
+b c c r b c
+b c c r b v
+b c c r b l
+b c c r b r
+b c c r b b
+b c c b c c
+b c c b c v
+b c c b c l
+b c c b c r
+b c c b c b
+b c c b v c
+b c c b v v
+b c c b v l
+b c c b v r
+b c c b v b
+b c c b l c
+b c c b l v
+b c c b l l
+b c c b l b
+b c c b r c
+b c c b r v
+b c c b r r
+b c c b r b
+b c c b b c
+b c c b b v
+b c c b b l
+b c c b b r
+b c c b b b
+b c v c c c
+b c v c c v
+b c v c c l
+b c v c c r
+b c v c c b
+b c v c v c
+b c v c v v
+b c v c v l
+b c v c v r
+b c v c v b
+b c v c l c
+b c v c l v
+b c v c l l
+b c v c l b
+b c v c r c
+b c v c r v
+b c v c r r
+b c v c r b
+b c v c b c
+b c v c b v
+b c v c b l
+b c v c b r
+b c v c b b
+b c v v c c
+b c v v c v
+b c v v c l
+b c v v c r
+b c v v c b
+b c v v v c
+b c v v v v
+b c v v v l
+b c v v v r
+b c v v v b
+b c v v l c
+b c v v l v
+b c v v l l
+b c v v l b
+b c v v r c
+b c v v r v
+b c v v r r
+b c v v r b
+b c v v b c
+b c v v b v
+b c v v b l
+b c v v b r
+b c v v b b
+b c v l c c
+b c v l c v
+b c v l c l
+b c v l c b
+b c v l v c
+b c v l v v
+b c v l v l
+b c v l v b
+b c v l l c
+b c v l l v
+b c v l l l
+b c v l l b
+b c v l b c
+b c v l b v
+b c v l b l
+b c v l b r
+b c v l b b
+b c v r c c
+b c v r c v
+b c v r c r
+b c v r c b
+b c v r v c
+b c v r v v
+b c v r v r
+b c v r v b
+b c v r r c
+b c v r r v
+b c v r r r
+b c v r r b
+b c v r b c
+b c v r b v
+b c v r b l
+b c v r b r
+b c v r b b
+b c v b c c
+b c v b c v
+b c v b c l
+b c v b c r
+b c v b c b
+b c v b v c
+b c v b v v
+b c v b v l
+b c v b v r
+b c v b v b
+b c v b l c
+b c v b l v
+b c v b l l
+b c v b l b
+b c v b r c
+b c v b r v
+b c v b r r
+b c v b r b
+b c v b b c
+b c v b b v
+b c v b b l
+b c v b b r
+b c v b b b
+b c l c c c
+b c l c c v
+b c l c c l
+b c l c c b
+b c l c v c
+b c l c v v
+b c l c v l
+b c l c v b
+b c l c l c
+b c l c l v
+b c l c l l
+b c l c l b
+b c l c b c
+b c l c b v
+b c l c b l
+b c l c b r
+b c l c b b
+b c l v c c
+b c l v c v
+b c l v c l
+b c l v c b
+b c l v v c
+b c l v v v
+b c l v v l
+b c l v v b
+b c l v l c
+b c l v l v
+b c l v l l
+b c l v l b
+b c l v b c
+b c l v b v
+b c l v b l
+b c l v b r
+b c l v b b
+b c l l c c
+b c l l c v
+b c l l c l
+b c l l c b
+b c l l v c
+b c l l v v
+b c l l v l
+b c l l v b
+b c l l l c
+b c l l l v
+b c l l l l
+b c l l l b
+b c l l b c
+b c l l b v
+b c l l b l
+b c l l b r
+b c l l b b
+b c l b c c
+b c l b c v
+b c l b c l
+b c l b c r
+b c l b c b
+b c l b v c
+b c l b v v
+b c l b v l
+b c l b v r
+b c l b v b
+b c l b l c
+b c l b l v
+b c l b l l
+b c l b l b
+b c l b r c
+b c l b r v
+b c l b r r
+b c l b r b
+b c l b b c
+b c l b b v
+b c l b b l
+b c l b b r
+b c l b b b
+b c r c c c
+b c r c c v
+b c r c c r
+b c r c c b
+b c r c v c
+b c r c v v
+b c r c v r
+b c r c v b
+b c r c r c
+b c r c r v
+b c r c r r
+b c r c r b
+b c r c b c
+b c r c b v
+b c r c b l
+b c r c b r
+b c r c b b
+b c r v c c
+b c r v c v
+b c r v c r
+b c r v c b
+b c r v v c
+b c r v v v
+b c r v v r
+b c r v v b
+b c r v r c
+b c r v r v
+b c r v r r
+b c r v r b
+b c r v b c
+b c r v b v
+b c r v b l
+b c r v b r
+b c r v b b
+b c r r c c
+b c r r c v
+b c r r c r
+b c r r c b
+b c r r v c
+b c r r v v
+b c r r v r
+b c r r v b
+b c r r r c
+b c r r r v
+b c r r r r
+b c r r r b
+b c r r b c
+b c r r b v
+b c r r b l
+b c r r b r
+b c r r b b
+b c r b c c
+b c r b c v
+b c r b c l
+b c r b c r
+b c r b c b
+b c r b v c
+b c r b v v
+b c r b v l
+b c r b v r
+b c r b v b
+b c r b l c
+b c r b l v
+b c r b l l
+b c r b l b
+b c r b r c
+b c r b r v
+b c r b r r
+b c r b r b
+b c r b b c
+b c r b b v
+b c r b b l
+b c r b b r
+b c r b b b
+b c b c c c
+b c b c c v
+b c b c c l
+b c b c c r
+b c b c c b
+b c b c v c
+b c b c v v
+b c b c v l
+b c b c v r
+b c b c v b
+b c b c l c
+b c b c l v
+b c b c l l
+b c b c l b
+b c b c r c
+b c b c r v
+b c b c r r
+b c b c r b
+b c b c b c
+b c b c b v
+b c b c b l
+b c b c b r
+b c b c b b
+b c b v c c
+b c b v c v
+b c b v c l
+b c b v c r
+b c b v c b
+b c b v v c
+b c b v v v
+b c b v v l
+b c b v v r
+b c b v v b
+b c b v l c
+b c b v l v
+b c b v l l
+b c b v l b
+b c b v r c
+b c b v r v
+b c b v r r
+b c b v r b
+b c b v b c
+b c b v b v
+b c b v b l
+b c b v b r
+b c b v b b
+b c b l c c
+b c b l c v
+b c b l c l
+b c b l c b
+b c b l v c
+b c b l v v
+b c b l v l
+b c b l v b
+b c b l l c
+b c b l l v
+b c b l l l
+b c b l l b
+b c b l b c
+b c b l b v
+b c b l b l
+b c b l b r
+b c b l b b
+b c b r c c
+b c b r c v
+b c b r c r
+b c b r c b
+b c b r v c
+b c b r v v
+b c b r v r
+b c b r v b
+b c b r r c
+b c b r r v
+b c b r r r
+b c b r r b
+b c b r b c
+b c b r b v
+b c b r b l
+b c b r b r
+b c b r b b
+b c b b c c
+b c b b c v
+b c b b c l
+b c b b c r
+b c b b c b
+b c b b v c
+b c b b v v
+b c b b v l
+b c b b v r
+b c b b v b
+b c b b l c
+b c b b l v
+b c b b l l
+b c b b l b
+b c b b r c
+b c b b r v
+b c b b r r
+b c b b r b
+b c b b b c
+b c b b b v
+b c b b b l
+b c b b b r
+b c b b b b
+b v c c c c
+b v c c c v
+b v c c c l
+b v c c c r
+b v c c c b
+b v c c v c
+b v c c v v
+b v c c v l
+b v c c v r
+b v c c v b
+b v c c l c
+b v c c l v
+b v c c l l
+b v c c l b
+b v c c r c
+b v c c r v
+b v c c r r
+b v c c r b
+b v c c b c
+b v c c b v
+b v c c b l
+b v c c b r
+b v c c b b
+b v c v c c
+b v c v c v
+b v c v c l
+b v c v c r
+b v c v c b
+b v c v v c
+b v c v v v
+b v c v v l
+b v c v v r
+b v c v v b
+b v c v l c
+b v c v l v
+b v c v l l
+b v c v l b
+b v c v r c
+b v c v r v
+b v c v r r
+b v c v r b
+b v c v b c
+b v c v b v
+b v c v b l
+b v c v b r
+b v c v b b
+b v c l c c
+b v c l c v
+b v c l c l
+b v c l c b
+b v c l v c
+b v c l v v
+b v c l v l
+b v c l v b
+b v c l l c
+b v c l l v
+b v c l l l
+b v c l l b
+b v c l b c
+b v c l b v
+b v c l b l
+b v c l b r
+b v c l b b
+b v c r c c
+b v c r c v
+b v c r c r
+b v c r c b
+b v c r v c
+b v c r v v
+b v c r v r
+b v c r v b
+b v c r r c
+b v c r r v
+b v c r r r
+b v c r r b
+b v c r b c
+b v c r b v
+b v c r b l
+b v c r b r
+b v c r b b
+b v c b c c
+b v c b c v
+b v c b c l
+b v c b c r
+b v c b c b
+b v c b v c
+b v c b v v
+b v c b v l
+b v c b v r
+b v c b v b
+b v c b l c
+b v c b l v
+b v c b l l
+b v c b l b
+b v c b r c
+b v c b r v
+b v c b r r
+b v c b r b
+b v c b b c
+b v c b b v
+b v c b b l
+b v c b b r
+b v c b b b
+b v v c c c
+b v v c c v
+b v v c c l
+b v v c c r
+b v v c c b
+b v v c v c
+b v v c v v
+b v v c v l
+b v v c v r
+b v v c v b
+b v v c l c
+b v v c l v
+b v v c l l
+b v v c l b
+b v v c r c
+b v v c r v
+b v v c r r
+b v v c r b
+b v v c b c
+b v v c b v
+b v v c b l
+b v v c b r
+b v v c b b
+b v v v c c
+b v v v c v
+b v v v c l
+b v v v c r
+b v v v c b
+b v v v v c
+b v v v v v
+b v v v v l
+b v v v v r
+b v v v v b
+b v v v l c
+b v v v l v
+b v v v l l
+b v v v l b
+b v v v r c
+b v v v r v
+b v v v r r
+b v v v r b
+b v v v b c
+b v v v b v
+b v v v b l
+b v v v b r
+b v v v b b
+b v v l c c
+b v v l c v
+b v v l c l
+b v v l c b
+b v v l v c
+b v v l v v
+b v v l v l
+b v v l v b
+b v v l l c
+b v v l l v
+b v v l l l
+b v v l l b
+b v v l b c
+b v v l b v
+b v v l b l
+b v v l b r
+b v v l b b
+b v v r c c
+b v v r c v
+b v v r c r
+b v v r c b
+b v v r v c
+b v v r v v
+b v v r v r
+b v v r v b
+b v v r r c
+b v v r r v
+b v v r r r
+b v v r r b
+b v v r b c
+b v v r b v
+b v v r b l
+b v v r b r
+b v v r b b
+b v v b c c
+b v v b c v
+b v v b c l
+b v v b c r
+b v v b c b
+b v v b v c
+b v v b v v
+b v v b v l
+b v v b v r
+b v v b v b
+b v v b l c
+b v v b l v
+b v v b l l
+b v v b l b
+b v v b r c
+b v v b r v
+b v v b r r
+b v v b r b
+b v v b b c
+b v v b b v
+b v v b b l
+b v v b b r
+b v v b b b
+b v l c c c
+b v l c c v
+b v l c c l
+b v l c c b
+b v l c v c
+b v l c v v
+b v l c v l
+b v l c v b
+b v l c l c
+b v l c l v
+b v l c l l
+b v l c l b
+b v l c b c
+b v l c b v
+b v l c b l
+b v l c b r
+b v l c b b
+b v l v c c
+b v l v c v
+b v l v c l
+b v l v c b
+b v l v v c
+b v l v v v
+b v l v v l
+b v l v v b
+b v l v l c
+b v l v l v
+b v l v l l
+b v l v l b
+b v l v b c
+b v l v b v
+b v l v b l
+b v l v b r
+b v l v b b
+b v l l c c
+b v l l c v
+b v l l c l
+b v l l c b
+b v l l v c
+b v l l v v
+b v l l v l
+b v l l v b
+b v l l l c
+b v l l l v
+b v l l l l
+b v l l l b
+b v l l b c
+b v l l b v
+b v l l b l
+b v l l b r
+b v l l b b
+b v l b c c
+b v l b c v
+b v l b c l
+b v l b c r
+b v l b c b
+b v l b v c
+b v l b v v
+b v l b v l
+b v l b v r
+b v l b v b
+b v l b l c
+b v l b l v
+b v l b l l
+b v l b l b
+b v l b r c
+b v l b r v
+b v l b r r
+b v l b r b
+b v l b b c
+b v l b b v
+b v l b b l
+b v l b b r
+b v l b b b
+b v r c c c
+b v r c c v
+b v r c c r
+b v r c c b
+b v r c v c
+b v r c v v
+b v r c v r
+b v r c v b
+b v r c r c
+b v r c r v
+b v r c r r
+b v r c r b
+b v r c b c
+b v r c b v
+b v r c b l
+b v r c b r
+b v r c b b
+b v r v c c
+b v r v c v
+b v r v c r
+b v r v c b
+b v r v v c
+b v r v v v
+b v r v v r
+b v r v v b
+b v r v r c
+b v r v r v
+b v r v r r
+b v r v r b
+b v r v b c
+b v r v b v
+b v r v b l
+b v r v b r
+b v r v b b
+b v r r c c
+b v r r c v
+b v r r c r
+b v r r c b
+b v r r v c
+b v r r v v
+b v r r v r
+b v r r v b
+b v r r r c
+b v r r r v
+b v r r r r
+b v r r r b
+b v r r b c
+b v r r b v
+b v r r b l
+b v r r b r
+b v r r b b
+b v r b c c
+b v r b c v
+b v r b c l
+b v r b c r
+b v r b c b
+b v r b v c
+b v r b v v
+b v r b v l
+b v r b v r
+b v r b v b
+b v r b l c
+b v r b l v
+b v r b l l
+b v r b l b
+b v r b r c
+b v r b r v
+b v r b r r
+b v r b r b
+b v r b b c
+b v r b b v
+b v r b b l
+b v r b b r
+b v r b b b
+b v b c c c
+b v b c c v
+b v b c c l
+b v b c c r
+b v b c c b
+b v b c v c
+b v b c v v
+b v b c v l
+b v b c v r
+b v b c v b
+b v b c l c
+b v b c l v
+b v b c l l
+b v b c l b
+b v b c r c
+b v b c r v
+b v b c r r
+b v b c r b
+b v b c b c
+b v b c b v
+b v b c b l
+b v b c b r
+b v b c b b
+b v b v c c
+b v b v c v
+b v b v c l
+b v b v c r
+b v b v c b
+b v b v v c
+b v b v v v
+b v b v v l
+b v b v v r
+b v b v v b
+b v b v l c
+b v b v l v
+b v b v l l
+b v b v l b
+b v b v r c
+b v b v r v
+b v b v r r
+b v b v r b
+b v b v b c
+b v b v b v
+b v b v b l
+b v b v b r
+b v b v b b
+b v b l c c
+b v b l c v
+b v b l c l
+b v b l c b
+b v b l v c
+b v b l v v
+b v b l v l
+b v b l v b
+b v b l l c
+b v b l l v
+b v b l l l
+b v b l l b
+b v b l b c
+b v b l b v
+b v b l b l
+b v b l b r
+b v b l b b
+b v b r c c
+b v b r c v
+b v b r c r
+b v b r c b
+b v b r v c
+b v b r v v
+b v b r v r
+b v b r v b
+b v b r r c
+b v b r r v
+b v b r r r
+b v b r r b
+b v b r b c
+b v b r b v
+b v b r b l
+b v b r b r
+b v b r b b
+b v b b c c
+b v b b c v
+b v b b c l
+b v b b c r
+b v b b c b
+b v b b v c
+b v b b v v
+b v b b v l
+b v b b v r
+b v b b v b
+b v b b l c
+b v b b l v
+b v b b l l
+b v b b l b
+b v b b r c
+b v b b r v
+b v b b r r
+b v b b r b
+b v b b b c
+b v b b b v
+b v b b b l
+b v b b b r
+b v b b b b
+b l c c c c
+b l c c c v
+b l c c c l
+b l c c c b
+b l c c v c
+b l c c v v
+b l c c v l
+b l c c v b
+b l c c l c
+b l c c l v
+b l c c l l
+b l c c l b
+b l c c b c
+b l c c b v
+b l c c b l
+b l c c b r
+b l c c b b
+b l c v c c
+b l c v c v
+b l c v c l
+b l c v c b
+b l c v v c
+b l c v v v
+b l c v v l
+b l c v v b
+b l c v l c
+b l c v l v
+b l c v l l
+b l c v l b
+b l c v b c
+b l c v b v
+b l c v b l
+b l c v b r
+b l c v b b
+b l c l c c
+b l c l c v
+b l c l c l
+b l c l c b
+b l c l v c
+b l c l v v
+b l c l v l
+b l c l v b
+b l c l l c
+b l c l l v
+b l c l l l
+b l c l l b
+b l c l b c
+b l c l b v
+b l c l b l
+b l c l b r
+b l c l b b
+b l c b c c
+b l c b c v
+b l c b c l
+b l c b c r
+b l c b c b
+b l c b v c
+b l c b v v
+b l c b v l
+b l c b v r
+b l c b v b
+b l c b l c
+b l c b l v
+b l c b l l
+b l c b l b
+b l c b r c
+b l c b r v
+b l c b r r
+b l c b r b
+b l c b b c
+b l c b b v
+b l c b b l
+b l c b b r
+b l c b b b
+b l v c c c
+b l v c c v
+b l v c c l
+b l v c c b
+b l v c v c
+b l v c v v
+b l v c v l
+b l v c v b
+b l v c l c
+b l v c l v
+b l v c l l
+b l v c l b
+b l v c b c
+b l v c b v
+b l v c b l
+b l v c b r
+b l v c b b
+b l v v c c
+b l v v c v
+b l v v c l
+b l v v c b
+b l v v v c
+b l v v v v
+b l v v v l
+b l v v v b
+b l v v l c
+b l v v l v
+b l v v l l
+b l v v l b
+b l v v b c
+b l v v b v
+b l v v b l
+b l v v b r
+b l v v b b
+b l v l c c
+b l v l c v
+b l v l c l
+b l v l c b
+b l v l v c
+b l v l v v
+b l v l v l
+b l v l v b
+b l v l l c
+b l v l l v
+b l v l l l
+b l v l l b
+b l v l b c
+b l v l b v
+b l v l b l
+b l v l b r
+b l v l b b
+b l v b c c
+b l v b c v
+b l v b c l
+b l v b c r
+b l v b c b
+b l v b v c
+b l v b v v
+b l v b v l
+b l v b v r
+b l v b v b
+b l v b l c
+b l v b l v
+b l v b l l
+b l v b l b
+b l v b r c
+b l v b r v
+b l v b r r
+b l v b r b
+b l v b b c
+b l v b b v
+b l v b b l
+b l v b b r
+b l v b b b
+b l l c c c
+b l l c c v
+b l l c c l
+b l l c c b
+b l l c v c
+b l l c v v
+b l l c v l
+b l l c v b
+b l l c l c
+b l l c l v
+b l l c l l
+b l l c l b
+b l l c b c
+b l l c b v
+b l l c b l
+b l l c b r
+b l l c b b
+b l l v c c
+b l l v c v
+b l l v c l
+b l l v c b
+b l l v v c
+b l l v v v
+b l l v v l
+b l l v v b
+b l l v l c
+b l l v l v
+b l l v l l
+b l l v l b
+b l l v b c
+b l l v b v
+b l l v b l
+b l l v b r
+b l l v b b
+b l l l c c
+b l l l c v
+b l l l c l
+b l l l c b
+b l l l v c
+b l l l v v
+b l l l v l
+b l l l v b
+b l l l l c
+b l l l l v
+b l l l l l
+b l l l l b
+b l l l b c
+b l l l b v
+b l l l b l
+b l l l b r
+b l l l b b
+b l l b c c
+b l l b c v
+b l l b c l
+b l l b c r
+b l l b c b
+b l l b v c
+b l l b v v
+b l l b v l
+b l l b v r
+b l l b v b
+b l l b l c
+b l l b l v
+b l l b l l
+b l l b l b
+b l l b r c
+b l l b r v
+b l l b r r
+b l l b r b
+b l l b b c
+b l l b b v
+b l l b b l
+b l l b b r
+b l l b b b
+b l b c c c
+b l b c c v
+b l b c c l
+b l b c c r
+b l b c c b
+b l b c v c
+b l b c v v
+b l b c v l
+b l b c v r
+b l b c v b
+b l b c l c
+b l b c l v
+b l b c l l
+b l b c l b
+b l b c r c
+b l b c r v
+b l b c r r
+b l b c r b
+b l b c b c
+b l b c b v
+b l b c b l
+b l b c b r
+b l b c b b
+b l b v c c
+b l b v c v
+b l b v c l
+b l b v c r
+b l b v c b
+b l b v v c
+b l b v v v
+b l b v v l
+b l b v v r
+b l b v v b
+b l b v l c
+b l b v l v
+b l b v l l
+b l b v l b
+b l b v r c
+b l b v r v
+b l b v r r
+b l b v r b
+b l b v b c
+b l b v b v
+b l b v b l
+b l b v b r
+b l b v b b
+b l b l c c
+b l b l c v
+b l b l c l
+b l b l c b
+b l b l v c
+b l b l v v
+b l b l v l
+b l b l v b
+b l b l l c
+b l b l l v
+b l b l l l
+b l b l l b
+b l b l b c
+b l b l b v
+b l b l b l
+b l b l b r
+b l b l b b
+b l b r c c
+b l b r c v
+b l b r c r
+b l b r c b
+b l b r v c
+b l b r v v
+b l b r v r
+b l b r v b
+b l b r r c
+b l b r r v
+b l b r r r
+b l b r r b
+b l b r b c
+b l b r b v
+b l b r b l
+b l b r b r
+b l b r b b
+b l b b c c
+b l b b c v
+b l b b c l
+b l b b c r
+b l b b c b
+b l b b v c
+b l b b v v
+b l b b v l
+b l b b v r
+b l b b v b
+b l b b l c
+b l b b l v
+b l b b l l
+b l b b l b
+b l b b r c
+b l b b r v
+b l b b r r
+b l b b r b
+b l b b b c
+b l b b b v
+b l b b b l
+b l b b b r
+b l b b b b
+b r c c c c
+b r c c c v
+b r c c c r
+b r c c c b
+b r c c v c
+b r c c v v
+b r c c v r
+b r c c v b
+b r c c r c
+b r c c r v
+b r c c r r
+b r c c r b
+b r c c b c
+b r c c b v
+b r c c b l
+b r c c b r
+b r c c b b
+b r c v c c
+b r c v c v
+b r c v c r
+b r c v c b
+b r c v v c
+b r c v v v
+b r c v v r
+b r c v v b
+b r c v r c
+b r c v r v
+b r c v r r
+b r c v r b
+b r c v b c
+b r c v b v
+b r c v b l
+b r c v b r
+b r c v b b
+b r c r c c
+b r c r c v
+b r c r c r
+b r c r c b
+b r c r v c
+b r c r v v
+b r c r v r
+b r c r v b
+b r c r r c
+b r c r r v
+b r c r r r
+b r c r r b
+b r c r b c
+b r c r b v
+b r c r b l
+b r c r b r
+b r c r b b
+b r c b c c
+b r c b c v
+b r c b c l
+b r c b c r
+b r c b c b
+b r c b v c
+b r c b v v
+b r c b v l
+b r c b v r
+b r c b v b
+b r c b l c
+b r c b l v
+b r c b l l
+b r c b l b
+b r c b r c
+b r c b r v
+b r c b r r
+b r c b r b
+b r c b b c
+b r c b b v
+b r c b b l
+b r c b b r
+b r c b b b
+b r v c c c
+b r v c c v
+b r v c c r
+b r v c c b
+b r v c v c
+b r v c v v
+b r v c v r
+b r v c v b
+b r v c r c
+b r v c r v
+b r v c r r
+b r v c r b
+b r v c b c
+b r v c b v
+b r v c b l
+b r v c b r
+b r v c b b
+b r v v c c
+b r v v c v
+b r v v c r
+b r v v c b
+b r v v v c
+b r v v v v
+b r v v v r
+b r v v v b
+b r v v r c
+b r v v r v
+b r v v r r
+b r v v r b
+b r v v b c
+b r v v b v
+b r v v b l
+b r v v b r
+b r v v b b
+b r v r c c
+b r v r c v
+b r v r c r
+b r v r c b
+b r v r v c
+b r v r v v
+b r v r v r
+b r v r v b
+b r v r r c
+b r v r r v
+b r v r r r
+b r v r r b
+b r v r b c
+b r v r b v
+b r v r b l
+b r v r b r
+b r v r b b
+b r v b c c
+b r v b c v
+b r v b c l
+b r v b c r
+b r v b c b
+b r v b v c
+b r v b v v
+b r v b v l
+b r v b v r
+b r v b v b
+b r v b l c
+b r v b l v
+b r v b l l
+b r v b l b
+b r v b r c
+b r v b r v
+b r v b r r
+b r v b r b
+b r v b b c
+b r v b b v
+b r v b b l
+b r v b b r
+b r v b b b
+b r r c c c
+b r r c c v
+b r r c c r
+b r r c c b
+b r r c v c
+b r r c v v
+b r r c v r
+b r r c v b
+b r r c r c
+b r r c r v
+b r r c r r
+b r r c r b
+b r r c b c
+b r r c b v
+b r r c b l
+b r r c b r
+b r r c b b
+b r r v c c
+b r r v c v
+b r r v c r
+b r r v c b
+b r r v v c
+b r r v v v
+b r r v v r
+b r r v v b
+b r r v r c
+b r r v r v
+b r r v r r
+b r r v r b
+b r r v b c
+b r r v b v
+b r r v b l
+b r r v b r
+b r r v b b
+b r r r c c
+b r r r c v
+b r r r c r
+b r r r c b
+b r r r v c
+b r r r v v
+b r r r v r
+b r r r v b
+b r r r r c
+b r r r r v
+b r r r r r
+b r r r r b
+b r r r b c
+b r r r b v
+b r r r b l
+b r r r b r
+b r r r b b
+b r r b c c
+b r r b c v
+b r r b c l
+b r r b c r
+b r r b c b
+b r r b v c
+b r r b v v
+b r r b v l
+b r r b v r
+b r r b v b
+b r r b l c
+b r r b l v
+b r r b l l
+b r r b l b
+b r r b r c
+b r r b r v
+b r r b r r
+b r r b r b
+b r r b b c
+b r r b b v
+b r r b b l
+b r r b b r
+b r r b b b
+b r b c c c
+b r b c c v
+b r b c c l
+b r b c c r
+b r b c c b
+b r b c v c
+b r b c v v
+b r b c v l
+b r b c v r
+b r b c v b
+b r b c l c
+b r b c l v
+b r b c l l
+b r b c l b
+b r b c r c
+b r b c r v
+b r b c r r
+b r b c r b
+b r b c b c
+b r b c b v
+b r b c b l
+b r b c b r
+b r b c b b
+b r b v c c
+b r b v c v
+b r b v c l
+b r b v c r
+b r b v c b
+b r b v v c
+b r b v v v
+b r b v v l
+b r b v v r
+b r b v v b
+b r b v l c
+b r b v l v
+b r b v l l
+b r b v l b
+b r b v r c
+b r b v r v
+b r b v r r
+b r b v r b
+b r b v b c
+b r b v b v
+b r b v b l
+b r b v b r
+b r b v b b
+b r b l c c
+b r b l c v
+b r b l c l
+b r b l c b
+b r b l v c
+b r b l v v
+b r b l v l
+b r b l v b
+b r b l l c
+b r b l l v
+b r b l l l
+b r b l l b
+b r b l b c
+b r b l b v
+b r b l b l
+b r b l b r
+b r b l b b
+b r b r c c
+b r b r c v
+b r b r c r
+b r b r c b
+b r b r v c
+b r b r v v
+b r b r v r
+b r b r v b
+b r b r r c
+b r b r r v
+b r b r r r
+b r b r r b
+b r b r b c
+b r b r b v
+b r b r b l
+b r b r b r
+b r b r b b
+b r b b c c
+b r b b c v
+b r b b c l
+b r b b c r
+b r b b c b
+b r b b v c
+b r b b v v
+b r b b v l
+b r b b v r
+b r b b v b
+b r b b l c
+b r b b l v
+b r b b l l
+b r b b l b
+b r b b r c
+b r b b r v
+b r b b r r
+b r b b r b
+b r b b b c
+b r b b b v
+b r b b b l
+b r b b b r
+b r b b b b
+b b c c c c
+b b c c c v
+b b c c c l
+b b c c c r
+b b c c c b
+b b c c v c
+b b c c v v
+b b c c v l
+b b c c v r
+b b c c v b
+b b c c l c
+b b c c l v
+b b c c l l
+b b c c l b
+b b c c r c
+b b c c r v
+b b c c r r
+b b c c r b
+b b c c b c
+b b c c b v
+b b c c b l
+b b c c b r
+b b c c b b
+b b c v c c
+b b c v c v
+b b c v c l
+b b c v c r
+b b c v c b
+b b c v v c
+b b c v v v
+b b c v v l
+b b c v v r
+b b c v v b
+b b c v l c
+b b c v l v
+b b c v l l
+b b c v l b
+b b c v r c
+b b c v r v
+b b c v r r
+b b c v r b
+b b c v b c
+b b c v b v
+b b c v b l
+b b c v b r
+b b c v b b
+b b c l c c
+b b c l c v
+b b c l c l
+b b c l c b
+b b c l v c
+b b c l v v
+b b c l v l
+b b c l v b
+b b c l l c
+b b c l l v
+b b c l l l
+b b c l l b
+b b c l b c
+b b c l b v
+b b c l b l
+b b c l b r
+b b c l b b
+b b c r c c
+b b c r c v
+b b c r c r
+b b c r c b
+b b c r v c
+b b c r v v
+b b c r v r
+b b c r v b
+b b c r r c
+b b c r r v
+b b c r r r
+b b c r r b
+b b c r b c
+b b c r b v
+b b c r b l
+b b c r b r
+b b c r b b
+b b c b c c
+b b c b c v
+b b c b c l
+b b c b c r
+b b c b c b
+b b c b v c
+b b c b v v
+b b c b v l
+b b c b v r
+b b c b v b
+b b c b l c
+b b c b l v
+b b c b l l
+b b c b l b
+b b c b r c
+b b c b r v
+b b c b r r
+b b c b r b
+b b c b b c
+b b c b b v
+b b c b b l
+b b c b b r
+b b c b b b
+b b v c c c
+b b v c c v
+b b v c c l
+b b v c c r
+b b v c c b
+b b v c v c
+b b v c v v
+b b v c v l
+b b v c v r
+b b v c v b
+b b v c l c
+b b v c l v
+b b v c l l
+b b v c l b
+b b v c r c
+b b v c r v
+b b v c r r
+b b v c r b
+b b v c b c
+b b v c b v
+b b v c b l
+b b v c b r
+b b v c b b
+b b v v c c
+b b v v c v
+b b v v c l
+b b v v c r
+b b v v c b
+b b v v v c
+b b v v v v
+b b v v v l
+b b v v v r
+b b v v v b
+b b v v l c
+b b v v l v
+b b v v l l
+b b v v l b
+b b v v r c
+b b v v r v
+b b v v r r
+b b v v r b
+b b v v b c
+b b v v b v
+b b v v b l
+b b v v b r
+b b v v b b
+b b v l c c
+b b v l c v
+b b v l c l
+b b v l c b
+b b v l v c
+b b v l v v
+b b v l v l
+b b v l v b
+b b v l l c
+b b v l l v
+b b v l l l
+b b v l l b
+b b v l b c
+b b v l b v
+b b v l b l
+b b v l b r
+b b v l b b
+b b v r c c
+b b v r c v
+b b v r c r
+b b v r c b
+b b v r v c
+b b v r v v
+b b v r v r
+b b v r v b
+b b v r r c
+b b v r r v
+b b v r r r
+b b v r r b
+b b v r b c
+b b v r b v
+b b v r b l
+b b v r b r
+b b v r b b
+b b v b c c
+b b v b c v
+b b v b c l
+b b v b c r
+b b v b c b
+b b v b v c
+b b v b v v
+b b v b v l
+b b v b v r
+b b v b v b
+b b v b l c
+b b v b l v
+b b v b l l
+b b v b l b
+b b v b r c
+b b v b r v
+b b v b r r
+b b v b r b
+b b v b b c
+b b v b b v
+b b v b b l
+b b v b b r
+b b v b b b
+b b l c c c
+b b l c c v
+b b l c c l
+b b l c c b
+b b l c v c
+b b l c v v
+b b l c v l
+b b l c v b
+b b l c l c
+b b l c l v
+b b l c l l
+b b l c l b
+b b l c b c
+b b l c b v
+b b l c b l
+b b l c b r
+b b l c b b
+b b l v c c
+b b l v c v
+b b l v c l
+b b l v c b
+b b l v v c
+b b l v v v
+b b l v v l
+b b l v v b
+b b l v l c
+b b l v l v
+b b l v l l
+b b l v l b
+b b l v b c
+b b l v b v
+b b l v b l
+b b l v b r
+b b l v b b
+b b l l c c
+b b l l c v
+b b l l c l
+b b l l c b
+b b l l v c
+b b l l v v
+b b l l v l
+b b l l v b
+b b l l l c
+b b l l l v
+b b l l l l
+b b l l l b
+b b l l b c
+b b l l b v
+b b l l b l
+b b l l b r
+b b l l b b
+b b l b c c
+b b l b c v
+b b l b c l
+b b l b c r
+b b l b c b
+b b l b v c
+b b l b v v
+b b l b v l
+b b l b v r
+b b l b v b
+b b l b l c
+b b l b l v
+b b l b l l
+b b l b l b
+b b l b r c
+b b l b r v
+b b l b r r
+b b l b r b
+b b l b b c
+b b l b b v
+b b l b b l
+b b l b b r
+b b l b b b
+b b r c c c
+b b r c c v
+b b r c c r
+b b r c c b
+b b r c v c
+b b r c v v
+b b r c v r
+b b r c v b
+b b r c r c
+b b r c r v
+b b r c r r
+b b r c r b
+b b r c b c
+b b r c b v
+b b r c b l
+b b r c b r
+b b r c b b
+b b r v c c
+b b r v c v
+b b r v c r
+b b r v c b
+b b r v v c
+b b r v v v
+b b r v v r
+b b r v v b
+b b r v r c
+b b r v r v
+b b r v r r
+b b r v r b
+b b r v b c
+b b r v b v
+b b r v b l
+b b r v b r
+b b r v b b
+b b r r c c
+b b r r c v
+b b r r c r
+b b r r c b
+b b r r v c
+b b r r v v
+b b r r v r
+b b r r v b
+b b r r r c
+b b r r r v
+b b r r r r
+b b r r r b
+b b r r b c
+b b r r b v
+b b r r b l
+b b r r b r
+b b r r b b
+b b r b c c
+b b r b c v
+b b r b c l
+b b r b c r
+b b r b c b
+b b r b v c
+b b r b v v
+b b r b v l
+b b r b v r
+b b r b v b
+b b r b l c
+b b r b l v
+b b r b l l
+b b r b l b
+b b r b r c
+b b r b r v
+b b r b r r
+b b r b r b
+b b r b b c
+b b r b b v
+b b r b b l
+b b r b b r
+b b r b b b
+b b b c c c
+b b b c c v
+b b b c c l
+b b b c c r
+b b b c c b
+b b b c v c
+b b b c v v
+b b b c v l
+b b b c v r
+b b b c v b
+b b b c l c
+b b b c l v
+b b b c l l
+b b b c l b
+b b b c r c
+b b b c r v
+b b b c r r
+b b b c r b
+b b b c b c
+b b b c b v
+b b b c b l
+b b b c b r
+b b b c b b
+b b b v c c
+b b b v c v
+b b b v c l
+b b b v c r
+b b b v c b
+b b b v v c
+b b b v v v
+b b b v v l
+b b b v v r
+b b b v v b
+b b b v l c
+b b b v l v
+b b b v l l
+b b b v l b
+b b b v r c
+b b b v r v
+b b b v r r
+b b b v r b
+b b b v b c
+b b b v b v
+b b b v b l
+b b b v b r
+b b b v b b
+b b b l c c
+b b b l c v
+b b b l c l
+b b b l c b
+b b b l v c
+b b b l v v
+b b b l v l
+b b b l v b
+b b b l l c
+b b b l l v
+b b b l l l
+b b b l l b
+b b b l b c
+b b b l b v
+b b b l b l
+b b b l b r
+b b b l b b
+b b b r c c
+b b b r c v
+b b b r c r
+b b b r c b
+b b b r v c
+b b b r v v
+b b b r v r
+b b b r v b
+b b b r r c
+b b b r r v
+b b b r r r
+b b b r r b
+b b b r b c
+b b b r b v
+b b b r b l
+b b b r b r
+b b b r b b
+b b b b c c
+b b b b c v
+b b b b c l
+b b b b c r
+b b b b c b
+b b b b v c
+b b b b v v
+b b b b v l
+b b b b v r
+b b b b v b
+b b b b l c
+b b b b l v
+b b b b l l
+b b b b l b
+b b b b r c
+b b b b r v
+b b b b r r
+b b b b r b
+b b b b b c
+b b b b b v
+b b b b b l
+b b b b b r
+b b b b b b
