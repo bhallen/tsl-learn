@@ -3,10 +3,18 @@ import re
 
 #### Constants -- change these as necessary
 
+# ## unbounded harmony
+# SIGMA = ['c', 'v', 'l', 'r', 'b']
+# MAX_SIZE = 6
+# PROHIBITIONS = ['<l,r>l r', '<l,r>r l']
+# OUTPUT_NAME = 'cvlrb6_unbounded.txt'
+
+
+## harmony with blocking
 SIGMA = ['c', 'v', 'l', 'r', 'b']
 MAX_SIZE = 6
 PROHIBITIONS = ['<l,r,b>l r', '<l,r,b>r l']
-OUTPUT_NAME = 'cvlrb6.txt'
+OUTPUT_NAME = 'cvlrb6_blocking.txt'
 
 
 #### Function definitions

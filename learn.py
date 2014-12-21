@@ -70,34 +70,23 @@ class Grammar(dict):
                 self.tiers.append(tuple(sorted(list(combo))))
 
 
-    ## ATTEMPT 2 below
     def distill_grammar(self):
         grammar = defaultdict(list)
         for kfactor in itertools.permutations(self.sigma, 2): # could this consider instead only bigrams prohibited on the segment tier?
-            print()
-            print(kfactor)
-            # ADD: if kfactor not in ungrammatical of tier=kfactor, then check if it's ungrammatical in full_tier
             relevant_tier = self.traverse_lattice(kfactor)
-            print('found relevant tier: {}'.format(str(relevant_tier)))
-            grammar[relevant_tier].append(kfactor)
+            if relevant_tier != None:
+                grammar[relevant_tier].append(kfactor)
         return grammar
 
 
     def traverse_lattice(self, kfactor):
         """
-        Shower idea: move up lattice from tier=kfactor to full_tier. If ungrammatical on tier=kfactor, result=kfactor-tier.
-        If not (meaning that kfactor is grammatical on tier=kfactor), then move up until discovering a tier where kfactor is
-        ungrammatical. Move up until a layer of the lattice all considers kfactor grammatical and make result tier the superset of
-        the tiers that brought us there; if we never reach a tier where kfactor is grammatical, then result = full_tier
         """
-
-        status = None
         initial_tier = set(kfactor)
         not_in_kfactor = set(self.sigma) - initial_tier
 
         initial_tier_tuple = tuple(sorted(kfactor))
         if kfactor in self.ungrammatical[initial_tier_tuple]:
-            print('returning early') # -> doesn't occur for (V,b) in (V,b)!
             return initial_tier_tuple
 
         result = initial_tier.copy()
@@ -106,34 +95,15 @@ class Grammar(dict):
             combined_tier_tuple = tuple(sorted(list(combined_tier)))
             if kfactor in self.ungrammatical[combined_tier_tuple]:
                 result.add(char)
-        return tuple(sorted(list(result)))
 
-    
-    # ## ATTEMPT 1 below
-    # def distill_grammar(self):
-    #     grammar = defaultdict(list)
-    #     full_tier = self.tiers[-1]
-    #     for kfactor in self.ungrammatical[full_tier]:
-    #         print()
-    #         print(kfactor)
-    #         relevant_tier = self.traverse_lattice(kfactor, full_tier)
-    #         print('found relevant tier: {}'.format(str(relevant_tier)))
-    #         grammar[relevant_tier].append(kfactor)
-    #     return grammar
-
-
-    # def traverse_lattice(self, kfactor, start_tier):
-    #     """Find the largest tier on which a restriction fails to hold and use it to infer the restriction's proper tier
-    #     """
-    #     for size in reversed(range(len(start_tier))):
-    #         for tier in itertools.combinations(start_tier, size):
-    #             if kfactor[0] in tier and kfactor[1] in tier:
-    #                 print(tier)
-    #                 if kfactor in self.grammatical[tier]:
-    #                     print('grammatical here')
-    #                     residue = set(tier) - set(kfactor)
-    #                     return tuple(sorted(list(set(start_tier) - residue)))
-    #     raise Exception('Lattice traversal has failed.')
+        if result == initial_tier:
+            full_tier = tuple(sorted(self.sigma))
+            if kfactor in self.ungrammatical[full_tier]:
+                return full_tier
+            else:
+                return None
+        else:
+            return tuple(sorted(list(result)))
 
 
     def tiers_equal(tier1, tier2):
@@ -145,7 +115,7 @@ class Grammar(dict):
 
 
 if __name__ == '__main__':
-    g = Grammar('cvlrb6.txt')
+    g = Grammar('cvlrb6_blocking.txt')
 
     g.learn()
 
@@ -157,18 +127,9 @@ if __name__ == '__main__':
     #     print(g.ungrammatical[tier])
     #     print()
 
-    gr = g.distill_grammar()
-    # for tier in gr:
-    #     print()
-    #     print(tier)
-    #     print(gr[tier])
-
-
-
-    ## Is the if check below here still appropriate?
-    # print('UNGRAMMATICAL:')
-    # for t in g.ungrammatical:
-    #     if len(g.ungrammatical[t]) < ((len(t))**2+len(t)):
-    #         print(t)
-    #         print(g.ungrammatical[t])
-    #         print()
+    dg = g.distill_grammar()
+    for tier in dg:
+        if len(dg[tier]) > 0:
+            print('Prohibited on tier {}:'.format(str(tuple(dg)[0])))
+            for seq in dg[tier]:
+                print(seq)
